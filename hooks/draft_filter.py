@@ -5,10 +5,16 @@ Comportamiento:
 - DRAFT_MODE=true: Muestra todo el contenido + banners visuales para drafts
 - DRAFT_MODE=false: Solo muestra páginas con status=published
                     Enlaces a páginas draft se convierten en "texto (próximamente)"
+                    Bloques <!-- draft:start -->...<!-- draft:end --> se eliminan
 
 Uso:
     export DRAFT_MODE=true   # desarrollo local
     export DRAFT_MODE=false  # producción
+
+Bloques draft inline:
+    <!-- draft:start -->
+    Contenido en desarrollo que solo aparece en DRAFT_MODE=true
+    <!-- draft:end -->
 """
 import os
 import re
@@ -122,11 +128,12 @@ def _get_status_from_path(full_path):
 def on_page_markdown(markdown, page, config, files):
     """
     En DRAFT_MODE: Añade banner visual para drafts.
-    En producción: Convierte enlaces a páginas draft en "texto (próximamente)".
+    En producción: Elimina bloques draft inline y convierte enlaces a páginas draft.
     """
     if DRAFT_MODE:
         return _add_draft_banner(markdown, page)
     else:
+        markdown = _remove_draft_blocks(markdown)
         return _convert_draft_links(markdown, page, config)
 
 
@@ -149,6 +156,15 @@ def _add_draft_banner(markdown, page):
         return banner + markdown
 
     return markdown
+
+
+def _remove_draft_blocks(markdown):
+    """Elimina bloques <!-- draft:start -->...<!-- draft:end --> del markdown."""
+    pattern = re.compile(
+        r'<!--\s*draft:start\s*-->.*?<!--\s*draft:end\s*-->',
+        re.DOTALL
+    )
+    return pattern.sub('', markdown)
 
 
 def _convert_draft_links(markdown, page, config):

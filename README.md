@@ -146,6 +146,36 @@ El hook `draft_filter.py` realiza automáticamente:
 1. **Filtra archivos**: Solo páginas con `status: published` aparecen en producción
 2. **Filtra navegación**: Secciones vacías se ocultan automáticamente
 3. **Convierte enlaces**: Enlaces a páginas draft se muestran como **"texto" *(próximamente)***
+4. **Elimina bloques draft inline**: Secciones marcadas con comentarios HTML se ocultan en producción
+
+### Bloques draft inline
+
+Para marcar secciones en desarrollo dentro de una página `published`:
+
+```markdown
+---
+status: published
+---
+
+# Guía de Instalación
+
+## Requisitos
+Contenido publicado y visible para todos.
+
+<!-- draft:start -->
+## Configuración SSL
+Esta sección está en desarrollo y solo aparece en DRAFT_MODE=true.
+Puedes escribir aquí el borrador del contenido.
+<!-- draft:end -->
+
+## Soporte
+Más contenido publicado.
+```
+
+| Modo | Comportamiento |
+|------|----------------|
+| `DRAFT_MODE=true` | Se muestra todo el contenido |
+| `DRAFT_MODE=false` | Los bloques entre `<!-- draft:start -->` y `<!-- draft:end -->` se eliminan |
 
 ### Cómo publicar contenido
 
