@@ -1,5 +1,5 @@
 ---
-status: published
+status: draft
 ---
 
 # Instalación Manual (Bare Metal)

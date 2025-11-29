@@ -1,5 +1,5 @@
 ---
-status: published
+status: draft
 ---
 
 # Instalación con Docker

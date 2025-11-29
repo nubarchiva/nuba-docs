@@ -70,10 +70,10 @@ pip install -r requirements.txt
 
 Este proyecto usa dos ramas principales:
 
-| Rama | Propósito | Despliegue |
-|------|-----------|------------|
-| `develop` | Trabajo diario, borradores | No |
-| `main` | Contenido listo para publicar | Automático a docs.nubarchiva.es |
+| Rama      | Propósito                     | Despliegue                      |
+|-----------|-------------------------------|---------------------------------|
+| `develop` | Trabajo diario, borradores    | No                              |
+| `main`    | Contenido listo para publicar | Automático a docs.nubarchiva.es |
 
 ### 1. Desarrollo (rama develop)
 
@@ -133,11 +133,11 @@ status: draft      # Borrador - en desarrollo
 
 ### Estados disponibles
 
-| Estado | Descripción | Producción | Preview |
-|--------|-------------|------------|---------|
-| `draft` | Contenido en desarrollo | Excluido | Visible con banner amarillo |
-| `review` | Pendiente de revisión | Excluido | Visible con banner azul |
-| `published` | Contenido aprobado | Incluido | Visible sin banner |
+| Estado      | Descripción             | Producción | Preview                     |
+|-------------|-------------------------|------------|-----------------------------|
+| `draft`     | Contenido en desarrollo | Excluido   | Visible con banner amarillo |
+| `review`    | Pendiente de revisión   | Excluido   | Visible con banner azul     |
+| `published` | Contenido aprobado      | Incluido   | Visible sin banner          |
 
 ### Comportamiento automático
 

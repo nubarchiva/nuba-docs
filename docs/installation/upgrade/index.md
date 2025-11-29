@@ -1,5 +1,5 @@
 ---
-status: published
+status: draft
 ---
 
 # Actualización de nubarchiva
