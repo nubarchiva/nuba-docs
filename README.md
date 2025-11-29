@@ -6,12 +6,12 @@ Documentación oficial para usuarios de **nubarchiva**, el sistema de gestión a
 
 ## 📖 Ver la Documentación
 
-La documentación está publicada en: **[https://docs.nubarchiva.org](https://docs.nubarchiva.org)**
+La documentación está publicada en: **[https://docs.nubarchiva.es](https://docs.nubarchiva.es)**
 
 ## 🏗️ Estructura del Proyecto
 
 ```
-nubarchiva-docs/
+nuba-docs/
 ├── docs/                      # Contenido de la documentación
 │   ├── index.md               # Página de inicio
 │   ├── installation/          # Guía de instalación
@@ -44,10 +44,10 @@ nubarchiva-docs/
 
 ```bash
 git clone https://github.com/nubarchiva/nuba-docs.git
-cd nubarchiva-docs
+cd nuba-docs
 ```
 
-2. Crea un entorno virtual de Python (recomendado):
+2. Crea un entorno virtual de Python:
 
 ```bash
 python3 -m venv venv
@@ -55,14 +55,9 @@ python3 -m venv venv
 
 3. Activa el entorno virtual:
 
-**En macOS/Linux:**
 ```bash
-source venv/bin/activate
-```
-
-**En Windows:**
-```bash
-venv\Scripts\activate
+source venv/bin/activate    # macOS/Linux
+venv\Scripts\activate       # Windows
 ```
 
 4. Instala las dependencias:
@@ -71,54 +66,60 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Servidor de Desarrollo
+## 🔄 Flujo de Trabajo
 
-**Opción 1: Script automático (recomendado en macOS/Linux)**
+Este proyecto usa dos ramas principales:
 
-```bash
-./serve.sh
-```
+| Rama | Propósito | Despliegue |
+|------|-----------|------------|
+| `develop` | Trabajo diario, borradores | No |
+| `main` | Contenido listo para publicar | Automático a docs.nubarchiva.es |
 
-Este script se encarga de:
-- Crear el entorno virtual si no existe
-- Instalar dependencias si es necesario
-- Activar el entorno virtual
-- Iniciar el servidor
-
-**Opción 2: Manual**
+### 1. Desarrollo (rama develop)
 
 ```bash
-# Asegúrate de tener el entorno virtual activado
-source venv/bin/activate  # macOS/Linux
-# o
-venv\Scripts\activate     # Windows
-
-# Inicia el servidor
-mkdocs serve
+git checkout develop
+source venv/bin/activate
+DRAFT_MODE=true mkdocs serve
 ```
 
-La documentación estará disponible en: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+- Ves **todo** el contenido (drafts + published)
+- Los borradores aparecen con banners visuales de advertencia
+- Editas contenido, haces commits frecuentes
 
-Los cambios en los archivos se reflejarán automáticamente en el navegador.
+### 2. Previsualizar producción
 
-### Construcción
-
-Para generar la versión estática:
+Antes de publicar, verifica cómo se verá en producción:
 
 ```bash
-# Asegúrate de tener el entorno virtual activado
-source venv/bin/activate  # macOS/Linux
-
-mkdocs build
+source venv/bin/activate
+DRAFT_MODE=false mkdocs serve
 ```
 
-Los archivos HTML se generarán en el directorio `site/`.
+- Ves **solo** páginas con `status: published`
+- Los enlaces a páginas no publicadas aparecen como **"texto" *(próximamente)***
+
+### 3. Publicar
+
+Cuando el contenido esté listo:
+
+```bash
+# Asegúrate de que las páginas tienen status: published
+# Luego merge a main y push
+git checkout main
+git merge develop
+git push origin main
+```
+
+GitHub Actions despliega automáticamente a `docs.nubarchiva.es`.
+
+### 4. Volver a develop
+
+```bash
+git checkout develop
+```
 
 ## 📋 Sistema de Publicación (Draft/Published)
-
-Este proyecto implementa un sistema de publicación incremental que permite trabajar con contenido en diferentes estados sin publicar borradores.
-
-### Estados del Contenido
 
 Cada archivo `.md` debe tener un front matter YAML con el campo `status`:
 
@@ -130,100 +131,67 @@ status: draft      # Borrador - en desarrollo
 # Mi página
 ```
 
-**Estados disponibles:**
+### Estados disponibles
 
-| Estado      | Descripción             | Producción | Preview                     |
-|-------------|-------------------------|------------|-----------------------------|
-| `draft`     | Contenido en desarrollo | Excluido   | Visible con banner amarillo |
-| `review`    | Pendiente de revisión   | Excluido   | Visible con banner azul     |
-| `published` | Contenido aprobado      | Incluido   | Visible sin banner          |
+| Estado | Descripción | Producción | Preview |
+|--------|-------------|------------|---------|
+| `draft` | Contenido en desarrollo | Excluido | Visible con banner amarillo |
+| `review` | Pendiente de revisión | Excluido | Visible con banner azul |
+| `published` | Contenido aprobado | Incluido | Visible sin banner |
 
-### Modos de Construcción
+### Comportamiento automático
 
-#### Modo Preview (desarrollo local)
+El hook `draft_filter.py` realiza automáticamente:
 
-```bash
-./serve.sh
-```
+1. **Filtra archivos**: Solo páginas con `status: published` aparecen en producción
+2. **Filtra navegación**: Secciones vacías se ocultan automáticamente
+3. **Convierte enlaces**: Enlaces a páginas draft se muestran como **"texto" *(próximamente)***
 
-- Muestra **todo** el contenido (draft, review, published)
-- Los borradores aparecen con banners visuales de advertencia
-- Variable: `DRAFT_MODE=true`
+### Cómo publicar contenido
 
-#### Modo Producción (publicación)
-
-```bash
-./scripts/build-public.sh
-```
-
-- Solo incluye contenido con `status: published`
-- Los archivos draft/review se excluyen completamente
-- Variable: `DRAFT_MODE=false`
-
-### Workflow de Publicación
-
-```
-1. Crear contenido     →  status: draft
-2. Completar contenido →  status: review  (opcional)
-3. Aprobar contenido   →  status: published
-4. Deploy automático   →  GitHub Actions (solo published)
-```
-
-#### Añadir front matter a archivos existentes
-
-Si tienes archivos sin front matter, usa el script de utilidad:
-
-```bash
-python scripts/add-frontmatter.py
-```
-
-Este script:
-- Añade `status: draft` a archivos nuevos
-- Respeta archivos que ya tienen status definido
-- Actualiza la lista `PUBLISHED_FILES` en el script para marcar contenido como publicado
-
-### Cómo publicar nuevo contenido
-
-1. **Edita el archivo** y cambia el status en el front matter:
+1. **Edita el archivo** y cambia el status:
    ```yaml
    ---
    status: published
    ---
    ```
 
-2. **Verifica** que el contenido se muestra correctamente:
+2. **Previsualiza** en modo producción:
    ```bash
-   ./serve.sh
+   DRAFT_MODE=false mkdocs serve
    ```
 
-3. **Haz commit** y push a la rama `main`
+3. **Merge a main** y push:
+   ```bash
+   git checkout main
+   git merge develop
+   git push origin main
+   ```
 
-4. **GitHub Actions** construirá y desplegará automáticamente solo el contenido publicado
+4. **GitHub Actions** despliega automáticamente
 
-### Desactivar el Entorno Virtual
+### Añadir front matter a archivos existentes
 
-Cuando termines de trabajar:
+Si tienes archivos sin front matter:
 
 ```bash
-deactivate
+python scripts/add-frontmatter.py
 ```
 
 ## ✍️ Contribuir
 
 ### Estructura de Archivos Markdown
 
-Cada archivo debe seguir esta estructura:
-
 ```markdown
+---
+status: draft
+---
+
 # Título Principal
 
 Introducción breve del contenido.
 
 ## Sección 1
-
-Contenido...
-
-## Sección 2
 
 Contenido...
 
@@ -236,124 +204,76 @@ Contenido...
 
 #### Idioma
 
-- Todo el contenido debe estar en **español**
-- Usa terminología archivística estándar
-- Mantén un tono profesional pero accesible
+- Todo el contenido en **español**
+- Terminología archivística estándar
+- Tono profesional pero accesible
 
 #### Formato
 
 - Títulos en Sentence case (primera letra mayúscula)
 - Usa listas para enumeraciones
-- Incluye ejemplos prácticos cuando sea posible
-- Añade capturas de pantalla en `docs/assets/images/`
+- Incluye ejemplos prácticos
+- Capturas de pantalla en `docs/assets/images/`
 
 #### Elementos Especiales
 
-**Notas informativas:**
-
 ```markdown
-!!! note "Título opcional"
-    Contenido de la nota
-```
+!!! note "Nota"
+    Información adicional
 
-**Consejos:**
-
-```markdown
 !!! tip "Consejo"
     Recomendación útil
-```
 
-**Advertencias:**
-
-```markdown
 !!! warning "Advertencia"
     Información importante
-```
 
-**Peligro/Crítico:**
-
-```markdown
-!!! danger "Importante"
+!!! danger "Peligro"
     Información crítica
-```
 
-**Ejemplos:**
-
-```markdown
 !!! example "Ejemplo"
     Caso práctico
-```
 
-**Preguntas frecuentes:**
-
-```markdown
 ??? question "¿Pregunta?"
     Respuesta expandible
 ```
 
 ### Imágenes
 
-1. Guarda las imágenes en `docs/assets/images/`
-2. Usa nombres descriptivos: `busqueda-avanzada-filtros.png`
-3. Optimiza el tamaño (máximo 1920px de ancho)
-4. Formatos recomendados: PNG para interfaces, JPG para fotos
-
-Incluir en documentación:
+1. Guarda en `docs/assets/images/`
+2. Nombres descriptivos: `busqueda-avanzada-filtros.png`
+3. Máximo 1920px de ancho
+4. PNG para interfaces, JPG para fotos
 
 ```markdown
-![Descripción de la imagen](../assets/images/nombre-imagen.png)
+![Descripción](../assets/images/nombre-imagen.png)
 ```
 
-### Diagramas
-
-Usa Mermaid para diagramas:
+### Diagramas con Mermaid
 
 ```markdown
-\`\`\`mermaid
+​```mermaid
 graph LR
     A[Inicio] --> B[Proceso]
     B --> C[Fin]
-\`\`\`
+​```
 ```
-
-### Workflow de Contribución
-
-1. **Fork** el repositorio
-2. **Crea una rama** para tu contribución:
-   ```bash
-   git checkout -b mejora/descripcion-breve
-   ```
-3. **Realiza tus cambios** y verifica localmente con `mkdocs serve`
-4. **Commit** con mensaje descriptivo:
-   ```bash
-   git commit -m "docs(user-guide): añadir sección sobre búsqueda por fechas"
-   ```
-5. **Push** a tu fork:
-   ```bash
-   git push origin mejora/descripcion-breve
-   ```
-6. Crea un **Pull Request** describiendo los cambios
 
 ### Formato de Commits
 
-Seguimos el estándar [Conventional Commits](https://www.conventionalcommits.org/):
+Seguimos [Conventional Commits](https://www.conventionalcommits.org/):
 
 ```
 <tipo>(<ámbito>): <descripción>
-
-[cuerpo opcional]
 ```
 
 **Tipos:**
-
 - `docs`: Cambios en documentación
-- `fix`: Corrección de errores en la documentación
+- `fix`: Corrección de errores
 - `feat`: Nueva sección o contenido
-- `style`: Cambios de formato (sin modificar contenido)
+- `style`: Cambios de formato
 - `refactor`: Reorganización de contenido
 
 **Ejemplos:**
-
 ```
 docs(user-guide): añadir guía de búsqueda avanzada
 fix(getting-started): corregir enlaces rotos
@@ -374,9 +294,9 @@ Esta documentación está bajo licencia [Apache License 2.0](LICENSE).
 ## 📧 Contacto
 
 - **Issues**: [GitHub Issues](https://github.com/nubarchiva/nuba-docs/issues)
-- **Soporte**: support@nubarchiva.org
-- **Web**: [nubarchiva.org](https://nubarchiva.org)
+- **Soporte**: hello@nubarchiva.es
+- **Web**: [nubarchiva.es](https://nubarchiva.es)
 
 ---
 
-**Desarrollado con ❤️ para la comunidad archivística**
+**Desarrollado con cariño para la comunidad archivística**
