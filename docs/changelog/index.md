@@ -94,7 +94,7 @@ Historial de cambios de nubarchiva siguiendo el formato [Keep a Changelog](https
 **[Changelog completo →](versions/v2.23.md)**
 
 #### Added
-- ✨ Multi-tenancy mejorado
+- ✨ Multi-institución mejorado
 - ✨ Permisos granulares por documento
 - ✨ Auditoría de accesos
 
@@ -155,7 +155,7 @@ Cambios que rompen compatibilidad con versiones anteriores.
 
 - **v2.24.0**: Cambio en formato de API REST (campo `createdDate` → `created_at`)
 - **v2.23.0**: Eliminado soporte para Tomcat 7.x
-- **v2.22.0**: Cambio en estructura de configuración multi-tenancy
+- **v2.22.0**: Cambio en estructura de configuración multi-institución
 
 ---
 

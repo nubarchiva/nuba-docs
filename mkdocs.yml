@@ -126,7 +126,7 @@ nav:
           - Elasticsearch: installation/search/elasticsearch.md
       - Configuración:
           - Básica: installation/configuration/basic.md
-          - Multi-tenancy: installation/configuration/multi-tenancy.md
+          - Multi-institución: installation/configuration/multi-institucion.md
           - SSL/TLS: installation/configuration/ssl.md
           - Optimización: installation/configuration/performance.md
       - Paquetes:

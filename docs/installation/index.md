@@ -118,7 +118,7 @@ Indexación y búsqueda de texto completo.
 Después de la instalación básica:
 
 - **[Configuración básica](configuration/basic.md)** - Parámetros esenciales
-- **[Multi-tenancy](configuration/multi-tenancy.md)** - Múltiples instituciones
+- **[Multi-institución](configuration/multi-institución.md)** - Múltiples instituciones
 - **[SSL/TLS](configuration/ssl.md)** - Seguridad en producción
 - **[Optimización](configuration/performance.md)** - Performance tuning
 

@@ -20,7 +20,7 @@ Esta sección está actualmente en desarrollo. Contendrá:
 - Secrets y ConfigMaps
 - Health checks y probes
 - Actualizaciones rolling
-- Multi-tenancy en Kubernetes
+- Multi-institución en Kubernetes
 
 ## 📧 Contribuciones
 

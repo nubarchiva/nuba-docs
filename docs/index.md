@@ -17,7 +17,7 @@ status: published
 - **Gestión documental completa**: Organización y descripción de fondos archivísticos
 - **Búsqueda avanzada**: Potente motor de búsqueda con múltiples criterios y filtros
 - **Catálogo público (OPAC)**: Interfaz web para consulta ciudadana
-- **Multi-tenancy**: Soporte para múltiples instituciones en una misma instalación
+- **Multi-institución**: Soporte para múltiples instituciones en una misma instalación
 - **Normalización**: Cumplimiento de estándares archivísticos internacionales
 - **Accesibilidad**: Diseño inclusivo y cumplimiento de pautas WCAG
 

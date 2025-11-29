@@ -303,8 +303,8 @@ app.timezone=Europe/Madrid
 # Sesión
 session.timeout=30
 
-# Multi-tenancy (opcional)
-multitenancy.enabled=false
+# Multi-institución (opcional)
+multi-institución.enabled=false
 
 # Email (opcional)
 mail.host=localhost
