@@ -27,36 +27,18 @@ Para utilizar nubarchiva necesitas:
 !!! tip "Recomendación"
     Se recomienda utilizar una pantalla con resolución mínima de 1024x768 píxeles para una mejor experiencia de usuario.
 
-## Flujo de Trabajo Típico
+## Tus primeros pasos
 
-```mermaid
-graph LR
-    A[Iniciar Sesión] --> B[Explorar Interfaz]
-    B --> C[Realizar Búsqueda]
-    C --> D[Consultar Documento]
-    D --> E{¿Necesitas más?}
-    E -->|Sí| C
-    E -->|No| F[Cerrar Sesión]
-```
+1. [Inicia sesión](login.md) con tus credenciales
+2. [Explora la interfaz](interface.md) principal
+3. [Realiza tu primera búsqueda](../user-guide/search/index.md)
+4. [Consulta los documentos](../user-guide/documents/index.md) encontrados
+5. [Crea colecciones](../user-guide/collections/index.md) con tus documentos favoritos
 
-## Próximos Pasos
-
-Una vez completada esta sección, estarás listo para:
-
-- 🔍 [Buscar documentos](../user-guide/search/index.md)
-- 📄 [Visualizar y descargar contenidos](../user-guide/documents/index.md)
-- 📁 [Crear colecciones personalizadas](../user-guide/collections/index.md)
-
-## Necesitas Ayuda
-
-Si encuentras dificultades durante este proceso inicial:
+## ¿Necesitas ayuda?
 
 - 💬 [Foro de la comunidad](https://groups.google.com/a/nubarchiva.es/g/community)
 - 📖 [Documentación completa](https://docs.nubarchiva.es)
-
----
-
-**👉 Comienza por**: [Acceso al sistema](login.md)
 
 ---
 
