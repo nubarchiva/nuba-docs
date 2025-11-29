@@ -226,21 +226,15 @@ Las funcionalidades más solicitadas por la comunidad:
 
 ### Cómo Proponer Features
 
-Tienes tres formas de influir en el roadmap:
+Tienes dos formas de influir en el roadmap:
 
-#### 1. GitHub Discussions
+#### 1. Foro de la Comunidad
 
-**Para**: Propuestas generales, discusión de ideas
+**Para**: Propuestas generales, discusión de ideas, solicitudes de funcionalidades
 
-[📝 Abrir discusión](https://github.com/nubarchiva/nuba-oss/discussions)
+[💬 Abrir tema en el foro](https://groups.google.com/a/nubarchiva.es/g/community)
 
-#### 2. Feature Requests
-
-**Para**: Solicitudes específicas y detalladas
-
-[💡 Crear feature request](https://github.com/nubarchiva/nuba-oss/issues/new?template=feature_request.md)
-
-#### 3. Contribuir Código
+#### 2. Contribuir Código
 
 **Para**: Implementar directamente la funcionalidad
 

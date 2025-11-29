@@ -119,9 +119,7 @@ Mientras tanto: [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 nubarchiva mejora gracias a la comunidad. ¡Tu contribución es bienvenida!
 
-- 🐛 [Reportar bugs](https://github.com/nubarchiva/nuba-oss/issues)
-- 💡 [Proponer mejoras](https://github.com/nubarchiva/nuba-oss/discussions)
-- 🔧 Contribuir código _(guía CONTRIBUTING.md próximamente)_
+- 💬 [Foro de la comunidad](https://groups.google.com/a/nubarchiva.es/g/community)
 - 📖 [Mejorar esta documentación](https://github.com/nubarchiva/nuba-docs)
 
 ---

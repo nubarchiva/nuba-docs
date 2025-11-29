@@ -10,23 +10,14 @@ status: published
 
 ### Foro Comunitario
 
-**Próximamente**: [groups.google.com/a/nubarchiva.es/g/community](https://groups.google.com/a/nubarchiva.es/g/community)
+[groups.google.com/a/nubarchiva.es/g/community](https://groups.google.com/a/nubarchiva.es/g/community)
 
 Espacio para:
 - Hacer preguntas sobre el uso del sistema
 - Compartir experiencias y casos de uso
 - Proponer mejoras y nuevas funcionalidades
+- Reportar problemas y bugs
 - Ayudar a otros usuarios
-
-### GitHub Discussions
-
-**Próximamente**: [github.com/nubarchiva/nuba-oss/discussions](https://github.com/nubarchiva/nuba-oss/discussions)
-
-Para debates más técnicos:
-- Propuestas de arquitectura
-- Roadmap del proyecto
-- Feedback sobre nuevas versiones
-- Ideas de integración
 
 ### Redes Sociales
 
@@ -36,53 +27,17 @@ Síguenos para estar al día:
 
 ## 🐛 Reportar Problemas
 
-### Issues en GitHub
+Para reportar bugs o proponer mejoras, usa el [Foro de la comunidad](https://groups.google.com/a/nubarchiva.es/g/community).
 
-**Próximamente**: [github.com/nubarchiva/nuba-oss/issues](https://github.com/nubarchiva/nuba-oss/issues)
+Antes de reportar:
 
-Antes de reportar un bug:
-
-1. **Busca** si ya existe un issue similar
+1. **Busca** si ya existe un tema similar
 2. **Verifica** que estás usando la última versión
 3. **Prepara** información detallada:
    - Versión de nubarchiva
    - Pasos para reproducir el problema
    - Comportamiento esperado vs. real
    - Capturas de pantalla si es posible
-
-### Plantilla de Bug Report
-
-```markdown
-**Versión**: v2.x.x
-**Navegador**: Chrome 120
-**Entorno**: Producción / Desarrollo
-
-**Descripción del problema**:
-[Descripción clara del problema]
-
-**Pasos para reproducir**:
-1. Ir a...
-2. Hacer clic en...
-3. Ver error...
-
-**Comportamiento esperado**:
-[Lo que debería ocurrir]
-
-**Capturas de pantalla**:
-[Si aplica]
-```
-
-## 💡 Proponer Mejoras
-
-¿Tienes una idea para mejorar nubarchiva?
-
-**Próximamente**: [github.com/nubarchiva/nuba-oss/discussions/categories/ideas](https://github.com/nubarchiva/nuba-oss/discussions/categories/ideas)
-
-Formato sugerido:
-- **Problema que resuelve**: ¿Qué necesidad cubre?
-- **Solución propuesta**: ¿Cómo funcionaría?
-- **Alternativas consideradas**: ¿Hay otras formas de hacerlo?
-- **Casos de uso**: ¿Quién se beneficiaría?
 
 ## 🔧 Contribuir al Código
 
@@ -234,7 +189,6 @@ nubarchiva existe gracias a:
 ### Para la Comunidad
 
 - 💬 Foro: [groups.google.com/a/nubarchiva.es/g/community](https://groups.google.com/a/nubarchiva.es/g/community)
-- 🐛 Issues: [github.com/nubarchiva/nuba-oss/issues](https://github.com/nubarchiva/nuba-oss/issues)
 - 📧 General: [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 ### Para Empresas

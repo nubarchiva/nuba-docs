@@ -207,7 +207,6 @@ Post-upgrade:
 ### Comunidad
 
 - 💬 [Foro](https://groups.google.com/a/nubarchiva.es/g/community)
-- 🐛 [Reportar problemas](https://github.com/nubarchiva/nuba-oss/issues)
 
 ### Soporte Empresarial
 
