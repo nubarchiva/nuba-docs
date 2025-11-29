@@ -23,7 +23,7 @@ El soporte para MySQL/MariaDB está en desarrollo. nubarchiva actualmente está 
 
 ¿Necesitas soporte MySQL/MariaDB para tu organización?
 
-Contacta: [hello@nubarchiva.org](mailto:hello@nubarchiva.org)
+Contacta: [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 ---
 

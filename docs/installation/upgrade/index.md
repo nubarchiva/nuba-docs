@@ -206,14 +206,14 @@ Post-upgrade:
 
 ### Comunidad
 
-- 💬 [Foro](https://community.nubarchiva.org) _(próximamente)_
+- 💬 [Foro](https://community.nubarchiva.es) _(próximamente)_
 - 🐛 [Reportar problemas](https://github.com/nubarchiva/nuba-oss/issues) _(próximamente)_
 
 ### Soporte Empresarial
 
 ¿Necesitas ayuda profesional para el upgrade?
 
-📧 [hello@nubarchiva.org](mailto:hello@nubarchiva.org)
+📧 [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 Ofrecemos:
 - **Análisis pre-upgrade** - Evaluación de impacto

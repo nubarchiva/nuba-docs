@@ -16,7 +16,7 @@ Soporte para Oracle Database está planificado para futuras versiones de nubarch
 
 ¿Tu organización utiliza Oracle y necesita nubarchiva?
 
-Contacta: [hello@nubarchiva.org](mailto:hello@nubarchiva.org)
+Contacta: [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 ---
 

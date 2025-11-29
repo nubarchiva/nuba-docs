@@ -26,7 +26,7 @@ Esta sección está actualmente en desarrollo. Contendrá:
 
 ¿Tienes experiencia desplegando en Kubernetes y quieres ayudar?
 
-Contacta en: [hello@nubarchiva.org](mailto:hello@nubarchiva.org) o [GitHub Discussions](https://github.com/nubarchiva/nuba-oss/discussions)
+Contacta en: [hello@nubarchiva.es](mailto:hello@nubarchiva.es) o [GitHub Discussions](https://github.com/nubarchiva/nuba-oss/discussions)
 
 ---
 

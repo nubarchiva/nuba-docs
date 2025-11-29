@@ -264,7 +264,7 @@ Organizaciones que apoyan activamente el desarrollo de nubarchiva:
 
 ¿Tu organización quiere acelerar el desarrollo de una feature específica?
 
-📧 [hello@nubarchiva.org](mailto:hello@nubarchiva.org)
+📧 [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 Opciones:
 - **Feature Sponsorship** - Financia desarrollo de feature específica
@@ -295,7 +295,7 @@ Ver: [Matriz de Compatibilidad](installation/upgrade/compatibility-matrix.md)
 
 - 📰 **[Changelog](changelog/index.md)** - Cambios en cada versión
 - 🐦 **Twitter/X**: @nubarchiva _(próximamente)_
-- 💬 **[Foro](https://community.nubarchiva.org)** _(próximamente)_
+- 💬 **[Foro](https://community.nubarchiva.es)** _(próximamente)_
 - 📧 **Newsletter**: _(próximamente)_
 
 ---

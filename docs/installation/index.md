@@ -153,15 +153,15 @@ Una vez instalado nubarchiva:
 
 ### Comunidad
 
-- 💬 [Foro de la comunidad](https://community.nubarchiva.org) _(próximamente)_
+- 💬 [Foro de la comunidad](https://community.nubarchiva.es) _(próximamente)_
 - 🐛 [Reportar problemas](https://github.com/nubarchiva/nuba-oss/issues) _(próximamente)_
-- 📖 [Documentación completa](https://docs.nubarchiva.org)
+- 📖 [Documentación completa](https://docs.nubarchiva.es)
 
 ### Soporte Empresarial
 
 ¿Necesitas ayuda profesional para la instalación?
 
-📧 [hello@nubarchiva.org](mailto:hello@nubarchiva.org)
+📧 [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 Ofrecemos:
 - **Instalación asistida** - Te ayudamos paso a paso

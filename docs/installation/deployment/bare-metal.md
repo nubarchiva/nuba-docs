@@ -309,7 +309,7 @@ multitenancy.enabled=false
 # Email (opcional)
 mail.host=localhost
 mail.port=25
-mail.from=noreply@nubarchiva.org
+mail.from=noreply@nubarchiva.es
 EOF
 
 sudo chown nubarchiva:nubarchiva /etc/nubarchiva/nubarchiva.properties

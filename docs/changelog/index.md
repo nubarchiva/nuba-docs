@@ -213,7 +213,7 @@ Mantente informado de nuevos releases:
 - 🐦 **Twitter/X**: @nubarchiva _(próximamente)_
 - 📧 **Newsletter**: _(próximamente)_
 - 📺 **GitHub Watch**: [nubarchiva/nubarchiva](https://github.com/nubarchiva/nuba-oss) _(próximamente)_
-- 💬 **[Foro](https://community.nubarchiva.org)** _(próximamente)_
+- 💬 **[Foro](https://community.nubarchiva.es)** _(próximamente)_
 
 ---
 

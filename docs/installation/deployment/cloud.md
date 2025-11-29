@@ -59,7 +59,7 @@ Aspectos a cubrir en cada guía:
 
 ¿Has desplegado nubarchiva en algún proveedor cloud?
 
-Comparte tu experiencia: [hello@nubarchiva.org](mailto:hello@nubarchiva.org)
+Comparte tu experiencia: [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 ---
 
