@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Instalación de nubarchiva
 
 Bienvenido a la guía de instalación de nubarchiva. Esta sección te ayudará a instalar y configurar el sistema según tus necesidades.

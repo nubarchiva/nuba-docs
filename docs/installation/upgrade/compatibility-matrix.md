@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Matriz de Compatibilidad
 
 Tabla de compatibilidad entre versiones de nubarchiva y sus dependencias.

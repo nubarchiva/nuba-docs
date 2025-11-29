@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Nuevas Funcionalidades
 
 Todas las funcionalidades añadidas (Added) por versión.

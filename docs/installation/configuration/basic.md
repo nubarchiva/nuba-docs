@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Configuración Básica
 
 Configuración esencial de nubarchiva tras la instalación.

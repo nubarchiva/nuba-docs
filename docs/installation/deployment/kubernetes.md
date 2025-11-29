@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Instalación en Kubernetes
 
 _(Documentación en desarrollo)_

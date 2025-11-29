@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Guía de Administración
 
 Esta guía está dirigida a administradores del sistema nubarchiva que gestionan la configuración, usuarios y mantenimiento de la plataforma.

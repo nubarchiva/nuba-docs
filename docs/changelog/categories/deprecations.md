@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Funcionalidades Deprecadas
 
 Funcionalidades que serán eliminadas en futuras versiones.

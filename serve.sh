@@ -28,8 +28,12 @@ if ! python -c "import mkdocs" &> /dev/null; then
     echo -e "${GREEN}✅ Dependencias instaladas${NC}"
 fi
 
+# Modo preview: mostrar TODO el contenido (incluido drafts)
+export DRAFT_MODE=true
+
 # Iniciar servidor
 echo -e "${GREEN}🌐 Iniciando servidor en http://127.0.0.1:8000${NC}"
+echo -e "${YELLOW}   DRAFT_MODE=true: Mostrando todo el contenido (drafts con banners)${NC}"
 echo -e "${YELLOW}   Presiona Ctrl+C para detener el servidor${NC}"
 echo ""
 

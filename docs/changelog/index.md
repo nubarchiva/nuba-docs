@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Changelog
 
 Historial de cambios de nubarchiva siguiendo el formato [Keep a Changelog](https://keepachangelog.com/es/1.0.0/).

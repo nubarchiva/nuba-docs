@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Backup y Rollback
 
 Procedimientos críticos de backup y recuperación para upgrades.

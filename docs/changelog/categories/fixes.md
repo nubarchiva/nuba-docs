@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Correcciones de Bugs
 
 Todos los bugs corregidos (Fixed) por versión.

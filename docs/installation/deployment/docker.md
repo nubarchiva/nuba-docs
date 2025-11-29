@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Instalación con Docker
 
 La forma más rápida y sencilla de instalar nubarchiva usando Docker y Docker Compose.

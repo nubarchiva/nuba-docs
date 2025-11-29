@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Comunidad nubarchiva
 
 ¡Bienvenido a la comunidad nubarchiva! Este proyecto crece gracias a la participación activa de usuarios, desarrolladores, archiveros y entusiastas del software libre.

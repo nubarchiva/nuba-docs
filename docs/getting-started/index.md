@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Primeros Pasos con nubarchiva
 
 Bienvenido a nubarchiva. Esta guía te ayudará a familiarizarte con el sistema y realizar tus primeras tareas.

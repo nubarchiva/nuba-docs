@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Roadmap nubarchiva
 
 Visión y planificación del desarrollo de nubarchiva.

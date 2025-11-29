@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Personalización de nubarchiva
 
 nubarchiva es una plataforma flexible que permite adaptar su apariencia y funcionalidad a las necesidades específicas de cada institución.

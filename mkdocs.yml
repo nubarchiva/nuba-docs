@@ -3,6 +3,10 @@ site_url: https://docs.nubarchiva.org
 site_description: Documentación oficial para usuarios de nubarchiva
 site_author: Equipo nubarchiva
 
+# Hooks para filtrado de contenido draft/published
+hooks:
+  - hooks/draft_filter.py
+
 # Repository
 repo_name: nubarchiva-docs
 # repo_url: https://github.com/tu-org/nubarchiva-docs

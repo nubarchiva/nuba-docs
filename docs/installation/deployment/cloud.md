@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Instalación en Cloud Providers
 
 _(Documentación en desarrollo)_

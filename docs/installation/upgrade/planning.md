@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Planificación del Upgrade
 
 _(Documento completo en desarrollo)_

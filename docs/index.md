@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Bienvenido a la Documentación de nubarchiva
 
 !!! info "Versión de la Documentación"

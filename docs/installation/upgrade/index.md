@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Actualización de nubarchiva
 
 Guía para actualizar nubarchiva entre versiones de forma segura y eficiente.

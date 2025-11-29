@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Apache Solr
 
 Motor de búsqueda de texto completo para nubarchiva.

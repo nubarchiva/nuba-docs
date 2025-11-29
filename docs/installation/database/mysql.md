@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # MySQL/MariaDB
 
 _(Soporte en desarrollo)_

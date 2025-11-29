@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Oracle Database
 
 _(Soporte futuro para entornos enterprise)_

@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Guía de Usuario
 
 Esta guía está diseñada para usuarios que necesitan consultar, buscar y trabajar con documentos en nubarchiva.

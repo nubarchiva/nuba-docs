@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Elasticsearch
 
 _(Soporte futuro)_

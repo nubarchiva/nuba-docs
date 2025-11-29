@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # PostgreSQL
 
 Base de datos relacional recomendada para nubarchiva.

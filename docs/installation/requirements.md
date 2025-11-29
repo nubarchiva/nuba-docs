@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Requisitos del Sistema
 
 Requisitos detallados para instalar y ejecutar nubarchiva en diferentes entornos.

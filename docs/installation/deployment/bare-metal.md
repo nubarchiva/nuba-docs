@@ -1,3 +1,7 @@
+---
+status: published
+---
+
 # Instalación Manual (Bare Metal)
 
 Guía completa para instalar nubarchiva directamente en un servidor Linux, sin contenedores.

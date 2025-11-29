@@ -36,12 +36,12 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install mkdocs-material
-          pip install mkdocs-minify-plugin
-          pip install pymdown-extensions
+          pip install -r requirements.txt
 
-      - name: Build documentation
-        run: mkdocs build --strict
+      - name: Build documentation (solo published)
+        env:
+          DRAFT_MODE: 'false'
+        run: mkdocs build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

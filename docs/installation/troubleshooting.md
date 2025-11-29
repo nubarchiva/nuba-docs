@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Solución de Problemas
 
 Errores comunes y soluciones durante la instalación.

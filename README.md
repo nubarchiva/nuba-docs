@@ -14,20 +14,20 @@ La documentación está publicada en: **[https://docs.nubarchiva.org](https://do
 nubarchiva-docs/
 ├── docs/                       # Contenido de la documentación
 │   ├── index.md               # Página de inicio
+│   ├── installation/          # Guía de instalación
 │   ├── getting-started/       # Primeros pasos
 │   ├── user-guide/            # Guía de usuario
-│   │   ├── navigation/        # Navegación
-│   │   ├── search/            # Búsqueda
-│   │   ├── documents/         # Gestión de documentos
-│   │   └── collections/       # Colecciones
 │   ├── admin-guide/           # Guía de administración
-│   │   ├── configuration/     # Configuración
-│   │   ├── users/             # Gestión de usuarios
-│   │   ├── backup/            # Copias de seguridad
-│   │   └── maintenance/       # Mantenimiento
 │   ├── customization/         # Personalización
+│   ├── changelog/             # Historial de versiones
 │   └── assets/                # Recursos (imágenes, videos)
+├── hooks/                      # Hooks de MkDocs
+│   └── draft_filter.py        # Filtro de contenido draft/published
+├── scripts/                    # Scripts de utilidad
+│   ├── add-frontmatter.py     # Añadir front matter a archivos
+│   └── build-public.sh        # Build de producción
 ├── mkdocs.yml                 # Configuración de MkDocs
+├── serve.sh                   # Script de desarrollo local
 └── .github/workflows/         # CI/CD con GitHub Actions
 ```
 
@@ -113,6 +113,92 @@ mkdocs build
 ```
 
 Los archivos HTML se generarán en el directorio `site/`.
+
+## 📋 Sistema de Publicación (Draft/Published)
+
+Este proyecto implementa un sistema de publicación incremental que permite trabajar con contenido en diferentes estados sin publicar borradores.
+
+### Estados del Contenido
+
+Cada archivo `.md` debe tener un front matter YAML con el campo `status`:
+
+```yaml
+---
+status: draft      # Borrador - en desarrollo
+---
+
+# Mi página
+```
+
+**Estados disponibles:**
+
+| Estado      | Descripción             | Producción | Preview                     |
+|-------------|-------------------------|------------|-----------------------------|
+| `draft`     | Contenido en desarrollo | Excluido   | Visible con banner amarillo |
+| `review`    | Pendiente de revisión   | Excluido   | Visible con banner azul     |
+| `published` | Contenido aprobado      | Incluido   | Visible sin banner          |
+
+### Modos de Construcción
+
+#### Modo Preview (desarrollo local)
+
+```bash
+./serve.sh
+```
+
+- Muestra **todo** el contenido (draft, review, published)
+- Los borradores aparecen con banners visuales de advertencia
+- Variable: `DRAFT_MODE=true`
+
+#### Modo Producción (publicación)
+
+```bash
+./scripts/build-public.sh
+```
+
+- Solo incluye contenido con `status: published`
+- Los archivos draft/review se excluyen completamente
+- Variable: `DRAFT_MODE=false`
+
+### Workflow de Publicación
+
+```
+1. Crear contenido     →  status: draft
+2. Completar contenido →  status: review  (opcional)
+3. Aprobar contenido   →  status: published
+4. Deploy automático   →  GitHub Actions (solo published)
+```
+
+#### Añadir front matter a archivos existentes
+
+Si tienes archivos sin front matter, usa el script de utilidad:
+
+```bash
+python scripts/add-frontmatter.py
+```
+
+Este script:
+- Añade `status: draft` a archivos nuevos
+- Respeta archivos que ya tienen status definido
+- Actualiza la lista `PUBLISHED_FILES` en el script para marcar contenido como publicado
+
+### Cómo publicar nuevo contenido
+
+1. **Edita el archivo** y cambia el status en el front matter:
+   ```yaml
+   ---
+   status: published
+   ---
+   ```
+
+2. **Verifica** que el contenido se muestra correctamente:
+   ```bash
+   ./serve.sh
+   ```
+
+3. **Haz commit** y push a la rama `main`
+
+4. **GitHub Actions** construirá y desplegará automáticamente solo el contenido publicado
 
 ### Desactivar el Entorno Virtual
 
