@@ -197,7 +197,7 @@ graph LR
 
 ¿No estás seguro de tu path de actualización?
 
-- 💬 [Foro de la comunidad](https://community.nubarchiva.es) _(próximamente)_
+- 💬 [Foro de la comunidad](https://groups.google.com/a/nubarchiva.es/g/community)
 - 📧 [Soporte empresarial](mailto:hello@nubarchiva.es)
 
 ---

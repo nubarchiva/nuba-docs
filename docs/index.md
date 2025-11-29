@@ -102,7 +102,7 @@ Este proyecto es **software libre** bajo licencia [Apache 2.0](https://www.apach
 
 ### Soporte Comunitario (Gratuito)
 
-- 💬 **Foro de la comunidad**: Próximamente en community.nubarchiva.es
+- 💬 **Foro de la comunidad**: Próximamente en groups.google.com/a/nubarchiva.es/g/community
 - 💭 **Discusiones en GitHub**: Para propuestas y feedback
 - 🐛 **Reportar bugs**: Issues en GitHub
 - 📖 **Esta documentación**: Guías completas de uso

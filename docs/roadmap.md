@@ -232,13 +232,13 @@ Tienes tres formas de influir en el roadmap:
 
 **Para**: Propuestas generales, discusión de ideas
 
-[📝 Abrir discusión](https://github.com/nubarchiva/nuba-oss/discussions) _(próximamente)_
+[📝 Abrir discusión](https://github.com/nubarchiva/nuba-oss/discussions)
 
 #### 2. Feature Requests
 
 **Para**: Solicitudes específicas y detalladas
 
-[💡 Crear feature request](https://github.com/nubarchiva/nuba-oss/issues/new?template=feature_request.md) _(próximamente)_
+[💡 Crear feature request](https://github.com/nubarchiva/nuba-oss/issues/new?template=feature_request.md)
 
 #### 3. Contribuir Código
 
@@ -294,9 +294,9 @@ Ver: [Matriz de Compatibilidad](installation/upgrade/compatibility-matrix.md)
 ## 🔔 Mantente Informado
 
 - 📰 **[Changelog](changelog/index.md)** - Cambios en cada versión
-- 🐦 **Twitter/X**: @nubarchiva _(próximamente)_
-- 💬 **[Foro](https://community.nubarchiva.es)** _(próximamente)_
-- 📧 **Newsletter**: _(próximamente)_
+- 🐦 **Twitter/X**: @nubarchiva
+- 💬 **[Foro](https://groups.google.com/a/nubarchiva.es/g/community)**
+- 📧 **Newsletter**:
 
 ---
 

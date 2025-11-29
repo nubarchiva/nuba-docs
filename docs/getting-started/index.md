@@ -51,7 +51,7 @@ Una vez completada esta sección, estarás listo para:
 
 Si encuentras dificultades durante este proceso inicial:
 
-- 💬 [Foro de la comunidad](https://community.nubarchiva.es) _(próximamente)_
+- 💬 [Foro de la comunidad](https://groups.google.com/a/nubarchiva.es/g/community)
 - 📖 [Documentación completa](https://docs.nubarchiva.es)
 - 🐛 [Reportar problema](https://github.com/nubarchiva/nuba-oss/issues) _(próximamente público)_
 

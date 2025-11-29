@@ -10,7 +10,7 @@ status: published
 
 ### Foro Comunitario
 
-**Próximamente**: [community.nubarchiva.es](https://community.nubarchiva.es)
+**Próximamente**: [groups.google.com/a/nubarchiva.es/g/community](https://groups.google.com/a/nubarchiva.es/g/community)
 
 Espacio para:
 - Hacer preguntas sobre el uso del sistema
@@ -31,8 +31,8 @@ Para debates más técnicos:
 ### Redes Sociales
 
 Síguenos para estar al día:
-- 🐦 **Twitter/X**: @nubarchiva _(próximamente)_
-- 💼 **LinkedIn**: nubarchiva _(próximamente)_
+- 🐦 **Twitter/X**: @nubarchiva
+- 💼 **LinkedIn**: nubarchiva
 
 ## 🐛 Reportar Problemas
 
@@ -116,7 +116,7 @@ Formato sugerido:
 
 Esta documentación también es código abierto:
 
-**Repositorio**: [github.com/nubarchiva/nuba-docs](https://github.com/nubarchiva/nuba-docs) _(próximamente)_
+**Repositorio**: [github.com/nubarchiva/nuba-docs](https://github.com/nubarchiva/nuba-docs)
 
 Tipos de contribuciones bienvenidas:
 - Correcciones de errores tipográficos
@@ -192,9 +192,9 @@ Para desarrolladores que quieran contribuir:
 
 ### Tutoriales
 
-- 🎥 [Videos tutoriales](#) _(próximamente)_
-- 📝 [Blog nubarchiva](#) _(próximamente)_
-- 💼 [Casos de estudio](#) _(próximamente)_
+- 🎥 [Videos tutoriales](#)
+- 📝 [Blog nubarchiva](#)
+- 💼 [Casos de estudio](#)
 
 ## 🏢 Soporte Empresarial
 
@@ -218,7 +218,7 @@ Mantente al tanto de:
 - Conferencias archivísticas
 - Hackathons
 
-_(Calendario próximamente en community.nubarchiva.es)_
+_(Calendario próximamente en groups.google.com/a/nubarchiva.es/g/community)_
 
 ## ❤️ Agradecimientos
 
@@ -226,21 +226,21 @@ nubarchiva existe gracias a:
 
 - **Contribuidores**: Todas las personas que aportan código y documentación
 - **Usuarios**: Quienes reportan bugs y proponen mejoras
-- **Patrocinadores**: Organizaciones que apoyan el desarrollo _(próximamente)_
+- **Patrocinadores**: Organizaciones que apoyan el desarrollo
 - **Comunidad open source**: Proyectos en los que nos basamos
 
 ## 📧 Contacto
 
 ### Para la Comunidad
 
-- 💬 Foro: [community.nubarchiva.es](https://community.nubarchiva.es) _(próximamente)_
-- 🐛 Issues: [github.com/nubarchiva/nuba-oss/issues](https://github.com/nubarchiva/nuba-oss/issues) _(próximamente)_
+- 💬 Foro: [groups.google.com/a/nubarchiva.es/g/community](https://groups.google.com/a/nubarchiva.es/g/community)
+- 🐛 Issues: [github.com/nubarchiva/nuba-oss/issues](https://github.com/nubarchiva/nuba-oss/issues)
 - 📧 General: [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 ### Para Empresas
 
 - 💼 Consultoría: [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
-- 📞 Formulario de contacto: _(próximamente)_
+- 📞 Formulario de contacto:
 
 ---
 

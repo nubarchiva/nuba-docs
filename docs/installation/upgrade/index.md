@@ -197,8 +197,8 @@ Post-upgrade:
 
 - **[Changelog](../../changelog/index.md)** - Historial de cambios por versión
 - **[Roadmap](../../roadmap.md)** - Versiones futuras planificadas
-- **[Migration Scripts](https://github.com/nubarchiva/nuba-oss/tree/main/sql/migrations)** _(próximamente)_
-- **[GitHub Releases](https://github.com/nubarchiva/nuba-oss/releases)** _(próximamente)_
+- **[Migration Scripts](https://github.com/nubarchiva/nuba-oss/tree/main/sql/migrations)**
+- **[GitHub Releases](https://github.com/nubarchiva/nuba-oss/releases)**
 
 ---
 
@@ -206,8 +206,8 @@ Post-upgrade:
 
 ### Comunidad
 
-- 💬 [Foro](https://community.nubarchiva.es) _(próximamente)_
-- 🐛 [Reportar problemas](https://github.com/nubarchiva/nuba-oss/issues) _(próximamente)_
+- 💬 [Foro](https://groups.google.com/a/nubarchiva.es/g/community)
+- 🐛 [Reportar problemas](https://github.com/nubarchiva/nuba-oss/issues)
 
 ### Soporte Empresarial
 
