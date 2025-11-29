@@ -1,0 +1,158 @@
+site_name: Manual de Usuario nubarchiva
+site_url: https://docs.nubarchiva.org
+site_description: Documentación oficial para usuarios de nubarchiva
+site_author: Equipo nubarchiva
+
+# Repository
+repo_name: nubarchiva-docs
+# repo_url: https://github.com/tu-org/nubarchiva-docs
+
+# Copyright
+copyright: Copyright &copy; 2025 nubarchiva
+
+# Configuration
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/git-alt
+
+# Plugins
+plugins:
+  - search:
+      lang: es
+  - minify:
+      minify_html: true
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Navigation
+nav:
+  - Inicio: index.md
+  - Primeros Pasos:
+      - getting-started/index.md
+      - Acceso al sistema: getting-started/login.md
+      - Interfaz principal: getting-started/interface.md
+      - Conceptos básicos: getting-started/concepts.md
+  - Guía de Usuario:
+      - user-guide/index.md
+      - Navegación:
+          - user-guide/navigation/index.md
+          - Menú principal: user-guide/navigation/main-menu.md
+          - Barras de herramientas: user-guide/navigation/toolbars.md
+      - Búsqueda:
+          - user-guide/search/index.md
+          - Búsqueda simple: user-guide/search/simple.md
+          - Búsqueda avanzada: user-guide/search/advanced.md
+          - Filtros y facetas: user-guide/search/filters.md
+      - Documentos:
+          - user-guide/documents/index.md
+          - Visualizar documentos: user-guide/documents/view.md
+          - Descargar documentos: user-guide/documents/download.md
+          - Compartir documentos: user-guide/documents/share.md
+      - Colecciones:
+          - user-guide/collections/index.md
+          - Crear colecciones: user-guide/collections/create.md
+          - Gestionar colecciones: user-guide/collections/manage.md
+  - Guía de Administración:
+      - admin-guide/index.md
+      - Configuración:
+          - admin-guide/configuration/index.md
+          - Configuración general: admin-guide/configuration/general.md
+          - Parámetros del sistema: admin-guide/configuration/parameters.md
+      - Usuarios:
+          - admin-guide/users/index.md
+          - Gestión de usuarios: admin-guide/users/manage.md
+          - Roles y permisos: admin-guide/users/roles.md
+      - Copias de seguridad:
+          - admin-guide/backup/index.md
+          - Backup y restauración: admin-guide/backup/procedures.md
+      - Mantenimiento:
+          - admin-guide/maintenance/index.md
+          - Tareas de mantenimiento: admin-guide/maintenance/tasks.md
+          - Monitorización: admin-guide/maintenance/monitoring.md
+  - Personalización:
+      - customization/index.md
+      - Configuración visual: customization/appearance.md
+      - Flujos de trabajo: customization/workflows.md
+      - Campos personalizados: customization/custom-fields.md
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tu-org/nubarchiva-docs
+      name: nubarchiva en GitHub
+  version:
+    provider: mike
+  consent:
+    title: Consentimiento de cookies
+    description: >-
+      Utilizamos cookies para mejorar la experiencia de navegación y analizar
+      el uso del sitio. Al continuar navegando, aceptas el uso de cookies.
