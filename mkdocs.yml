@@ -126,7 +126,27 @@ nav:
       - Paquetes:
           - Debian/Ubuntu: installation/packages/debian-ubuntu.md
           - Red Hat/CentOS: installation/packages/redhat-centos.md
-      - Actualización: installation/upgrade.md
+      - Actualización:
+          - installation/upgrade/index.md
+          - Matriz de Compatibilidad: installation/upgrade/compatibility-matrix.md
+          - Planificación: installation/upgrade/planning.md
+          - Backup y Rollback: installation/upgrade/backup-and-rollback.md
+          - Métodos:
+              - Docker: installation/upgrade/methods/docker.md
+              - Bare Metal: installation/upgrade/methods/bare-metal.md
+              - Kubernetes: installation/upgrade/methods/kubernetes.md
+          - Upgrade Paths:
+              - 2.x → 3.x: installation/upgrade/upgrade-paths/2.x-to-3.x.md
+              - 2.24 → 2.25: installation/upgrade/upgrade-paths/2.24-to-2.25.md
+              - Patch Upgrades: installation/upgrade/upgrade-paths/patch-upgrades.md
+          - Guías de Migración:
+              - Database: installation/upgrade/migration-guides/database-migrations.md
+              - Configuración: installation/upgrade/migration-guides/configuration-changes.md
+              - Breaking Changes: installation/upgrade/migration-guides/breaking-changes.md
+          - Post-Upgrade:
+              - Verificación: installation/upgrade/post-upgrade/verification.md
+              - Optimización: installation/upgrade/post-upgrade/optimization.md
+          - Troubleshooting: installation/upgrade/troubleshooting.md
       - Troubleshooting: installation/troubleshooting.md
   - Primeros Pasos:
       - getting-started/index.md
