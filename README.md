@@ -1,6 +1,6 @@
 # Manual de Usuario nubarchiva
 
-[![Deploy Documentation](https://github.com/nubarchiva/nubarchiva-docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/nubarchiva/nubarchiva-docs/actions/workflows/deploy.yml)
+[![Deploy Documentation](https://github.com/nubarchiva/nuba-docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/nubarchiva/nuba-docs/actions/workflows/deploy.yml)
 
 Documentación oficial para usuarios de **nubarchiva**, el sistema de gestión archivística.
 
@@ -43,7 +43,7 @@ nubarchiva-docs/
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/nubarchiva/nubarchiva-docs.git
+git clone https://github.com/nubarchiva/nuba-docs.git
 cd nubarchiva-docs
 ```
 
@@ -373,7 +373,7 @@ Esta documentación está bajo licencia [Apache License 2.0](LICENSE).
 
 ## 📧 Contacto
 
-- **Issues**: [GitHub Issues](https://github.com/nubarchiva/nubarchiva-docs/issues)
+- **Issues**: [GitHub Issues](https://github.com/nubarchiva/nuba-docs/issues)
 - **Soporte**: support@nubarchiva.org
 - **Web**: [nubarchiva.org](https://nubarchiva.org)
 

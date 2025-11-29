@@ -94,7 +94,7 @@ A lo largo de esta documentación encontrarás los siguientes elementos:
 
 Este proyecto es **software libre** bajo licencia [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-- 🌐 **Repositorio de código**: [github.com/nubarchiva/nubarchiva](https://github.com/nubarchiva/nubarchiva) _(próximamente público)_
+- 🌐 **Repositorio de código**: [github.com/nubarchiva/nuba-oss](https://github.com/nubarchiva/nuba-oss) _(próximamente público)_
 - 💬 **Comunidad**: [Únete a la comunidad](community.md)
 - 📖 **Documentación técnica**: Para desarrolladores _(en desarrollo)_
 
@@ -119,10 +119,10 @@ Mientras tanto: [hello@nubarchiva.org](mailto:hello@nubarchiva.org)
 
 nubarchiva mejora gracias a la comunidad. ¡Tu contribución es bienvenida!
 
-- 🐛 [Reportar bugs](https://github.com/nubarchiva/nubarchiva/issues)
-- 💡 [Proponer mejoras](https://github.com/nubarchiva/nubarchiva/discussions)
+- 🐛 [Reportar bugs](https://github.com/nubarchiva/nuba-oss/issues)
+- 💡 [Proponer mejoras](https://github.com/nubarchiva/nuba-oss/discussions)
 - 🔧 Contribuir código _(guía CONTRIBUTING.md próximamente)_
-- 📖 [Mejorar esta documentación](https://github.com/nubarchiva/nubarchiva-docs)
+- 📖 [Mejorar esta documentación](https://github.com/nubarchiva/nuba-docs)
 
 ---
 

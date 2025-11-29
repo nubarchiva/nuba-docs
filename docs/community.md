@@ -20,7 +20,7 @@ Espacio para:
 
 ### GitHub Discussions
 
-**Próximamente**: [github.com/nubarchiva/nubarchiva/discussions](https://github.com/nubarchiva/nubarchiva/discussions)
+**Próximamente**: [github.com/nubarchiva/nuba-oss/discussions](https://github.com/nubarchiva/nuba-oss/discussions)
 
 Para debates más técnicos:
 - Propuestas de arquitectura
@@ -38,7 +38,7 @@ Síguenos para estar al día:
 
 ### Issues en GitHub
 
-**Próximamente**: [github.com/nubarchiva/nubarchiva/issues](https://github.com/nubarchiva/nubarchiva/issues)
+**Próximamente**: [github.com/nubarchiva/nuba-oss/issues](https://github.com/nubarchiva/nuba-oss/issues)
 
 Antes de reportar un bug:
 
@@ -76,7 +76,7 @@ Antes de reportar un bug:
 
 ¿Tienes una idea para mejorar nubarchiva?
 
-**Próximamente**: [github.com/nubarchiva/nubarchiva/discussions/categories/ideas](https://github.com/nubarchiva/nubarchiva/discussions/categories/ideas)
+**Próximamente**: [github.com/nubarchiva/nuba-oss/discussions/categories/ideas](https://github.com/nubarchiva/nuba-oss/discussions/categories/ideas)
 
 Formato sugerido:
 - **Problema que resuelve**: ¿Qué necesidad cubre?
@@ -88,7 +88,7 @@ Formato sugerido:
 
 ### Repositorio
 
-**Próximamente público**: [github.com/nubarchiva/nubarchiva](https://github.com/nubarchiva/nubarchiva)
+**Próximamente público**: [github.com/nubarchiva/nuba-oss](https://github.com/nubarchiva/nuba-oss)
 
 ### Áreas de Contribución
 
@@ -116,7 +116,7 @@ Formato sugerido:
 
 Esta documentación también es código abierto:
 
-**Repositorio**: [github.com/nubarchiva/nubarchiva-docs](https://github.com/nubarchiva/nubarchiva-docs) _(próximamente)_
+**Repositorio**: [github.com/nubarchiva/nuba-docs](https://github.com/nubarchiva/nuba-docs) _(próximamente)_
 
 Tipos de contribuciones bienvenidas:
 - Correcciones de errores tipográficos
@@ -234,7 +234,7 @@ nubarchiva existe gracias a:
 ### Para la Comunidad
 
 - 💬 Foro: [community.nubarchiva.org](https://community.nubarchiva.org) _(próximamente)_
-- 🐛 Issues: [github.com/nubarchiva/nubarchiva/issues](https://github.com/nubarchiva/nubarchiva/issues) _(próximamente)_
+- 🐛 Issues: [github.com/nubarchiva/nuba-oss/issues](https://github.com/nubarchiva/nuba-oss/issues) _(próximamente)_
 - 📧 General: [hello@nubarchiva.org](mailto:hello@nubarchiva.org)
 
 ### Para Empresas

@@ -266,7 +266,7 @@ mvn -version
 ```bash
 # Clonar repositorio
 cd /tmp
-git clone https://github.com/nubarchiva/nubarchiva.git
+git clone https://github.com/nubarchiva/nuba-oss.git
 cd nubarchiva
 
 # Compilar

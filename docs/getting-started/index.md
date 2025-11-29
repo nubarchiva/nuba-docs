@@ -53,7 +53,7 @@ Si encuentras dificultades durante este proceso inicial:
 
 - 💬 [Foro de la comunidad](https://community.nubarchiva.org) _(próximamente)_
 - 📖 [Documentación completa](https://docs.nubarchiva.org)
-- 🐛 [Reportar problema](https://github.com/nubarchiva/nubarchiva/issues) _(próximamente público)_
+- 🐛 [Reportar problema](https://github.com/nubarchiva/nuba-oss/issues) _(próximamente público)_
 
 ---
 

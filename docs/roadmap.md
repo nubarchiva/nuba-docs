@@ -232,13 +232,13 @@ Tienes tres formas de influir en el roadmap:
 
 **Para**: Propuestas generales, discusión de ideas
 
-[📝 Abrir discusión](https://github.com/nubarchiva/nubarchiva/discussions) _(próximamente)_
+[📝 Abrir discusión](https://github.com/nubarchiva/nuba-oss/discussions) _(próximamente)_
 
 #### 2. Feature Requests
 
 **Para**: Solicitudes específicas y detalladas
 
-[💡 Crear feature request](https://github.com/nubarchiva/nubarchiva/issues/new?template=feature_request.md) _(próximamente)_
+[💡 Crear feature request](https://github.com/nubarchiva/nuba-oss/issues/new?template=feature_request.md) _(próximamente)_
 
 #### 3. Contribuir Código
 

@@ -14,7 +14,7 @@ Historial de cambios de nubarchiva siguiendo el formato [Keep a Changelog](https
 - **[Por Versión](#versiones)** - Changelog completo de cada release
 - **[Por Categoría](categories/features.md)** - Solo nuevas funcionalidades
 - **[Breaking Changes](categories/breaking-changes.md)** - Cambios incompatibles
-- **[GitHub Releases](https://github.com/nubarchiva/nubarchiva/releases)** _(próximamente)_
+- **[GitHub Releases](https://github.com/nubarchiva/nuba-oss/releases)** _(próximamente)_
 
 ---
 
@@ -188,8 +188,8 @@ Cambios que rompen compatibilidad con versiones anteriores.
 - **[Roadmap](../roadmap.md)** - Versiones futuras planificadas
 - **[Guía de Actualización](../installation/upgrade/index.md)** - Cómo actualizar
 - **[Matriz de Compatibilidad](../installation/upgrade/compatibility-matrix.md)** - Versiones soportadas
-- **[GitHub Releases](https://github.com/nubarchiva/nubarchiva/releases)** _(próximamente)_
-- **[Migration Scripts](https://github.com/nubarchiva/nubarchiva/tree/main/sql/migrations)** _(próximamente)_
+- **[GitHub Releases](https://github.com/nubarchiva/nuba-oss/releases)** _(próximamente)_
+- **[Migration Scripts](https://github.com/nubarchiva/nuba-oss/tree/main/sql/migrations)** _(próximamente)_
 
 ---
 
@@ -212,7 +212,7 @@ Mantente informado de nuevos releases:
 
 - 🐦 **Twitter/X**: @nubarchiva _(próximamente)_
 - 📧 **Newsletter**: _(próximamente)_
-- 📺 **GitHub Watch**: [nubarchiva/nubarchiva](https://github.com/nubarchiva/nubarchiva) _(próximamente)_
+- 📺 **GitHub Watch**: [nubarchiva/nubarchiva](https://github.com/nubarchiva/nuba-oss) _(próximamente)_
 - 💬 **[Foro](https://community.nubarchiva.org)** _(próximamente)_
 
 ---

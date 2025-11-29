@@ -18,7 +18,7 @@ Bienvenido a la guía de instalación de nubarchiva. Esta sección te ayudará a
 La forma más rápida de tener nubarchiva funcionando:
 
 ```bash
-git clone https://github.com/nubarchiva/nubarchiva.git
+git clone https://github.com/nubarchiva/nuba-oss.git
 cd nubarchiva
 docker-compose up -d
 ```
@@ -154,7 +154,7 @@ Una vez instalado nubarchiva:
 ### Comunidad
 
 - 💬 [Foro de la comunidad](https://community.nubarchiva.org) _(próximamente)_
-- 🐛 [Reportar problemas](https://github.com/nubarchiva/nubarchiva/issues) _(próximamente)_
+- 🐛 [Reportar problemas](https://github.com/nubarchiva/nuba-oss/issues) _(próximamente)_
 - 📖 [Documentación completa](https://docs.nubarchiva.org)
 
 ### Soporte Empresarial
