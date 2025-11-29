@@ -30,7 +30,7 @@ theme:
     - search.share
     - content.code.copy
     - content.code.annotate
-  logo: assets/images/brand/logo.svg
+  logo: assets/images/brand/logo-white.svg
   favicon: assets/images/brand/logo.png
   palette:
     # Light mode
