@@ -99,7 +99,35 @@ markdown_extensions:
 # Navigation
 nav:
   - Inicio: index.md
-  - Instalación: installation.md
+  - Instalación:
+      - installation/index.md
+      - Requisitos: installation/requirements.md
+      - Despliegue:
+          - Docker: installation/deployment/docker.md
+          - Manual (Bare Metal): installation/deployment/bare-metal.md
+          - Kubernetes: installation/deployment/kubernetes.md
+          - Cloud Providers: installation/deployment/cloud.md
+      - Base de Datos:
+          - PostgreSQL: installation/database/postgresql.md
+          - MySQL/MariaDB: installation/database/mysql.md
+          - Oracle: installation/database/oracle.md
+      - Servidor de Aplicaciones:
+          - Apache Tomcat: installation/app-server/tomcat.md
+          - Jetty: installation/app-server/jetty.md
+          - WildFly: installation/app-server/wildfly.md
+      - Motor de Búsqueda:
+          - Apache Solr: installation/search/solr.md
+          - Elasticsearch: installation/search/elasticsearch.md
+      - Configuración:
+          - Básica: installation/configuration/basic.md
+          - Multi-tenancy: installation/configuration/multi-tenancy.md
+          - SSL/TLS: installation/configuration/ssl.md
+          - Optimización: installation/configuration/performance.md
+      - Paquetes:
+          - Debian/Ubuntu: installation/packages/debian-ubuntu.md
+          - Red Hat/CentOS: installation/packages/redhat-centos.md
+      - Actualización: installation/upgrade.md
+      - Troubleshooting: installation/troubleshooting.md
   - Primeros Pasos:
       - getting-started/index.md
       - Acceso al sistema: getting-started/login.md

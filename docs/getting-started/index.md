@@ -15,7 +15,7 @@ En esta sección encontrarás:
 Para utilizar nubarchiva necesitas:
 
 1. **Instalación de nubarchiva**:
-   - Si eres **administrador**, consulta la [Guía de Instalación](../installation.md)
+   - Si eres **administrador**, consulta la [Guía de Instalación](../installation/index.md)
    - Si eres **usuario** de una instalación existente, solicita credenciales al administrador
 2. **Navegador web moderno**: Chrome, Firefox, Safari o Edge actualizados
 3. **Conexión a internet**: Estable para una experiencia óptima
