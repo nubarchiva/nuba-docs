@@ -163,6 +163,7 @@ Una vez instalado nubarchiva:
 📧 [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 Ofrecemos:
+
 - **Instalación asistida** - Te ayudamos paso a paso
 - **Configuración optimizada** - Tuning para tu caso de uso
 - **Migración de datos** - Desde otros sistemas

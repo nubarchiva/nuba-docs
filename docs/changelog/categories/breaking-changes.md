@@ -14,6 +14,7 @@ Cambios que rompen compatibilidad con versiones anteriores.
 ### API REST: Cambio en nombres de campos
 
 **Campos renombrados**:
+
 - `createdDate` → `created_at`
 - `modifiedDate` → `updated_at`
 - `documentId` → `id`

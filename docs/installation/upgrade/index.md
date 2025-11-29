@@ -154,6 +154,7 @@ Después de actualizar:
 Ver: **[Troubleshooting de Upgrades](troubleshooting.md)**
 
 Problemas comunes:
+
 - Error en migración de BD
 - Aplicación no inicia después de upgrade
 - Pérdida de configuración personalizada
@@ -215,6 +216,8 @@ Post-upgrade:
 📧 [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 Ofrecemos:
+
+- Error en migración de BD
 - **Análisis pre-upgrade** - Evaluación de impacto
 - **Upgrade asistido** - Ejecutado por expertos
 - **Soporte 24/7** - Durante ventana de mantenimiento

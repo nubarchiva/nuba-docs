@@ -69,6 +69,7 @@ docker-compose up -d
 ```
 
 Este comando:
+
 - Descarga las imágenes necesarias
 - Crea los contenedores
 - Inicia todos los servicios en segundo plano
@@ -92,6 +93,8 @@ nubarchiva-solr     Up                  8983/tcp
 Abre tu navegador en: [http://localhost:8080/nubarchiva](http://localhost:8080/nubarchiva)
 
 **Credenciales por defecto**:
+
+- Descarga las imágenes necesarias
 - Usuario: `admin`
 - Contraseña: `admin`
 

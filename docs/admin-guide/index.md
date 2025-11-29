@@ -59,7 +59,7 @@ graph LR
     D --> E[Notificar Credenciales]
 ```
 
-**👉 Ver**: [Gestión de usuarios](users/manage.md)
+👉 Ver: [Gestión de usuarios](users/manage.md)
 
 ### Configuración Inicial del Sistema
 
@@ -71,7 +71,7 @@ graph LR
     D --> E[Backup Automático]
 ```
 
-**👉 Ver**: [Configuración general](configuration/general.md)
+👉 Ver: [Configuración general](configuration/general.md)
 
 ### Mantenimiento Periódico
 
@@ -83,7 +83,7 @@ graph LR
     D --> E[Actualizar Índices]
 ```
 
-**👉 Ver**: [Tareas de mantenimiento](maintenance/tasks.md)
+👉 Ver: [Tareas de mantenimiento](maintenance/tasks.md)
 
 ## Checklist del Administrador
 

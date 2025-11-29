@@ -67,6 +67,7 @@ graph LR
 | < 2.23     | ✅     | ✅      | ❌      | ❌      |
 
 **Leyenda**:
+
 - ✅ Soportado y probado
 - ⚠️ Compatible pero no recomendado
 - ❌ No soportado

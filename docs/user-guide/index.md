@@ -59,7 +59,7 @@ graph LR
     D --> E[Seleccionar documento]
 ```
 
-**👉 Empieza aquí**: [Búsqueda simple](search/simple.md)
+👉 Empieza aquí: [Búsqueda simple](search/simple.md)
 
 ### Crear una Colección Temática
 
@@ -71,7 +71,7 @@ graph LR
     D --> E[Compartir/Exportar]
 ```
 
-**👉 Empieza aquí**: [Crear colecciones](collections/create.md)
+👉 Empieza aquí: [Crear colecciones](collections/create.md)
 
 ### Descargar Documentación
 
@@ -82,7 +82,7 @@ graph LR
     C --> D[Descargar]
 ```
 
-**👉 Empieza aquí**: [Descargar documentos](documents/download.md)
+👉 Empieza aquí: [Descargar documentos](documents/download.md)
 
 ## Consejos Rápidos
 
@@ -116,9 +116,9 @@ graph LR
 
 ## Siguiente Paso
 
-¿Primera vez usando nubarchiva? **👉 [Primeros Pasos](../getting-started/index.md)**
+¿Primera vez usando nubarchiva? 👉 [Primeros Pasos](../getting-started/index.md)
 
-¿Ya conoces lo básico? **👉 Comienza con [Navegación](navigation/index.md) o [Búsqueda](search/index.md)**
+¿Ya conoces lo básico? 👉 Comienza con [Navegación](navigation/index.md) o [Búsqueda](search/index.md)
 
 ---
 

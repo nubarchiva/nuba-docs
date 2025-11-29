@@ -105,7 +105,7 @@ graph LR
     D --> E[Aplicar Cambios]
 ```
 
-**👉 Ver**: [Configuración visual](appearance.md)
+👉 Ver: [Configuración visual](appearance.md)
 
 ### Añadir Campos Específicos
 
@@ -119,7 +119,7 @@ graph LR
     D --> E[Probar Campo]
 ```
 
-**👉 Ver**: [Campos personalizados](custom-fields.md)
+👉 Ver: [Campos personalizados](custom-fields.md)
 
 ### Configurar Flujo Documental
 
@@ -133,7 +133,7 @@ graph LR
     D --> E[Activar Flujo]
 ```
 
-**👉 Ver**: [Flujos de trabajo](workflows.md)
+👉 Ver: [Flujos de trabajo](workflows.md)
 
 ## Buenas Prácticas
 

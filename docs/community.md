@@ -13,6 +13,7 @@ status: published
 [groups.google.com/a/nubarchiva.es/g/community](https://groups.google.com/a/nubarchiva.es/g/community)
 
 Espacio para:
+
 - Hacer preguntas sobre el uso del sistema
 - Compartir experiencias y casos de uso
 - Proponer mejoras y nuevas funcionalidades
@@ -22,6 +23,7 @@ Espacio para:
 ### Redes Sociales
 
 Síguenos para estar al día:
+
 - 🐦 **Twitter/X**: @nubarchiva
 - 💼 **LinkedIn**: nubarchiva
 
@@ -74,6 +76,7 @@ Esta documentación también es código abierto:
 **Repositorio**: [github.com/nubarchiva/nuba-docs](https://github.com/nubarchiva/nuba-docs)
 
 Tipos de contribuciones bienvenidas:
+
 - Correcciones de errores tipográficos
 - Mejoras de claridad
 - Nuevos ejemplos
@@ -115,12 +118,14 @@ La comunidad nubarchiva se basa en:
 ### Comportamientos Esperados
 
 ✅ **SÍ hacer**:
+
 - Ser respetuoso con diferentes puntos de vista
 - Aceptar críticas constructivas
 - Enfocarse en lo mejor para la comunidad
 - Mostrar empatía hacia otros miembros
 
 ❌ **NO hacer**:
+
 - Usar lenguaje ofensivo o discriminatorio
 - Ataques personales o trolling
 - Acoso público o privado
@@ -168,12 +173,13 @@ Para desarrolladores que quieran contribuir:
 ### Próximos Eventos
 
 Mantente al tanto de:
+
 - Webinars técnicos
 - Meetups locales
 - Conferencias archivísticas
 - Hackathons
 
-_(Calendario próximamente en groups.google.com/a/nubarchiva.es/g/community)_
+_(Calendario próximamente en el [foro de la comunidad](https://groups.google.com/a/nubarchiva.es/g/community))_
 
 ## ❤️ Agradecimientos
 

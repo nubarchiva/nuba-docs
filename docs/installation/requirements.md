@@ -182,6 +182,7 @@ Si usas Docker:
 | Docker Compose  | 2.0+           |
 
 **Requisitos de host**:
+
 - Linux (recomendado) o Docker Desktop (dev)
 - 4 GB RAM mínimo para el daemon Docker
 - 20 GB espacio en disco
@@ -218,6 +219,8 @@ nubarchiva almacena archivos binarios (documentos digitalizados, imágenes, PDFs
 - **S3**: Amazon S3 o compatible _(futuro)_
 
 **Estimación de espacio**:
+
+- Linux (recomendado) o Docker Desktop (dev)
 - Documentos pequeños (~1 MB promedio): 1 GB por 1,000 documentos
 - Documentos medianos (~10 MB promedio): 10 GB por 1,000 documentos
 - Documentos grandes (~100 MB promedio): 100 GB por 1,000 documentos

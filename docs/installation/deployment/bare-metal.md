@@ -360,6 +360,7 @@ curl http://localhost:8080
 Abre navegador en: [http://localhost:8080/nubarchiva](http://localhost:8080/nubarchiva)
 
 **Credenciales por defecto**:
+
 - Usuario: `admin`
 - Contraseña: `admin`
 

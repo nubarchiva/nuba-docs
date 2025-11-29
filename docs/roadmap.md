@@ -28,6 +28,7 @@ Visión y planificación del desarrollo de nubarchiva.
 **Enfoque**: Estabilidad y mejoras incrementales
 
 **Principales funcionalidades**:
+
 - Mejoras de rendimiento en búsqueda
 - Optimización de interfaz de usuario
 - Correcciones de bugs reportados en 2.24
@@ -249,6 +250,8 @@ Ver: [Guía de Contribución](community.md#contribuir-al-código)
 _(Próximamente - Programa en desarrollo)_
 
 Organizaciones que apoyan activamente el desarrollo de nubarchiva:
+
+- Mejoras de rendimiento en búsqueda
 - Acceso anticipado a nuevas features
 - Influencia en el roadmap
 - Soporte prioritario
@@ -261,6 +264,8 @@ Organizaciones que apoyan activamente el desarrollo de nubarchiva:
 📧 [hello@nubarchiva.es](mailto:hello@nubarchiva.es)
 
 Opciones:
+
+- Acceso anticipado a nuevas features
 - **Feature Sponsorship** - Financia desarrollo de feature específica
 - **Core Development** - Apoya desarrollo general
 - **Infrastructure** - Dona recursos cloud/hardware
