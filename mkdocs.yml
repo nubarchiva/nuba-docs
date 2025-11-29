@@ -8,7 +8,7 @@ hooks:
   - hooks/draft_filter.py
 
 # Repository
-repo_name: nubarchiva-docs
+repo_name: nuba-docs
 repo_url: https://github.com/nubarchiva/nuba-docs
 
 # Copyright
@@ -30,20 +30,22 @@ theme:
     - search.share
     - content.code.copy
     - content.code.annotate
+  logo: assets/images/brand/logo.svg
+  favicon: assets/images/brand/logo.png
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Cambiar a modo oscuro
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Cambiar a modo claro
@@ -51,7 +53,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    repo: fontawesome/brands/git-alt
+    repo: fontawesome/brands/github
 
 # Plugins
 plugins:
@@ -226,6 +228,10 @@ extra:
     description: >-
       Utilizamos cookies para mejorar la experiencia de navegación y analizar
       el uso del sitio. Al continuar navegando, aceptas el uso de cookies.
+
+# Extra CSS
+extra_css:
+  - assets/stylesheets/extra.css
 
 # Extra JavaScript
 extra_javascript:
