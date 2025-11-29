@@ -5,10 +5,11 @@
 
 ## ¿Qué es nubarchiva?
 
-**nubarchiva** es una plataforma completa para la gestión, preservación y difusión de fondos documentales y archivos. Permite a instituciones públicas y privadas organizar, describir y poner a disposición su patrimonio documental de manera eficiente y accesible.
+**nubarchiva** es una plataforma **open source** completa para la gestión, preservación y difusión de fondos documentales y archivos. Permite a instituciones públicas y privadas organizar, describir y poner a disposición su patrimonio documental de manera eficiente y accesible.
 
 ## Características Principales
 
+- **Software Libre**: Licencia Apache 2.0, código abierto y auditable
 - **Gestión documental completa**: Organización y descripción de fondos archivísticos
 - **Búsqueda avanzada**: Potente motor de búsqueda con múltiples criterios y filtros
 - **Catálogo público (OPAC)**: Interfaz web para consulta ciudadana
@@ -85,21 +86,39 @@ A lo largo de esta documentación encontrarás los siguientes elementos:
 !!! example "Ejemplo"
     Ejemplos prácticos de uso.
 
+## nubarchiva es Open Source
+
+Este proyecto es **software libre** bajo licencia [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+- 🌐 **Repositorio de código**: [github.com/nubarchiva/nubarchiva](https://github.com/nubarchiva/nubarchiva) _(próximamente público)_
+- 💬 **Comunidad**: [Únete a la comunidad](community.md)
+- 📖 **Documentación técnica**: Para desarrolladores _(en desarrollo)_
+
 ## Necesitas Ayuda
 
-Si no encuentras la información que buscas:
+### Soporte Comunitario (Gratuito)
 
-- 📧 Contacta con el soporte técnico de tu institución
-- 🐛 Reporta errores en la documentación
-- 💡 Sugiere mejoras
+- 💬 **Foro de la comunidad**: Próximamente en community.nubarchiva.org
+- 💭 **Discusiones en GitHub**: Para propuestas y feedback
+- 🐛 **Reportar bugs**: Issues en GitHub
+- 📖 **Esta documentación**: Guías completas de uso
 
-## Contribuir a la Documentación
+### Soporte Empresarial
 
-Esta documentación es un proyecto vivo que mejora continuamente. Si deseas contribuir:
+¿Necesitas soporte profesional, consultoría o personalizaciones avanzadas?
 
-1. Consulta el [README](https://github.com/tu-org/nubarchiva-docs/blob/main/README.md) del repositorio
-2. Reporta errores o sugiere mejoras
-3. Envía pull requests con correcciones o nuevos contenidos
+👉 [**Servicios empresariales**](#) _(formulario de contacto próximamente)_
+
+Mientras tanto: [hello@nubarchiva.org](mailto:hello@nubarchiva.org)
+
+## Contribuir
+
+nubarchiva mejora gracias a la comunidad. ¡Tu contribución es bienvenida!
+
+- 🐛 [Reportar bugs](https://github.com/nubarchiva/nubarchiva/issues)
+- 💡 [Proponer mejoras](https://github.com/nubarchiva/nubarchiva/discussions)
+- 🔧 Contribuir código _(guía CONTRIBUTING.md próximamente)_
+- 📖 [Mejorar esta documentación](https://github.com/nubarchiva/nubarchiva-docs)
 
 ---
 

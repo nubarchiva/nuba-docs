@@ -14,7 +14,9 @@ En esta sección encontrarás:
 
 Para utilizar nubarchiva necesitas:
 
-1. **Credenciales de acceso**: Usuario y contraseña proporcionados por tu institución
+1. **Instalación de nubarchiva**:
+   - Si eres **administrador**, consulta la [Guía de Instalación](../installation.md)
+   - Si eres **usuario** de una instalación existente, solicita credenciales al administrador
 2. **Navegador web moderno**: Chrome, Firefox, Safari o Edge actualizados
 3. **Conexión a internet**: Estable para una experiencia óptima
 
@@ -45,9 +47,9 @@ Una vez completada esta sección, estarás listo para:
 
 Si encuentras dificultades durante este proceso inicial:
 
-- Consulta las **preguntas frecuentes** de tu institución
-- Contacta con el **soporte técnico** local
-- Revisa la [**Guía de Usuario completa**](../user-guide/index.md)
+- 💬 [Foro de la comunidad](https://community.nubarchiva.org) _(próximamente)_
+- 📖 [Documentación completa](https://docs.nubarchiva.org)
+- 🐛 [Reportar problema](https://github.com/nubarchiva/nubarchiva/issues) _(próximamente público)_
 
 ---
 

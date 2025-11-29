@@ -99,6 +99,7 @@ markdown_extensions:
 # Navigation
 nav:
   - Inicio: index.md
+  - Instalación: installation.md
   - Primeros Pasos:
       - getting-started/index.md
       - Acceso al sistema: getting-started/login.md
@@ -146,6 +147,7 @@ nav:
       - Configuración visual: customization/appearance.md
       - Flujos de trabajo: customization/workflows.md
       - Campos personalizados: customization/custom-fields.md
+  - Comunidad: community.md
 
 # Extra
 extra:
