@@ -51,78 +51,41 @@ def on_files(files, config):
             filtered.append(file)
             _published_files.add(file.src_path)
         else:
-            log.info(f"Excluyendo archivo: {file.src_path} (status: {status})")
+            log.debug(f"Excluyendo archivo: {file.src_path} (status: {status})")
 
     return Files(filtered)
 
 
-def on_config(config):
+def on_nav(nav, config, files):
     """Filtra la navegación para excluir páginas draft."""
     if DRAFT_MODE:
-        return config
+        return nav
 
-    if 'nav' in config and config['nav']:
-        config['nav'] = _filter_nav(config['nav'], config['docs_dir'])
-
-    return config
-
-
-def _filter_nav(nav_items, docs_dir):
-    """Filtra recursivamente los items de navegación."""
-    if nav_items is None:
-        return None
-
-    filtered = []
-
-    for item in nav_items:
-        if isinstance(item, str):
-            # Entrada simple: "page.md"
-            if _is_published(item, docs_dir):
-                filtered.append(item)
-            else:
-                log.info(f"Excluyendo nav: {item}")
-        elif isinstance(item, dict):
-            # Entrada con título: {"Título": "page.md"} o {"Sección": [...]}
-            for title, value in item.items():
-                if isinstance(value, str):
-                    # Es un enlace a página
-                    if _is_published(value, docs_dir):
-                        filtered.append({title: value})
-                    else:
-                        log.info(f"Excluyendo nav: {title} -> {value}")
-                elif isinstance(value, list):
-                    # Es una sección con sub-items
-                    filtered_children = _filter_nav(value, docs_dir)
-                    if filtered_children:
-                        filtered.append({title: filtered_children})
-                    else:
-                        log.info(f"Excluyendo sección vacía: {title}")
-                else:
-                    filtered.append(item)
-        else:
-            filtered.append(item)
-
-    return filtered
+    # Filtrar items de navegación recursivamente
+    _filter_nav_items(nav.items, config['docs_dir'])
+    return nav
 
 
-def _is_published(page_path, docs_dir):
-    """Verifica si una página está publicada."""
-    # Normalizar path
-    normalized = _normalize_path(page_path)
+def _filter_nav_items(items, docs_dir):
+    """Filtra recursivamente los items de navegación in-place."""
+    to_remove = []
 
-    # Verificar en cache
-    if normalized in _published_files:
-        return True
+    for item in items:
+        if hasattr(item, 'file') and item.file:
+            # Es una página
+            if item.file.src_path not in _published_files:
+                log.debug(f"Excluyendo nav: {item.file.src_path}")
+                to_remove.append(item)
+        elif hasattr(item, 'children') and item.children:
+            # Es una sección con hijos
+            _filter_nav_items(item.children, docs_dir)
+            # Si quedó vacía, marcar para eliminar
+            if not item.children:
+                log.debug(f"Excluyendo sección vacía: {item.title}")
+                to_remove.append(item)
 
-    # Si el cache está vacío (on_config se ejecuta antes de on_files),
-    # verificar directamente el archivo
-    if not _published_files:
-        full_path = os.path.join(docs_dir, normalized)
-        if os.path.exists(full_path):
-            status = _get_status_from_path(full_path)
-            return status == 'published'
-
-    return False
+    for item in to_remove:
+        items.remove(item)
 
 
 def _normalize_path(page_path):
@@ -215,7 +178,7 @@ def _convert_draft_links(markdown, page, config):
             return match.group(0)  # Mantener enlace original
 
         # Convertir a texto con (próximamente)
-        log.info(f"Convirtiendo enlace draft: [{link_text}]({link_url}) en página {page.file.src_path}")
+        log.debug(f"Convirtiendo enlace draft: [{link_text}]({link_url}) en página {page.file.src_path}")
 
         # Eliminar negritas del texto si las tiene (evitar duplicados)
         clean_text = re.sub(r'^\*+|\*+$', '', link_text)
@@ -243,8 +206,10 @@ def _resolve_link_path(link_url, page_dir):
     else:
         resolved = os.path.normpath(link_url)
 
-    # Limpiar ../ que puedan quedar
-    resolved = resolved.replace('../', '').replace('..\\', '')
+    # Si el path escapa de docs_dir, es inválido
+    if resolved.startswith('..'):
+        log.debug(f"Enlace escapa de docs_dir: {link_url} -> {resolved}")
+        return None
 
     return resolved
 
@@ -268,7 +233,7 @@ def _is_link_published(link_path, docs_dir):
 
     # Si el archivo no existe, marcarlo como "próximamente"
     # (es contenido planificado pero no creado aún)
-    log.info(f"Archivo no encontrado, marcando como próximamente: {normalized}")
+    log.debug(f"Archivo no encontrado, marcando como próximamente: {normalized}")
     return False
 
 
