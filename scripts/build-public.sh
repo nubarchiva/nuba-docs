@@ -12,7 +12,7 @@ YELLOW='\033[1;33m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
-echo -e "${GREEN}🏗️  Build de producción nubarchiva-docs${NC}"
+echo -e "${GREEN}🏗️  Build de producción nuba-docs${NC}"
 
 # Cambiar al directorio del proyecto
 cd "$(dirname "$0")/.."

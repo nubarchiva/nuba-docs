@@ -87,8 +87,8 @@ Tipos de contribuciones bienvenidas:
 
 ```bash
 # Fork y clona el repositorio
-git clone https://github.com/TU_USUARIO/nubarchiva-docs.git
-cd nubarchiva-docs
+git clone https://github.com/TU_USUARIO/nuba-docs.git
+cd nuba-docs
 
 # Crea entorno virtual
 python3 -m venv venv
