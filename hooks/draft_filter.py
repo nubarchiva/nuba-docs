@@ -193,16 +193,12 @@ def _convert_draft_links(markdown, page, config):
     docs_dir = config['docs_dir']
     page_dir = os.path.dirname(page.file.src_path)
 
-    # Patrón para enlaces markdown con posible negrita: **[texto](url)** o [texto](url)
-    # Captura: negrita inicial, texto del enlace, URL, negrita final
-    link_pattern = re.compile(r'(\*\*)?(\[([^\]]+)\]\(([^)]+)\))(\*\*)?')
+    # Patrón para enlaces markdown: [texto](url) o [**texto**](url)
+    link_pattern = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
 
     def replace_link(match):
-        bold_start = match.group(1) or ''
-        full_link = match.group(2)
-        link_text = match.group(3)
-        link_url = match.group(4)
-        bold_end = match.group(5) or ''
+        link_text = match.group(1)
+        link_url = match.group(2)
 
         # Ignorar enlaces externos, anclas y mailto
         if link_url.startswith(('http://', 'https://', '#', 'mailto:')):
@@ -217,11 +213,10 @@ def _convert_draft_links(markdown, page, config):
 
         # Convertir a texto con (próximamente)
         log.info(f"Convirtiendo enlace draft: [{link_text}]({link_url}) en página {page.file.src_path}")
-        # Mantener negrita si estaba presente
-        if bold_start or bold_end:
-            return f'**{link_text}** *(próximamente)*'
-        else:
-            return f'**{link_text}** *(próximamente)*'
+
+        # Eliminar negritas del texto si las tiene (evitar duplicados)
+        clean_text = link_text.strip('*')
+        return f'**{clean_text}** *(próximamente)*'
 
     return link_pattern.sub(replace_link, markdown)
 
