@@ -85,7 +85,11 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -156,3 +160,7 @@ extra:
     description: >-
       Utilizamos cookies para mejorar la experiencia de navegación y analizar
       el uso del sitio. Al continuar navegando, aceptas el uso de cookies.
+
+# Extra JavaScript
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
