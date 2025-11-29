@@ -191,9 +191,10 @@ Post-upgrade:
 
 ## 📚 Recursos Adicionales
 
-- **[Release Notes](https://github.com/nubarchiva/nubarchiva/releases)** _(próximamente)_
-- **[Changelog](https://github.com/nubarchiva/nubarchiva/blob/main/CHANGELOG.md)** _(próximamente)_
+- **[Changelog](../../changelog/index.md)** - Historial de cambios por versión
+- **[Roadmap](../../roadmap.md)** - Versiones futuras planificadas
 - **[Migration Scripts](https://github.com/nubarchiva/nubarchiva/tree/main/sql/migrations)** _(próximamente)_
+- **[GitHub Releases](https://github.com/nubarchiva/nubarchiva/releases)** _(próximamente)_
 
 ---
 

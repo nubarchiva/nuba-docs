@@ -196,6 +196,18 @@ nav:
       - Flujos de trabajo: customization/workflows.md
       - Campos personalizados: customization/custom-fields.md
   - Comunidad: community.md
+  - Proyecto:
+      - Roadmap: roadmap.md
+      - Changelog:
+          - changelog/index.md
+          - Versiones:
+              - v2.25.0: changelog/versions/v2.25.md
+              - v2.24.0: changelog/versions/v2.24.md
+          - Por Categoría:
+              - Funcionalidades: changelog/categories/features.md
+              - Correcciones: changelog/categories/fixes.md
+              - Breaking Changes: changelog/categories/breaking-changes.md
+              - Deprecaciones: changelog/categories/deprecations.md
 
 # Extra
 extra:
