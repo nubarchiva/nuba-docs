@@ -9,7 +9,7 @@ hooks:
 
 # Repository
 repo_name: nubarchiva-docs
-# repo_url: https://github.com/tu-org/nubarchiva-docs
+repo_url: https://github.com/nubarchiva/nubarchiva-docs
 
 # Copyright
 copyright: Copyright &copy; 2025 nubarchiva
@@ -217,7 +217,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/tu-org/nubarchiva-docs
+      link: https://github.com/nubarchiva/nubarchiva-docs
       name: nubarchiva en GitHub
   version:
     provider: mike

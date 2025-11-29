@@ -1,6 +1,6 @@
 # Manual de Usuario nubarchiva
 
-[![Deploy Documentation](https://github.com/tu-org/nubarchiva-docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/tu-org/nubarchiva-docs/actions/workflows/deploy.yml)
+[![Deploy Documentation](https://github.com/nubarchiva/nubarchiva-docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/nubarchiva/nubarchiva-docs/actions/workflows/deploy.yml)
 
 Documentación oficial para usuarios de **nubarchiva**, el sistema de gestión archivística.
 
@@ -12,7 +12,7 @@ La documentación está publicada en: **[https://docs.nubarchiva.org](https://do
 
 ```
 nubarchiva-docs/
-├── docs/                       # Contenido de la documentación
+├── docs/                      # Contenido de la documentación
 │   ├── index.md               # Página de inicio
 │   ├── installation/          # Guía de instalación
 │   ├── getting-started/       # Primeros pasos
@@ -21,9 +21,9 @@ nubarchiva-docs/
 │   ├── customization/         # Personalización
 │   ├── changelog/             # Historial de versiones
 │   └── assets/                # Recursos (imágenes, videos)
-├── hooks/                      # Hooks de MkDocs
+├── hooks/                     # Hooks de MkDocs
 │   └── draft_filter.py        # Filtro de contenido draft/published
-├── scripts/                    # Scripts de utilidad
+├── scripts/                   # Scripts de utilidad
 │   ├── add-frontmatter.py     # Añadir front matter a archivos
 │   └── build-public.sh        # Build de producción
 ├── mkdocs.yml                 # Configuración de MkDocs
@@ -43,7 +43,7 @@ nubarchiva-docs/
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-org/nubarchiva-docs.git
+git clone https://github.com/nubarchiva/nubarchiva-docs.git
 cd nubarchiva-docs
 ```
 
@@ -373,7 +373,7 @@ Esta documentación está bajo licencia [Apache License 2.0](LICENSE).
 
 ## 📧 Contacto
 
-- **Issues**: [GitHub Issues](https://github.com/tu-org/nubarchiva-docs/issues)
+- **Issues**: [GitHub Issues](https://github.com/nubarchiva/nubarchiva-docs/issues)
 - **Soporte**: support@nubarchiva.org
 - **Web**: [nubarchiva.org](https://nubarchiva.org)
 
