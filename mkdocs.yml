@@ -50,7 +50,7 @@ theme:
         icon: material/brightness-4
         name: Cambiar a modo claro
   font:
-    text: Roboto
+    text: Poppins
     code: Roboto Mono
   icon:
     repo: fontawesome/brands/github

@@ -1,3 +1,12 @@
+/* Panamera Font - Corporate typography */
+@font-face {
+  font-family: 'Panamera';
+  src: url('../fonts/Panamera-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* nubarchiva Brand Colors */
 :root {
   /* Primary: Cyan corporativo #4ec5ff */
@@ -58,4 +67,25 @@
 .md-typeset .note > .admonition-title,
 .md-typeset .note > summary {
   background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* Headings with Panamera font */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: 'Panamera', sans-serif;
+  font-weight: 500;
+}
+
+/* Site title in header */
+.md-header__title {
+  font-family: 'Panamera', sans-serif;
+}
+
+/* Navigation sidebar titles */
+.md-nav__title {
+  font-family: 'Panamera', sans-serif;
 }
