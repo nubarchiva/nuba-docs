@@ -201,16 +201,16 @@ graph LR
 
 ### Soporte Incluido
 
-✅ Configuración visual básica (logos, colores)
-✅ Configuración de campos estándar
-✅ Documentación y guías
+- ✅ Configuración visual básica (logos, colores)
+- ✅ Configuración de campos estándar
+- ✅ Documentación y guías
 
 ### Soporte Bajo Demanda
 
-💼 Personalizaciones avanzadas
-💼 Desarrollo de extensiones
-💼 Integraciones con sistemas externos
-💼 Formación específica
+- 💼 Personalizaciones avanzadas
+- 💼 Desarrollo de extensiones
+- 💼 Integraciones con sistemas externos
+- 💼 Formación específica
 
 ## Casos de Éxito
 
@@ -234,8 +234,10 @@ graph LR
 Elige el área de personalización que necesitas:
 
 - 🎨 **[Configuración Visual](appearance.md)** - Adapta la apariencia
-<!-- draft:start -->- 🔄 **[Flujos de Trabajo](workflows.md)** - Personaliza procesos
-<!-- draft:end -->- 📝 **[Campos Personalizados](custom-fields.md)** - Amplía metadatos
+<!-- draft:start -->
+- 🔄 **[Flujos de Trabajo](workflows.md)** - Personaliza procesos
+<!-- draft:end -->
+- 📝 **[Campos Personalizados](custom-fields.md)** - Amplía metadatos
 
 ---
 
