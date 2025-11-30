@@ -40,12 +40,14 @@ Trabaja con los documentos encontrados:
 - **[Descargar documentos](documents/download.md)**: Guarda copias locales
 - **[Compartir documentos](documents/share.md)**: Comparte enlaces permanentes
 
+<!-- draft:start -->
 ### [📁 Colecciones](collections/index.md)
 
 Organiza documentos de interés:
 
 - **[Crear colecciones](collections/create.md)**: Agrupa documentos relacionados
 - **[Gestionar colecciones](collections/manage.md)**: Edita y organiza tus colecciones
+<!-- draft:end -->
 
 ## Casos de Uso Comunes
 
@@ -61,6 +63,7 @@ graph LR
 
 👉 Empieza aquí: [Búsqueda simple](search/simple.md)
 
+<!-- draft:start -->
 ### Crear una Colección Temática
 
 ```mermaid
@@ -72,6 +75,7 @@ graph LR
 ```
 
 👉 Empieza aquí: [Crear colecciones](collections/create.md)
+<!-- draft:end -->
 
 ### Descargar Documentación
 
@@ -100,19 +104,19 @@ graph LR
 | Atajo | Acción |
 |-------|--------|
 | `Ctrl + F` / `Cmd + F` | Búsqueda rápida en la página |
-| `Escape` | Cerrar ventanas modales |
-| `Tab` | Navegar entre campos de formulario |
+<!-- draft:start -->| `Escape` | Cerrar ventanas modales |
+<!-- draft:end -->| `Tab` | Navegar entre campos de formulario |
 
 ## Preguntas Frecuentes
 
 ??? question "¿Puedo descargar múltiples documentos a la vez?"
-    Actualmente, las descargas se realizan documento por documento. Puedes crear una colección para agruparlos y descargar la lista.
+    Actualmente, las descargas se realizan documento por documento.<!-- draft:start --> Puedes crear una colección para agruparlos y descargar la lista.<!-- draft:end -->
 
 ??? question "¿Los resultados de búsqueda tienen límite?"
     Sí, por defecto se muestran los primeros 100 resultados. Utiliza filtros para refinar tu búsqueda.
 
 ??? question "¿Necesito cuenta para buscar documentos?"
-    No, el catálogo público es accesible sin autenticación. Solo necesitas cuenta para funciones avanzadas como crear colecciones.
+    No, el catálogo público es accesible sin autenticación. Solo necesitas cuenta para funciones avanzadas<!-- draft:start --> como crear colecciones<!-- draft:end -->.
 
 ## Siguiente Paso
 

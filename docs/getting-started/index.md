@@ -33,7 +33,9 @@ Para utilizar nubarchiva necesitas:
 2. [Explora la interfaz](interface.md) principal
 3. [Realiza tu primera búsqueda](../user-guide/search/index.md)
 4. [Consulta los documentos](../user-guide/documents/index.md) encontrados
+<!-- draft:start -->
 5. [Crea colecciones](../user-guide/collections/index.md) con tus documentos favoritos
+<!-- draft:end -->
 
 ## ¿Necesitas ayuda?
 

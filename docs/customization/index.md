@@ -29,6 +29,7 @@ Adapta la apariencia de la plataforma:
 - Tipografías y estilos
 - Plantillas de visualización
 
+<!-- draft:start -->
 ### [🔄 Flujos de Trabajo](workflows.md)
 
 Personaliza los procesos operativos:
@@ -38,6 +39,7 @@ Personaliza los procesos operativos:
 - Notificaciones automáticas
 - Validaciones personalizadas
 
+<!-- draft:end -->
 ### [📝 Campos Personalizados](custom-fields.md)
 
 Amplía el modelo de datos:
@@ -121,6 +123,7 @@ graph LR
 
 👉 Ver: [Campos personalizados](custom-fields.md)
 
+<!-- draft:start -->
 ### Configurar Flujo Documental
 
 Define un proceso específico para tu organización:
@@ -135,6 +138,7 @@ graph LR
 
 👉 Ver: [Flujos de trabajo](workflows.md)
 
+<!-- draft:end -->
 ## Buenas Prácticas
 
 ### Antes de Personalizar
@@ -230,8 +234,8 @@ graph LR
 Elige el área de personalización que necesitas:
 
 - 🎨 **[Configuración Visual](appearance.md)** - Adapta la apariencia
-- 🔄 **[Flujos de Trabajo](workflows.md)** - Personaliza procesos
-- 📝 **[Campos Personalizados](custom-fields.md)** - Amplía metadatos
+<!-- draft:start -->- 🔄 **[Flujos de Trabajo](workflows.md)** - Personaliza procesos
+<!-- draft:end -->- 📝 **[Campos Personalizados](custom-fields.md)** - Amplía metadatos
 
 ---
 

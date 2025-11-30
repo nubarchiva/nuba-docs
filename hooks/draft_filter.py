@@ -127,10 +127,11 @@ def _get_status_from_path(full_path):
 
 def on_page_markdown(markdown, page, config, files):
     """
-    En DRAFT_MODE: Añade banner visual para drafts.
+    En DRAFT_MODE: Elimina marcadores draft (mantiene contenido) y añade banner.
     En producción: Elimina bloques draft inline y convierte enlaces a páginas draft.
     """
     if DRAFT_MODE:
+        markdown = _strip_draft_markers(markdown)
         return _add_draft_banner(markdown, page)
     else:
         markdown = _remove_draft_blocks(markdown)
@@ -158,13 +159,34 @@ def _add_draft_banner(markdown, page):
     return markdown
 
 
+def _strip_draft_markers(markdown):
+    """Elimina solo los marcadores <!-- draft:start/end --> manteniendo el contenido."""
+    markdown = re.sub(r'<!--\s*draft:start\s*-->\n?', '', markdown)
+    markdown = re.sub(r'\n?<!--\s*draft:end\s*-->', '', markdown)
+    return markdown
+
+
 def _remove_draft_blocks(markdown):
     """Elimina bloques <!-- draft:start -->...<!-- draft:end --> del markdown."""
+    # Usar función de reemplazo para preservar saltos de línea solo cuando existen
     pattern = re.compile(
-        r'<!--\s*draft:start\s*-->.*?<!--\s*draft:end\s*-->',
+        r'(\n?)<!--\s*draft:start\s*-->.*?<!--\s*draft:end\s*-->(\n?)',
         re.DOTALL
     )
-    return pattern.sub('', markdown)
+
+    def replacer(match):
+        before_newline = match.group(1)
+        after_newline = match.group(2)
+        # Si había salto de línea antes Y después, dejar solo uno
+        if before_newline and after_newline:
+            return '\n'
+        # Si no había saltos (inline), no añadir nada
+        return ''
+
+    result = pattern.sub(replacer, markdown)
+    # Limpiar líneas vacías múltiples (más de 2 seguidas)
+    result = re.sub(r'\n{3,}', '\n\n', result)
+    return result
 
 
 def _convert_draft_links(markdown, page, config):
