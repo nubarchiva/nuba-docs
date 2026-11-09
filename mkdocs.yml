@@ -100,6 +100,16 @@ markdown_extensions:
 # Navigation
 nav:
   - Inicio: index.md
+  - Portal de difusión:
+      - user-guide/diffusion-portal/index.md
+      - Seleccionar un bloque: user-guide/diffusion-portal/select-block.md
+      - Ver las demás opciones: user-guide/diffusion-portal/block-options.md
+      - Guardar los cambios: user-guide/diffusion-portal/save-changes.md
+      - Publicar una página: user-guide/diffusion-portal/publish.md
+      - Montar un carrusel: user-guide/diffusion-portal/carousel.md
+      - Configurar la caja de búsqueda: user-guide/diffusion-portal/search-box.md
+      - Ampliar una imagen: user-guide/diffusion-portal/image-zoom.md
+      - Elegir imágenes: user-guide/diffusion-portal/choose-images.md
 
 # Extra
 extra:
