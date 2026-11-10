@@ -38,7 +38,9 @@ Para editar el portal necesitas una cuenta con permiso de administración del po
 - **Guardar**: no hay botón de guardar. Cada cambio se guarda solo. Al cambiar las opciones de un bloque, el aviso
   «Guardado» lo confirma y, si algo no se ha guardado, un mensaje te dice qué campo revisar
   ([Guardar los cambios](save-changes.md)).
-- **Ver cómo queda**: pulsa **Vista previa**. Se abre en otra pestaña con tus cambios; si haces más cambios, recarga
+- **Ver cómo queda**: pulsa **Vista previa**. Se abre en otra pestaña la página con tus cambios, con la cabecera y el
+  pie de la web pública, y puedes verla con el ancho de un móvil, una tableta o un escritorio
+  ([Ver la página en cada dispositivo](publish.md#ver-la-pagina-en-cada-dispositivo)). Si haces más cambios, recarga
   esa pestaña.
 - **Publicar**: los visitantes no ven nada hasta que pulsas **Publicar**. Entonces aparece el aviso «¡Publicado! Los
   visitantes ya ven tus cambios.». La dirección pública de la página se copia desde **Más acciones**
