@@ -7,6 +7,26 @@ status: published
 Los visitantes del portal no ven nada de lo que cambias hasta que publicas. Una vez publicada, el editor te da la
 dirección pública de la página, la que puedes compartir o enlazar.
 
+## Ver la página en cada dispositivo
+
+Antes de publicar, puedes ver la página con tus cambios tal como la verá un visitante en un móvil, una tableta o un
+ordenador.
+
+1. Abre la página en el editor ([Antes de empezar](index.md#antes-de-empezar)).
+2. Pulsa **Vista previa**. Se abre una pestaña nueva con la página, la cabecera y el pie de la web pública, sin el
+   menú de nubarchiva.
+3. Arriba, pulsa **Móvil**, **Tableta** o **Escritorio**. La página se dibuja con el ancho de ese dispositivo: 375,
+   768 o 1280 píxeles. La pestaña se abre en **Escritorio**.
+4. Si haces más cambios en el editor, recarga la pestaña de la vista previa para verlos. Al recargarla, vuelve a
+   **Escritorio**.
+
+Si la ventana es más estrecha que el dispositivo elegido, la página se ve más pequeña para que quepa a lo ancho, con
+la misma disposición que tendría en ese dispositivo.
+
+En la vista previa, una imagen configurada para ampliarse se abre ampliada sobre la página. Para seguir los enlaces o
+buscar como lo haría un visitante, publica la página y abre su dirección pública en una ventana privada
+([Copiar la dirección pública](#copiar-la-direccion-publica)).
+
 ## Publicar
 
 1. Abre la página en el editor ([Antes de empezar](index.md#antes-de-empezar)).
