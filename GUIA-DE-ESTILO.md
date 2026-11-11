@@ -27,10 +27,12 @@ tarea o lo que la aplicación ya dice en pantalla.
 El título dice lo que el lector quiere hacer, en infinitivo y con sus palabras, no con las del código ni con el nombre
 técnico de la pantalla.
 
-- Correcto: «Seleccionar un bloque», «Montar un carrusel de imágenes».
+- Correcto: «Seleccionar un bloque», «Montar un carrusel de imágenes» (`select-block.md`, `carousel.md`).
 - Incorrecto: «Panel de propiedades», «Gestión de la publicación».
 
-El título de la página es el mismo que el de su entrada en `nav` de `mkdocs.yml`, o una forma más corta de él.
+La entrada de la página en `nav` de `mkdocs.yml` es su título o una forma más corta de él.
+
+- Correcto: «Montar un carrusel» en `nav` para la página «Montar un carrusel de imágenes» (`carousel.md`).
 
 ## El resultado, en la primera frase
 
@@ -53,10 +55,15 @@ como hacerlo con el teclado, van en una frase después de la lista.
 ## Tuteo, con la voz del producto
 
 Se habla al lector de tú, con la misma voz que los textos de la aplicación: formal con tuteo, en español de España.
-La voz la fija la guía de microcopy del producto (`microcopy-guidelines.md` del workspace de nubarchiva, §1); esta
-guía no la repite. Una página y la pantalla que describe suenan igual.
+El registro es el cuidado que espera quien trabaja en un archivo o una biblioteca, sin coloquialismos, y la cercanía
+la da el tú; para matizar se usan el condicional con «si» y las construcciones con «se». Una página y la pantalla que
+describe suenan igual. Para el equipo, la fuente de esta voz es la guía de microcopy del producto
+(`microcopy-guidelines.md` del workspace de nubarchiva, §1).
 
 - Correcto: «Los visitantes del portal no ven nada de lo que cambias hasta que publicas.» (`publish.md`).
+- Correcto: «Si recargas la página, el cambio sigue ahí.» (`save-changes.md`).
+- Correcto: «Otros cambios, como añadir un bloque, se guardan igual aunque no muestren el aviso.»
+  (`save-changes.md`).
 - Incorrecto: «El usuario deberá pulsar…», «Pulse…».
 
 ## Castellano fácil de traducir
