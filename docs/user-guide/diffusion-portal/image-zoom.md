@@ -33,5 +33,8 @@ Las otras opciones de **Al pulsar la imagen** son:
 
 1. Pulsa **Vista previa** y, en la pestaña que se abre, pulsa la imagen.
 2. La imagen se abre ampliada sobre la página, con el pie de foto debajo.
+
+   ![La imagen ampliada en la vista previa, con su pie de foto debajo.](../../assets/screenshots/es/diffusion-portal/image-zoom/zoomed.png)
+
 3. Para cerrarla, pulsa **Cerrar**, pulsa la tecla Esc o haz clic fuera de la imagen.
 4. Cuando esté a tu gusto, vuelve al editor y pulsa **Publicar**.

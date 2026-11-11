@@ -32,12 +32,21 @@ buscar como lo haría un visitante, publica la página y abre su dirección púb
 1. Abre la página en el editor ([Antes de empezar](index.md#antes-de-empezar)).
 2. Pulsa **Publicar**, en la barra de arriba del editor.
 3. Sale el aviso «¡Publicado! Los visitantes ya ven tus cambios.».
+
+   ![El aviso «¡Publicado!» y el estado Publicada de la página.](../../assets/screenshots/es/diffusion-portal/publish/published.png)
+
 4. El estado de la página pasa a **Publicada** y el botón **Publicar** desaparece hasta que hagas otro cambio.
 
 ## Copiar la dirección pública
 
 1. Pulsa **Más acciones**, el último botón de la barra del editor, a la derecha de **Vista previa**.
+
+   ![El menú Más acciones desplegado.](../../assets/screenshots/es/diffusion-portal/publish/more-actions.png)
+
 2. Pulsa **Copiar dirección pública**. Sale el aviso «Dirección pública copiada.».
+
+   ![El aviso «Dirección pública copiada.».](../../assets/screenshots/es/diffusion-portal/publish/address-copied.png)
+
 3. Pega la dirección donde quieras compartirla o enlazarla.
 
 Si la página aún no se ha publicado, el menú dice «Publica la página para tener su dirección pública.» en lugar de
