@@ -53,7 +53,7 @@ como hacerlo con el teclado, van en una frase después de la lista.
 ## Tuteo, con la voz del producto
 
 Se habla al lector de tú, con la misma voz que los textos de la aplicación: formal con tuteo, en español de España.
-La voz la fija la guía de microcopy del producto (`.ai/microcopy-guidelines.md` del workspace de nubarchiva, §1); esta
+La voz la fija la guía de microcopy del producto (`microcopy-guidelines.md` del workspace de nubarchiva, §1); esta
 guía no la repite. Una página y la pantalla que describe suenan igual.
 
 - Correcto: «Los visitantes del portal no ven nada de lo que cambias hasta que publicas.» (`publish.md`).
@@ -71,7 +71,7 @@ La documentación tendrá una versión en inglés. Se escribe para que se traduz
 Ejemplo correcto: «Para cambiar un bloque, primero lo seleccionas. Sus opciones se abren en el panel de la derecha.»
 (`select-block.md`).
 
-Las reglas generales de redacción están en la guía de idioma del workspace (`.ai/language-guidelines.md`, §2 y §5).
+Las reglas generales de redacción están en la guía de idioma del workspace (`language-guidelines.md`, §2 y §5).
 
 ## Botones, menús y campos, como los rotula la aplicación
 
