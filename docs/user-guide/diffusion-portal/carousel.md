@@ -16,7 +16,7 @@ subirlas.
 2. Pulsa **Añadir bloque** y elige **Carrusel de cabecera**. Sus opciones se abren a la derecha.
 3. Pasa a la pestaña **Elementos** y pulsa **Añadir elemento**.
 
-   ![La pestaña Elementos de un Carrusel de cabecera, con el formulario de un elemento nuevo.](../../assets/screenshots/es/diffusion-portal/carousel/items-tab.png)
+    ![La pestaña Elementos de un Carrusel de cabecera, con el formulario de un elemento nuevo.](../../assets/screenshots/es/diffusion-portal/carousel/items-tab.png)
 
 4. En **Imagen**, pulsa **Imágenes del portal**, después **Seleccionar recurso…**, y elige la imagen
    ([cómo elegirla](choose-images.md#elegir-una-imagen-para-un-bloque)).
@@ -26,7 +26,7 @@ subirlas.
 7. Pulsa **Guardar elemento**. El elemento aparece en la lista con su miniatura. Si no tiene título, la lista lo llama
    «Elemento 1 (sin título)», con su posición.
 
-   ![La pestaña Elementos con el elemento guardado, su título y su miniatura.](../../assets/screenshots/es/diffusion-portal/carousel/items-list.png)
+    ![La pestaña Elementos con el elemento guardado, su título y su miniatura.](../../assets/screenshots/es/diffusion-portal/carousel/items-list.png)
 
 8. Repite los pasos 3 a 7 con cada imagen. Con **Subir** y **Bajar** cambias su orden y con **Eliminar** la quitas.
 

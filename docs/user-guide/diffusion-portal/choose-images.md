@@ -19,11 +19,11 @@ Las imágenes se suben antes de elegirlas: el selector del editor no permite sub
 
 1. Pulsa **Administración** en el menú superior y, en el apartado **General**, pulsa **Imágenes del portal**.
 
-   ![Imágenes del portal, con tres imágenes subidas.](../../assets/screenshots/es/diffusion-portal/choose-images/portal-images.png)
+    ![Imágenes del portal, con tres imágenes subidas.](../../assets/screenshots/es/diffusion-portal/choose-images/portal-images.png)
 
 2. Pulsa **Subir** y, en la ventana **Subir ficheros**, pulsa **Subir ficheros** y elige las imágenes de tu equipo.
 
-   ![La ventana Subir ficheros de Imágenes del portal.](../../assets/screenshots/es/diffusion-portal/choose-images/upload-window.png)
+    ![La ventana Subir ficheros de Imágenes del portal.](../../assets/screenshots/es/diffusion-portal/choose-images/upload-window.png)
 
 3. Las imágenes aparecen en la lista. Cierra la ventana.
 
@@ -34,7 +34,7 @@ Las imágenes se suben antes de elegirlas: el selector del editor no permite sub
    **Digitalizaciones**, que aparece marcado.
 3. Pulsa **Seleccionar recurso…**. Se abre la ventana **Seleccionar recurso** con las imágenes del almacén.
 
-   ![La ventana Seleccionar recurso con las imágenes del almacén Imágenes del portal.](../../assets/screenshots/es/diffusion-portal/choose-images/select-resource.png)
+    ![La ventana Seleccionar recurso con las imágenes del almacén Imágenes del portal.](../../assets/screenshots/es/diffusion-portal/choose-images/select-resource.png)
 
 4. Con **Vista de lista** ves cada imagen en miniatura junto a su nombre; con **Vista de mosaico**, más grande.
 5. Marca el botón redondo de la imagen que quieras. Abajo aparece «Seleccionado:» con su nombre.

@@ -16,7 +16,7 @@ al estado de la página te dice si se ha guardado.
 5. A la izquierda del estado de la página aparece «Guardando…» y, enseguida, «Guardado». El aviso desaparece a los
    pocos segundos.
 
-   ![El aviso «Guardado» junto al estado de la página.](../../assets/screenshots/es/diffusion-portal/save-changes/saved.png)
+    ![El aviso «Guardado» junto al estado de la página.](../../assets/screenshots/es/diffusion-portal/save-changes/saved.png)
 
 Si recargas la página, el cambio sigue ahí.
 
@@ -32,7 +32,7 @@ es obligatorio: si lo dejas vacío, pasa esto:
   bloque por su título o, si no lo tiene, por su tipo. En una **Imagen con pie** sin título dice: «El bloque «Imagen
   con pie» no se ha guardado: revisa «Pie de foto». Es un dato obligatorio.».
 
-  ![Mensaje de un bloque con imagen y el Pie de foto vacío, que no se ha guardado.](../../assets/screenshots/es/diffusion-portal/save-changes/not-saved.png)
+    ![Mensaje de un bloque con imagen y el Pie de foto vacío, que no se ha guardado.](../../assets/screenshots/es/diffusion-portal/save-changes/not-saved.png)
 
 - El mensaje se cierra solo a los pocos segundos. También puedes cerrarlo con la X del mensaje.
 

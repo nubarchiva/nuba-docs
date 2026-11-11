@@ -40,15 +40,15 @@ a las series. Solo aparecen si la caja tiene alguno.
 Para añadir uno, pulsa el grupo **Filtros**:
 
 1. Debajo de **Tipos de contenido**, pulsa **Añadir elemento**. Aparece «Elemento 1» con sus campos vacíos.
-
-   ![El grupo Filtros de una Caja de búsqueda, con el tipo de contenido nuevo «Elemento 1».](../../assets/screenshots/es/diffusion-portal/search-box/filters.png)
-
 2. En **Texto del botón**, escribe lo que verá el visitante, por ejemplo `Series`.
 3. Si quieres, escribe en **Texto al pasar el ratón** una explicación breve.
 4. En **Buscar por**, elige qué limita la búsqueda. La ayuda de **Valor** cambia para decirte qué escribir:
    - **Con o sin digitalizaciones**: en **Valor**, `1` busca solo las fichas con digitalizaciones y `0`, las que no
      tienen ninguna.
    - **Nivel de descripción**: en **Valor**, el número de ese nivel en tu archivo.
+
+    ![El grupo Filtros de una Caja de búsqueda con «Elemento 1» ya relleno: el texto del botón, Buscar por Lugar y el valor.](../../assets/screenshots/es/diffusion-portal/search-box/filters.png)
+
 5. Sal del campo. Mientras al elemento le falte un dato obligatorio, al escribir en él sale un aviso que nombra el
    campo, el número del elemento y la lista.
 6. Repite los pasos 1 a 5 con cada tipo. Con **Eliminar elemento** quitas uno.
