@@ -19,6 +19,10 @@ existe.
 Las dos ramas se construyen en modo estricto en cada push y en cada pull request: un enlace roto o una página que
 falta en la navegación hacen fallar la construcción.
 
+## Cómo se escribe una página
+
+Toda página nueva o modificada sigue la [guía de estilo](GUIA-DE-ESTILO.md) y pasa su lista de comprobación.
+
 ## Previsualizar
 
 Requiere Python 3.11 o posterior.
@@ -44,6 +48,7 @@ nuba-docs/
 │   ├── user-guide/            Guías de uso, una carpeta por área de la aplicación
 │   ├── assets/                Logos y hoja de estilos
 │   └── CNAME                  Dominio del sitio
+├── GUIA-DE-ESTILO.md          Cómo se escribe una página
 ├── mkdocs.yml                 Configuración del sitio y navegación
 ├── requirements.txt           Versiones exactas de las dependencias
 ├── serve.sh                   Previsualización local
