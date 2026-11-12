@@ -35,9 +35,9 @@ Para editar el portal necesitas una cuenta con permiso de administración del po
   ([Ver y cambiar las demás opciones de un bloque](block-options.md)).
 - **Cambiar un bloque**: pulsa en cualquier punto del bloque para volver a abrir sus opciones
   ([Seleccionar un bloque](select-block.md)).
-- **Guardar**: no hay botón de guardar. Cada cambio se guarda solo. Al cambiar las opciones de un bloque, el aviso
-  «Guardado» lo confirma y, si algo no se ha guardado, un mensaje te dice qué campo revisar
-  ([Guardar los cambios](save-changes.md)).
+- **Guardar**: cada cambio de las opciones de un bloque se guarda solo, y cada elemento de una lista, con **Guardar
+  elemento**. El aviso «Guardado» lo confirma y, si algo no se ha guardado, un mensaje te dice qué campo revisar y el
+  campo queda marcado ([Guardar los cambios](save-changes.md)).
 - **Ver cómo queda**: pulsa **Vista previa**. Se abre en otra pestaña la página con tus cambios, con la cabecera y el
   pie de la web pública, y puedes verla con el ancho de un móvil, una tableta o un escritorio
   ([Ver la página en cada dispositivo](publish.md#ver-la-pagina-en-cada-dispositivo)). Si haces más cambios, recarga

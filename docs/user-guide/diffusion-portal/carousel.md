@@ -7,21 +7,22 @@ status: published
 El bloque **Carrusel de cabecera** muestra varias imágenes a todo el ancho de la página, una tras otra. Suele ir en la
 cabecera.
 
-Necesitas las imágenes ya subidas al portal: [Elegir las imágenes de un bloque](choose-images.md) explica cómo
-subirlas.
+Las imágenes se eligen, o se suben desde tu equipo, en el diálogo de cada elemento
+([Elegir las imágenes de un bloque](choose-images.md)).
 
 ## Añadir el carrusel y sus imágenes
 
 1. Abre la página en el editor ([Antes de empezar](index.md#antes-de-empezar)).
 2. Pulsa **Añadir bloque** y elige **Carrusel de cabecera**. Sus opciones se abren a la derecha.
 3. Pasa a la pestaña **Elementos** y pulsa **Añadir elemento**.
-4. En **Imagen**, pulsa **Imágenes del portal**, después **Seleccionar recurso…**, y elige la imagen
-   ([cómo elegirla](choose-images.md#elegir-una-imagen-para-un-bloque)).
+4. En **Imagen**, pulsa **Elegir imagen…** y elige la imagen en el diálogo
+   ([cómo elegirla](choose-images.md#elegir-una-imagen)). La imagen es obligatoria.
 5. Si quieres, escribe un **Título**. Se muestra como pie de la imagen. Es opcional: sin título, la imagen sale sin
    pie.
-6. Si quieres que la imagen lleve a otra página, en **Enlace** pulsa **Dirección web** y escribe la dirección.
+6. Si quieres que la imagen lleve a otra página, escribe su dirección en **Enlace**.
 7. Pulsa **Guardar elemento**. El elemento aparece en la lista con su miniatura. Si no tiene título, la lista lo llama
-   «Elemento 1 (sin título)», con su posición.
+   «Elemento 1 (sin título)», con su posición. Sin imagen, no se guarda y el mensaje te lo dice
+   ([La imagen de un elemento es obligatoria](save-changes.md#la-imagen-de-un-elemento-es-obligatoria)).
 8. Repite los pasos 3 a 7 con cada imagen. Con **Subir** y **Bajar** cambias su orden y con **Eliminar** la quitas.
 
 ## Ajustar cómo se comporta
