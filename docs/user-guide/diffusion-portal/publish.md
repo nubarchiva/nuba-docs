@@ -17,6 +17,9 @@ ordenador.
    menú de nubarchiva.
 3. Arriba, pulsa **Móvil**, **Tableta** o **Escritorio**. La página se dibuja con el ancho de ese dispositivo: 375,
    768 o 1280 píxeles. La pestaña se abre en **Escritorio**.
+
+    ![La vista previa con los botones Móvil, Tableta y Escritorio arriba, y Escritorio activo.](../../assets/screenshots/es/diffusion-portal/publish/device-preview.png)
+
 4. Si haces más cambios en el editor, recarga la pestaña de la vista previa para verlos. Al recargarla, vuelve a
    **Escritorio**.
 
