@@ -69,4 +69,5 @@ printf 'mkdocs\nmkdocs-material\nmkdocs-minify-plugin\npymdown-extensions\n' \
 
 ## Licencia
 
-[Apache License 2.0](LICENSE).
+La documentación se publica bajo la licencia [Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](LICENSE).
+Los logotipos de nubarchiva (`docs/assets/images/brand/`) quedan fuera de la licencia: son marca, no contenido.
