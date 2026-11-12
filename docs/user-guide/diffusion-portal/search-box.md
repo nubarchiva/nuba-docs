@@ -23,8 +23,8 @@ Pulsa el grupo **Búsqueda avanzada**:
 
 1. En **Al pulsar la búsqueda avanzada**, elige qué pasa al pulsar el enlace:
    - **Ir a otra página**, la que tiene una caja nueva: el enlace lleva a otra página. En **Página de búsqueda
-     avanzada**, pulsa **Dirección web** y escribe la dirección. Si la dejas vacía, el enlace no aparece, así que una
-     caja nueva sale sin enlace.
+     avanzada**, escribe la dirección de esa página. Si la dejas vacía, el enlace no aparece, así que una caja nueva
+     sale sin enlace.
    - **Abrir la búsqueda avanzada en la caja**: el formulario de búsqueda avanzada se abre en la misma caja, sin salir
      de la página.
    - **Abrir la búsqueda experta en la caja**: igual, con el formulario de búsqueda experta.
