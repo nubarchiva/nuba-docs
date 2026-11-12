@@ -8,12 +8,10 @@ validation:
   nav:
     omitted_files: warn
 
-# Repository
-repo_name: nuba-docs
-repo_url: https://github.com/nubarchiva/nuba-docs
-
 # Copyright
-copyright: Copyright &copy; 2025 nubarchiva
+copyright: >-
+  &copy; 2026 nubarchiva · Contenido bajo licencia
+  <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>
 
 # Configuration
 theme:
@@ -50,11 +48,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Cambiar a modo claro
-  font:
-    text: Poppins
-    code: Roboto Mono
-  icon:
-    repo: fontawesome/brands/github
+  font: false
 
 # Plugins
 plugins:
