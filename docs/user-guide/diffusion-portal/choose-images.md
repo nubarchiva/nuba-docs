@@ -34,6 +34,39 @@ al pulsar **Guardar elemento** ([Guardar un elemento](save-changes.md#guardar-un
 Con el campo vacío, el diálogo se abre en la última pestaña que usaste mientras dura tu sesión. Con una imagen ya
 elegida, se abre en la pestaña de su origen.
 
+## Elegir varias imágenes a la vez
+
+En los bloques cuyos elementos llevan imagen, puedes elegir varias imágenes de una vez y cada una se convierte en un
+elemento. Son el **Carrusel de cabecera**, la **Tira de imágenes de cabecera**, el **Carrusel de elementos**, la
+**Cuadrícula de elementos**, el **Mosaico de fotos**, la **Galería ajustada** y **Fondos y colecciones**.
+
+1. Selecciona el bloque y pasa a la pestaña **Elementos**.
+2. Pulsa **Añadir varias imágenes**. Se abre el diálogo **Elegir imágenes**, con las pestañas **Digitalizaciones** e
+   **Imágenes del portal**. La pestaña **Dirección web** no sale aquí: cada dirección se escribe en su elemento.
+3. Entra en la carpeta y marca la casilla de cada imagen, en el orden en que quieres verlas. Abajo aparece
+   «Seleccionados» con el número de imágenes marcadas y sus nombres.
+4. Pulsa **Vincular**, que lleva entre paréntesis cuántas has marcado, por ejemplo **Vincular (3)**.
+
+El diálogo se cierra y las imágenes se añaden al final de la lista, en el orden en que las marcaste, sin título. Si
+quieres darle un título o un enlace a alguna, pulsa su elemento en la lista, escríbelo y pulsa **Guardar elemento**.
+
+Para añadir una sola imagen sigue valiendo **Añadir elemento**, y también para usar una dirección web.
+
+### Si al bloque le falta algo más que la imagen
+
+Algunos bloques piden en cada elemento algo más que la imagen. Por ejemplo, cada imagen de una **Galería ajustada**
+necesita su **Enlace**. Entonces las imágenes elegidas no se guardan todavía:
+
+- Sale el aviso «A 3 imágenes elegidas les faltan datos: complétalos y guarda cada una. Hasta entonces no se muestran
+  en la página.».
+- En la lista, cada una sale con su miniatura y lo que le falta, por ejemplo «Sin guardar: falta «Enlace»».
+- El editor abre la primera con ese campo marcado. Rellénalo y pulsa **Guardar elemento**: se guarda y se abre la
+  siguiente.
+
+Hasta que las guardas, no llegan a la página ni a la vista previa. Si pasas a otro bloque o a la pestaña **Opciones**,
+siguen en la lista al volver. Para completar más tarde una de ellas, pulsa su fila en la lista. Si no la quieres,
+pulsa **Eliminar** en su fila.
+
 ## Cambiar o quitar la imagen
 
 Con una imagen elegida, el campo muestra dos botones:
@@ -43,6 +76,32 @@ Con una imagen elegida, el campo muestra dos botones:
 
 Si el bloque necesita la imagen, al quitarla no se guarda y sale un mensaje que te pide revisar el campo
 ([Cuando un cambio no se guarda](save-changes.md#cuando-un-cambio-no-se-guarda)).
+
+## Ver el nombre y el tamaño de la imagen
+
+Bajo la miniatura, el campo muestra el nombre del fichero y su tamaño en píxeles, ancho por alto, por ejemplo
+«640 × 300 píxeles».
+
+Si la imagen es más estrecha de lo que el bloque necesita para que se vea nítida, sale debajo un aviso como «Es más
+estrecha de lo que necesita el bloque (1140 píxeles de ancho) y puede verse borrosa.». El aviso no impide guardar:
+puedes quedarte con esa imagen o elegir otra más ancha.
+
+Si la imagen no se puede cargar, por ejemplo una dirección web que ya no existe, solo sale su nombre.
+
+El ancho a partir del cual avisa cada bloque es este:
+
+| Bloque | Campo | Ancho |
+|---|---|---|
+| **Carrusel de cabecera**, **Carrusel de elementos** | **Imagen** del elemento | 1140 |
+| **Imagen con pie** | **Imagen** | 1140 |
+| **Caja de búsqueda** | **Imagen de fondo** | 1140 |
+| **Tira de imágenes de cabecera** | **Imagen** del elemento | 450 |
+| **Galería ajustada** | **Imagen** del elemento | 360 |
+| **Mosaico de fotos** | **Imagen** del elemento | 280 |
+| **Cuadrícula de elementos** | **Imagen** del elemento | 270 |
+| **Fondos y colecciones** | **Portada** | 380 |
+| **Fondos y colecciones** | **Imagen redonda** | 140 |
+| **Fondos y colecciones** | **Fichero** de cada imagen ampliada | 1080 |
 
 ## Subir una imagen desde el diálogo
 
@@ -57,9 +116,11 @@ ofrece subir.
 
 Si la arrastras sobre una carpeta de la lista, se guarda en esa carpeta.
 
-Cada vez se sube una sola imagen o una carpeta. Si eliges varias imágenes sueltas a la vez, no se guarda ninguna y la
-pestaña lo dice con el nombre de cada una. Solo se admiten imágenes en formato jpg, jpeg, png, webp o gif. Con otro fichero,
-la pestaña lo dice, por ejemplo «documento.txt: extensión no permitida (permitidas: jpg, jpeg, png, webp, gif).», y
+Cada vez se sube una sola imagen o una carpeta. Si subes varias imágenes sueltas a la vez, con **Subir ficheros** o
+arrastrándolas, no se guarda ninguna y la pestaña lo dice con el nombre de cada una. Las imágenes que ya están subidas
+sí se pueden elegir varias a la vez ([Elegir varias imágenes a la vez](#elegir-varias-imagenes-a-la-vez)).
+
+Solo se admiten imágenes en formato jpg, jpeg, png, webp o gif. Con otro fichero, la pestaña lo dice, por ejemplo «documento.txt: extensión no permitida (permitidas: jpg, jpeg, png, webp, gif).», y
 no se guarda.
 
 Si en la carpeta ya hay una imagen con el mismo nombre, la nueva no la sustituye. La pestaña lo avisa, por ejemplo
@@ -127,4 +188,6 @@ Las imágenes del portal también se suben y se organizan fuera del editor:
 
 En los bloques con varios elementos, como el [carrusel](carousel.md), la pestaña **Elementos** lista los elementos con
 la miniatura de su imagen. Un elemento sin título se muestra como «Elemento» seguido de su posición y «(sin
-título)», por ejemplo «Elemento 2 (sin título)».
+título)», por ejemplo «Elemento 2 (sin título)». Un elemento que aún no se ha guardado lleva al lado lo que le falta,
+por ejemplo «Sin guardar: falta «Enlace»» ([Si al bloque le falta algo más que la
+imagen](#si-al-bloque-le-falta-algo-mas-que-la-imagen)).
