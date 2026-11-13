@@ -31,6 +31,11 @@ Las imágenes se eligen, o se suben desde tu equipo, en el diálogo de cada elem
 
 8. Repite los pasos 3 a 7 con cada imagen. Con **Subir** y **Bajar** cambias su orden y con **Eliminar** la quitas.
 
+Si ya tienes las imágenes en **Digitalizaciones** o en **Imágenes del portal**, puedes añadirlas todas de una vez: en
+el paso 3, pulsa **Añadir varias imágenes** en lugar de **Añadir elemento** y marca las que quieras
+([Elegir varias imágenes a la vez](choose-images.md#elegir-varias-imagenes-a-la-vez)). Cada una pasa a ser un elemento
+guardado, sin título.
+
 ## Ajustar cómo se comporta
 
 En la pestaña **Opciones**, arriba está el **Título**: el encabezado que se muestra sobre el carrusel. Sin título, no

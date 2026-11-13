@@ -61,8 +61,8 @@ Si recargas la página sin corregirlo, el campo vuelve al último valor que se g
 Si pulsas otro bloque, lo que habías escrito en el primero no se pierde. Al volver a él, sus campos tienen lo que
 escribiste y el campo rechazado sigue marcado. Pasa lo mismo con el formulario de un elemento que no has guardado.
 
-Lo que se conserva es al pulsar otro bloque. Si en el mismo bloque pasas de la pestaña **Opciones** a
-**Elementos**, o al revés, lo que no se ha guardado se pierde.
+También se conserva si, en el mismo bloque, pasas de la pestaña **Elementos** a **Opciones**, o al revés. Al volver a
+**Elementos**, el elemento que estabas editando sigue abierto con lo que escribiste.
 
 ## La imagen de un elemento es obligatoria
 
