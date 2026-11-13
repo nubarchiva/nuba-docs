@@ -22,7 +22,7 @@ retocada, va mejor en **Imágenes del portal**, para no mezclarlo con los origin
 3. Pulsa la pestaña del origen: **Digitalizaciones** o **Imágenes del portal**. La pestaña muestra sus carpetas a la
    izquierda y su contenido a la derecha.
 
-    ![La ventana Seleccionar recurso con las imágenes del almacén Imágenes del portal.](../../assets/screenshots/es/diffusion-portal/choose-images/select-resource.png)
+    ![El diálogo Elegir imagen con la pestaña Imágenes del portal activa y sus imágenes.](../../assets/screenshots/es/diffusion-portal/choose-images/select-resource.png)
 
 4. Entra en la carpeta de la imagen. Con **Vista de lista** ves cada imagen en miniatura junto a su nombre; con
    **Vista de mosaico**, más grande.
