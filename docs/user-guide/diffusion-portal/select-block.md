@@ -23,7 +23,7 @@ Un bloque que acabas de añadir con **Añadir bloque** queda ya seleccionado.
 ## En la vista Visual
 
 1. Pulsa **Visual**. El editor muestra la página con su aspecto final.
-2. Pulsa sobre el bloque, en cualquier punto. Un bloque que aún no tiene contenido se ve como una franja con borde de
+2. Pulsa sobre el bloque, en cualquier punto. Un bloque sin contenido se ve como una franja con borde de
    puntos, y también responde.
 3. Como en el lienzo, el panel muestra «Cargando propiedades…» y después las opciones. El bloque queda resaltado.
 

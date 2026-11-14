@@ -6,7 +6,9 @@ status: published
 
 Al seleccionar un bloque, el panel de la derecha muestra arriba solo las opciones que definen su contenido, como la
 imagen, el título o el pie de foto. Las demás opciones están debajo, en grupos plegados. Para el uso normal de un
-bloque puedes dejarlas como están.
+bloque puedes dejarlas como están. Si el bloque es nuevo, revisa los textos que trae su ejemplo en esos grupos, porque
+cuentan como contenido de ejemplo al publicar
+([Si la página conserva contenido del ejemplo](publish.md#si-la-pagina-conserva-contenido-del-ejemplo)).
 
 ## Abrir un grupo
 
@@ -55,10 +57,11 @@ La cabecera de cada grupo dice qué opciones suyas tienen un valor distinto del 
 
 Si vuelves a poner una opción en su valor de partida, desaparece de la cabecera.
 
+Un bloque nuevo ya muestra «Con cambios» en los grupos en que su ejemplo trae un valor distinto del de partida. Por
+ejemplo, en una **Caja de búsqueda** nueva, el grupo **Textos** dice «Con cambios: Texto dentro del campo vacío».
+
 ## Ejemplo: que las imágenes de un carrusel pasen más deprisa
 
-1. Selecciona un bloque **Carrusel de cabecera**.
-2. Pulsa el grupo **Paso de las imágenes**.
-3. En **Tiempo entre imágenes (milisegundos)**, escribe `3000` y sal del campo con la tecla Tab. Aparece «Guardado».
-4. La cabecera del grupo muestra «Con cambios: Tiempo entre imágenes (milisegundos)».
-5. Pulsa **Vista previa**: cada imagen se ve 3 segundos antes de pasar a la siguiente.
+En un **Carrusel de cabecera**, la opción **Tiempo entre imágenes (milisegundos)** está en el grupo **Paso de las
+imágenes**. Con `3000`, la cabecera del grupo muestra «Con cambios: Tiempo entre imágenes (milisegundos)». En **Vista
+previa**, cada imagen se ve 3 segundos antes de pasar a la siguiente.

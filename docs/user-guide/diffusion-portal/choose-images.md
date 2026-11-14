@@ -47,8 +47,9 @@ elemento. Son el **Carrusel de cabecera**, la **Tira de imágenes de cabecera**,
    «Seleccionados» con el número de imágenes marcadas y sus nombres.
 4. Pulsa **Vincular**, que lleva entre paréntesis cuántas has marcado, por ejemplo **Vincular (3)**.
 
-El diálogo se cierra y las imágenes se añaden al final de la lista, en el orden en que las marcaste, sin título. Si
-quieres darle un título o un enlace a alguna, pulsa su elemento en la lista, escríbelo y pulsa **Guardar elemento**.
+El diálogo se cierra y las imágenes se añaden al final de la lista, en el orden en que las marcaste, sin título. El
+título o el enlace de una de ellas se añade en su elemento, como en cualquier otro
+([Guardar un elemento](save-changes.md#guardar-un-elemento)).
 
 Para añadir una sola imagen sigue valiendo **Añadir elemento**, y también para usar una dirección web.
 
@@ -60,12 +61,15 @@ necesita su **Enlace**. Entonces las imágenes elegidas no se guardan todavía:
 - Sale el aviso «A 3 imágenes elegidas les faltan datos: complétalos y guarda cada una. Hasta entonces no se muestran
   en la página.».
 - En la lista, cada una sale con su miniatura y lo que le falta, por ejemplo «Sin guardar: falta «Enlace»».
-- El editor abre la primera con ese campo marcado. Rellénalo y pulsa **Guardar elemento**: se guarda y se abre la
-  siguiente.
+- El editor abre la primera con ese campo marcado. Al guardarla con **Guardar elemento**, se abre la siguiente.
 
 Hasta que las guardas, no llegan a la página ni a la vista previa. Si pasas a otro bloque o a la pestaña **Opciones**,
-siguen en la lista al volver. Para completar más tarde una de ellas, pulsa su fila en la lista. Si no la quieres,
-pulsa **Eliminar** en su fila.
+siguen en la lista al volver. También siguen si mueves el bloque, editas un texto sobre la página en la vista **Visual**
+o guardas cambios en **Editar YAML**. Para completar más tarde una de ellas, pulsa su fila en la lista. Si no la quieres, pulsa
+**Eliminar** en su fila.
+
+Si publicas con imágenes pendientes, no se publican, y un aviso lo dice tras el de éxito
+([Publicar](publish.md#publicar)).
 
 ## Cambiar o quitar la imagen
 
@@ -73,6 +77,10 @@ Con una imagen elegida, el campo muestra dos botones:
 
 - **Cambiar** abre el diálogo para elegir otra.
 - **Quitar** deja el campo vacío.
+
+Una imagen del ejemplo que trae un bloque nuevo se muestra en el campo por su dirección, por ejemplo
+`example://HeroCarousel/facade.png`, sin miniatura. Al pulsar **Cambiar**, el diálogo se abre en **Dirección web** con
+esa dirección. Pasa a la pestaña de tu imagen y elígela ([Elegir una imagen](#elegir-una-imagen)).
 
 Si el bloque necesita la imagen, al quitarla no se guarda y sale un mensaje que te pide revisar el campo
 ([Cuando un cambio no se guarda](save-changes.md#cuando-un-cambio-no-se-guarda)).
@@ -137,9 +145,8 @@ Los avisos de cada fichero que no se ha guardado siguen a la vista hasta que ter
 
 ## Usar una dirección web
 
-1. En el diálogo, pulsa la pestaña **Dirección web**.
-2. Escribe la dirección de la imagen en el campo **Dirección web de la imagen**.
-3. Pulsa **Usar esta dirección**. El diálogo se cierra y el campo muestra la imagen.
+En el diálogo, pulsa la pestaña **Dirección web**. La dirección de la imagen va en **Dirección web de la imagen**.
+Con **Usar esta dirección**, el diálogo se cierra y el campo muestra la imagen.
 
 Una imagen de otra web se ve mientras esa web la mantenga en la misma dirección. Si la cambia o la borra, deja de
 verse en tu página. Por eso es mejor guardar las imágenes en **Imágenes del portal** o en **Digitalizaciones**.
@@ -158,8 +165,8 @@ Una digitalización se puede elegir también escribiendo su referencia:
 1. Pulsa **Administración** en el menú superior y, después, **Gestión de digitalizaciones**.
 2. En la fila de la digitalización, pulsa **Más acciones** y después **Copiar referencia para el portal**. Sale el
    aviso «Referencia copiada». La acción la ven las cuentas con permiso de administración del portal.
-3. En el editor, abre el diálogo de la imagen, pulsa la pestaña **Dirección web**, pega la referencia y pulsa
-   **Usar esta dirección**.
+3. En el editor, abre el diálogo de la imagen y pulsa la pestaña **Dirección web**. La referencia se usa como una
+   dirección web ([Usar una dirección web](#usar-una-direccion-web)).
 
 La próxima vez que abras el diálogo de ese campo, se abre en la pestaña **Digitalizaciones**.
 
@@ -170,10 +177,9 @@ lleve a una descripción del archivo, usa su referencia:
 
 1. Busca la descripción con **Búsqueda**, en el menú superior.
 2. En su fila de resultados o en su ficha, pulsa **Copiar referencia para el portal**.
-3. En el editor, pega la referencia en el campo de enlace, por ejemplo `opac://item/E783`, y sal del campo. Aparece
-   «Guardado».
 
-En la página publicada, el enlace lleva a la ficha de esa descripción.
+La referencia copiada, por ejemplo `opac://item/E783`, es la dirección que admite el campo de enlace. En la página
+publicada, el enlace lleva a la ficha de esa descripción.
 
 ## Subir imágenes desde la administración
 
@@ -182,7 +188,7 @@ Las imágenes del portal también se suben y se organizan fuera del editor:
 1. Pulsa **Administración** en el menú superior y, en el apartado **General**, pulsa **Imágenes del portal**.
 2. Pulsa **Subir**. En la ventana **Subir ficheros**, pulsa **Subir ficheros** y elige las imágenes de tu equipo, o
    pulsa **Subir carpeta** y elige una carpeta.
-3. Las imágenes aparecen en la lista. Las de una carpeta, en una carpeta con su nombre. Cierra la ventana.
+3. Las imágenes aparecen en la lista. Las de una carpeta, en una carpeta con su nombre.
 
 ## Ver las imágenes en la lista de elementos
 

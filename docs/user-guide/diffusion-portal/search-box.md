@@ -14,17 +14,20 @@ búsqueda avanzada y unos tipos de contenido para buscar solo en una parte del c
 3. Arriba están las opciones que definen su contenido: **Título**, **Subtítulo** e **Imagen de fondo**. Las tres son
    opcionales.
 4. Las demás están en grupos plegados. Pulsa el nombre de un grupo para abrirlo
-   ([Ver y cambiar las demás opciones de un bloque](block-options.md)). Por ejemplo, en **Textos** cambias el
-   **Texto dentro del campo vacío**, que se lee en el buscador antes de escribir.
+   ([Ver y cambiar las demás opciones de un bloque](block-options.md)). Por ejemplo, en **Textos** está el **Texto
+   dentro del campo vacío**, que se lee en el buscador antes de escribir.
+
+La caja llega con un ejemplo: un título, un subtítulo, un texto dentro del campo vacío y una imagen de fondo. Cámbialos
+por los tuyos. La imagen se cambia con **Cambiar** ([Cambiar o quitar la imagen](choose-images.md#cambiar-o-quitar-la-imagen)).
+Si no quieres algún texto o la imagen, déjalo vacío o pulsa **Quitar**. El ejemplo no trae tipos de contenido.
 
 ## El enlace a la búsqueda avanzada
 
 Pulsa el grupo **Búsqueda avanzada**:
 
 1. En **Al pulsar la búsqueda avanzada**, elige qué pasa al pulsar el enlace:
-   - **Ir a otra página**, la que tiene una caja nueva: el enlace lleva a otra página. En **Página de búsqueda
-     avanzada**, escribe la dirección de esa página. Si la dejas vacía, el enlace no aparece, así que una caja nueva
-     sale sin enlace.
+   - **Ir a otra página**, la que tiene una caja nueva: el enlace lleva a la página cuya dirección está en **Página de
+     búsqueda avanzada**. Si está vacía, el enlace no aparece, así que una caja nueva sale sin enlace.
    - **Abrir la búsqueda avanzada en la caja**: el formulario de búsqueda avanzada se abre en la misma caja, sin salir
      de la página.
    - **Abrir la búsqueda experta en la caja**: igual, con el formulario de búsqueda experta.
@@ -37,18 +40,23 @@ Pulsa el grupo **Búsqueda avanzada**:
 Los tipos de contenido limitan la búsqueda a una parte del catálogo, por ejemplo a las fichas con digitalizaciones o
 a las series. Solo aparecen si la caja tiene alguno.
 
-Para añadir uno, pulsa el grupo **Filtros**:
+Para añadir uno:
 
-1. Debajo de **Tipos de contenido**, pulsa **Añadir elemento**. Aparece «Elemento 1» con sus campos vacíos.
-2. En **Texto del botón**, escribe lo que verá el visitante, por ejemplo `Series`.
-3. Si quieres, escribe en **Texto al pasar el ratón** una explicación breve.
-4. En **Buscar por**, elige qué limita la búsqueda. La ayuda de **Valor** cambia para decirte qué escribir:
-   - **Con o sin digitalizaciones**: en **Valor**, `1` busca solo las fichas con digitalizaciones y `0`, las que no
-     tienen ninguna.
-   - **Nivel de descripción**: en **Valor**, el número de ese nivel en tu archivo.
-5. Sal del campo. Mientras al elemento le falte un dato obligatorio, al escribir en él sale un aviso que nombra el
-   campo, el número del elemento y la lista.
-6. Repite los pasos 1 a 5 con cada tipo. Con **Eliminar elemento** quitas uno.
+1. Pulsa el grupo **Filtros**.
+2. Activa **Mostrar los tipos de contenido**. Una caja nueva la tiene desactivada.
+3. Debajo de **Tipos de contenido**, pulsa **Añadir elemento**. Aparece «Elemento 1» con sus campos vacíos.
+
+Sus campos son estos:
+
+- **Texto del botón**: lo que verá el visitante, por ejemplo `Series`.
+- **Texto al pasar el ratón**: una explicación breve. Es opcional.
+- **Buscar por**: qué limita la búsqueda. La ayuda de **Valor** cambia para decirte qué escribir:
+    - **Con o sin digitalizaciones**: en **Valor**, `1` busca solo las fichas con digitalizaciones y `0`, las que no
+      tienen ninguna.
+    - **Nivel de descripción**: en **Valor**, el número de ese nivel en tu archivo.
+
+Mientras al elemento le falte un dato obligatorio, al escribir en él sale un aviso que nombra el campo, el número del
+elemento y la lista. Con **Eliminar elemento** quitas un tipo.
 
 Para saber el número de un nivel de descripción, pulsa **Búsqueda** en el menú superior y después **Búsqueda
 avanzada**. En **Nivel de descripción**, desmarca **Todos**, marca solo ese nivel, escribe un término y pulsa
@@ -59,7 +67,7 @@ En el mismo grupo **Filtros**, elige cómo se ofrecen:
 
 | Opción | Qué hace |
 |---|---|
-| **Mostrar los tipos de contenido** | Muestra u oculta los tipos de contenido. El enlace a la búsqueda avanzada se mantiene. Está activada si no la cambias. |
+| **Mostrar los tipos de contenido** | Muestra u oculta los tipos de contenido. El enlace a la búsqueda avanzada se mantiene. Una caja nueva la tiene desactivada. |
 | **Forma de los tipos de contenido** | **Botones**: un botón por tipo, debajo del buscador. **Lista desplegable**: una lista «Tipo de contenido» que empieza por «Todos los tipos». |
 
 ## Las opciones de filtro
@@ -78,7 +86,6 @@ opción como `Todo` y deja su **Buscar por** sin elegir.
 ## Comprobar el resultado
 
 1. Pulsa **Vista previa**.
-2. Escribe un término en el buscador.
-3. Con **Botones**, pulsa un tipo para marcarlo y después **Buscar**. Con **Lista desplegable**, elige el tipo en la
-   lista y pulsa **Buscar**. Los resultados se limitan a ese tipo.
-4. Cuando esté a tu gusto, vuelve al editor y pulsa **Publicar**.
+2. Busca un término con un tipo elegido. Con **Botones**, pulsa el tipo para marcarlo; con **Lista desplegable**,
+   elígelo en la lista. Los resultados se limitan a ese tipo.
+3. Cuando esté a tu gusto, vuelve al editor y pulsa **Publicar**.

@@ -13,23 +13,28 @@ recorre al pulsar la portada ([Ampliar las imágenes de una colección](#ampliar
 ## Configurar la ampliación
 
 1. Abre la página en el editor ([Antes de empezar](index.md#antes-de-empezar)).
-2. Pulsa **Añadir bloque** y elige **Imagen con pie**, o pulsa un bloque **Imagen con pie** que ya tengas.
-3. En **Imagen**, pulsa **Elegir imagen…** y elige la imagen en el diálogo
-   ([cómo elegirla](choose-images.md#elegir-una-imagen)).
-4. En **Pie de foto**, escribe el texto que irá debajo de la imagen, de 1 a 180 caracteres, y sal del campo.
+2. Pulsa **Añadir bloque** y elige **Imagen con pie**, o pulsa un bloque **Imagen con pie** que ya tengas. Un bloque
+   nuevo llega con un ejemplo: una imagen, el título «Pieza destacada», un pie de foto y un enlace a la portada del
+   portal.
+3. En **Imagen**, pulsa **Cambiar** y elige tu imagen en el diálogo
+   ([Cambiar o quitar la imagen](choose-images.md#cambiar-o-quitar-la-imagen)).
+4. Pulsa el grupo **Enlace** para abrirlo ([Ver y cambiar las demás opciones de un bloque](block-options.md)).
+5. En **Al pulsar la imagen**, elige **Ampliarla en la misma página**. Con esta opción no se usa el **Enlace**.
 
-    La imagen y el pie de foto son obligatorios. En un bloque nuevo, al rellenar el primero sale el aviso de que el
-    bloque no se ha guardado y de que revises el otro. Cuando los dos tienen valor, el bloque se guarda con los dos
-    ([Guardar los cambios](save-changes.md)).
+El **Pie de foto** es el texto que va debajo de la imagen, de 1 a 180 caracteres. Cambia el del ejemplo por el tuyo, y
+también el **Título**. El ejemplo trae además una **Descripción de la imagen**, en el grupo **Imagen**, y un **Texto
+secundario**, en el grupo **Textos**. Por eso la cabecera de **Imagen** dice «Con cambios: Descripción de la imagen»
+y la de **Textos**, «Con cambios: Texto secundario». Cámbialos por los tuyos o déjalos vacíos: si conservan el texto
+del ejemplo, el editor avisa al publicar
+([Si la página conserva contenido del ejemplo](publish.md#si-la-pagina-conserva-contenido-del-ejemplo)).
 
-5. Pulsa el grupo **Enlace** para abrirlo ([Ver y cambiar las demás opciones de un bloque](block-options.md)).
-6. En **Al pulsar la imagen**, elige **Ampliarla en la misma página**. Con esta opción no hace falta rellenar
-   **Enlace**.
+La imagen y el pie de foto son obligatorios: si dejas vacío uno de los dos, el bloque no se
+guarda ([Guardar los cambios](save-changes.md)).
 
 Las otras opciones de **Al pulsar la imagen** son:
 
-- **Ir al enlace**, la que tiene un bloque nuevo: la imagen lleva a otra dirección. Escribe la dirección en
-  **Enlace**, arriba en el panel.
+- **Ir al enlace**, la que tiene un bloque nuevo: la imagen lleva a la dirección de **Enlace**, arriba en el panel. La
+  del ejemplo es `/`, la portada del portal.
 - **Nada**: la imagen no responde al clic.
 
 ## Comprobar el resultado
@@ -51,10 +56,11 @@ pulsarla se eligen en el formulario del elemento, en **Imágenes ampliadas**.
 3. En **Imágenes ampliadas**, pulsa **Añadir varias imágenes** y marca en el diálogo las imágenes de la colección, en
    el orden en que quieres que se vean ([Elegir varias imágenes a la vez](choose-images.md#elegir-varias-imagenes-a-la-vez)).
    Se añaden al final de la lista, cada una con su formulario.
-4. En el formulario de cada imagen puedes escribir su **Título**, que sale como pie de la imagen ampliada, y su
-   **Enlace a la ficha**, por ejemplo la referencia de su descripción en el archivo
-   ([Enlazar a una descripción del archivo](choose-images.md#enlazar-a-una-descripcion-del-archivo)).
-5. Pulsa **Guardar elemento**.
+
+En el formulario de cada imagen, su **Título** sale como pie de la imagen ampliada, y su **Enlace a la ficha** puede
+ser la referencia de su descripción en el archivo
+([Enlazar a una descripción del archivo](choose-images.md#enlazar-a-una-descripcion-del-archivo)). La colección se
+guarda con **Guardar elemento**.
 
 Para añadir una sola imagen, pulsa **Añadir imagen** y, en su **Fichero**, **Elegir imagen…**. Con **Eliminar
 imagen** quitas una de la lista.
@@ -67,7 +73,7 @@ imagen** quitas una de la lista.
 Con esta opción, cada colección del bloque necesita al menos una imagen ampliada. Si a alguna le faltan, la opción se
 guarda igual y sale un mensaje que nombra la primera, por ejemplo «Se ha guardado. Falta «Imágenes ampliadas» en el
 elemento 2 de «Fondos y colecciones»: complétalo.». El editor abre esa colección con **Imágenes ampliadas** marcado.
-Elige sus imágenes y pulsa **Guardar elemento**. Si falta en otra colección, el mensaje la nombra y el editor la abre.
+Elige sus imágenes y guarda el elemento. Si falta en otra colección, el mensaje la nombra y el editor la abre.
 Por eso conviene elegir antes las imágenes de todas las colecciones.
 
 El grupo **Imágenes ampliadas** de **Opciones** ajusta cómo se ven: dónde va el pie, el número de imagen, la tira de
