@@ -22,17 +22,20 @@ escribir código. Esta sección explica, tarea a tarea, cómo hacerlo.
 
 Para editar el portal necesitas una cuenta con permiso de administración del portal.
 
-1. Entra en nubarchiva y pulsa **Administración** en el menú superior.
-2. En el apartado **General**, pulsa **Portal de Difusión**. Se abre la lista de **Páginas**.
-3. Para crear una página, pulsa **Nueva página**, escribe su **Título** y pulsa **Crear página**. La **Ruta** se
-   propone a partir del título.
-4. Pulsa el título de una página para abrir el **Editor de página del portal**.
+1. En **Administración**, apartado **General**, pulsa **Portal de Difusión**. Se abre la lista de **Páginas**.
+2. Pulsa el título de una página para abrir el **Editor de página del portal**.
+
+Para crear una página, pulsa **Nueva página**. Su **Ruta** se propone a partir del título.
 
 ## Cómo funciona el editor
 
-- **Añadir un bloque**: pulsa **Añadir bloque** y elige el tipo en el catálogo. Sus opciones se abren en el panel de
-  la derecha: arriba, las que definen su contenido; debajo, las demás, en grupos plegados
+- **Añadir un bloque**: pulsa **Añadir bloque** y elige el tipo en el catálogo. El bloque llega con un ejemplo:
+  textos e imágenes que muestran cómo queda en la página. Sus opciones se abren en el panel de la derecha con los
+  valores del ejemplo: arriba, las que definen su contenido; debajo, las demás, en grupos plegados
   ([Ver y cambiar las demás opciones de un bloque](block-options.md)).
+- **Cambiar el ejemplo por tu contenido**: cambia cada texto en su campo y cada imagen con **Cambiar**
+  ([Cambiar o quitar la imagen](choose-images.md#cambiar-o-quitar-la-imagen)). En los bloques con elementos, como un
+  carrusel, cada elemento del ejemplo se cambia o se quita en la pestaña **Elementos**.
 - **Cambiar un bloque**: pulsa en cualquier punto del bloque para volver a abrir sus opciones
   ([Seleccionar un bloque](select-block.md)).
 - **Guardar**: cada cambio de las opciones de un bloque se guarda solo, y cada elemento de una lista, con **Guardar
@@ -43,8 +46,8 @@ Para editar el portal necesitas una cuenta con permiso de administración del po
   ([Ver la página en cada dispositivo](publish.md#ver-la-pagina-en-cada-dispositivo)). Si haces más cambios, recarga
   esa pestaña.
 - **Publicar**: los visitantes no ven nada hasta que pulsas **Publicar**. Entonces aparece el aviso «¡Publicado! Los
-  visitantes ya ven tus cambios.». La dirección pública de la página se copia desde **Más acciones**
-  ([Publicar una página](publish.md)).
+  visitantes ya ven tus cambios.». Si la página conserva algo del ejemplo, otro aviso nombra esos bloques. La
+  dirección pública de la página se copia desde **Más acciones** ([Publicar una página](publish.md)).
 
 !!! tip "Prueba los clics en la vista previa"
     En el lienzo del editor, un clic sobre un bloque lo selecciona para editarlo. Lo que hace un clic del visitante,
