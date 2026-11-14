@@ -50,7 +50,9 @@ La página se publica igual, pero sale un aviso que nombra cada bloque que conse
 «El bloque «Lo más destacado» conserva textos o imágenes del ejemplo, y los visitantes ya los ven. Cámbialos por los
 tuyos y vuelve a publicar.». Con varios bloques dice «Los bloques «A», «B» y «C» conservan…».
 
-Este aviso no se cierra solo: ciérralo cuando lo hayas leído.
+El aviso sale en una banda bajo la barra del editor y no se cierra solo: pulsa **Cerrar** cuando lo hayas leído.
+También desaparece al volver a publicar sin contenido de ejemplo y al recargar la página. Si la ventana mide menos de
+1600 píxeles de ancho y tienes abierto el panel de un bloque, el panel tapa **Cerrar**: cierra antes el panel.
 
 Cuenta como ejemplo una imagen del ejemplo, aunque la hayas copiado a otro bloque. También un texto igual al del
 ejemplo en el mismo campo. No cuentan el enlace a la portada que trae el ejemplo ni las opciones que no son texto.

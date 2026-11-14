@@ -34,7 +34,7 @@ guarda ([Guardar los cambios](save-changes.md)).
 Las otras opciones de **Al pulsar la imagen** son:
 
 - **Ir al enlace**, la que tiene un bloque nuevo: la imagen lleva a la dirección de **Enlace**, arriba en el panel. La
-  del ejemplo es `/`, la portada del portal.
+  del ejemplo lleva a la portada del portal y en el campo **Enlace** se ve escrita `app:///`.
 - **Nada**: la imagen no responde al clic.
 
 ## Comprobar el resultado

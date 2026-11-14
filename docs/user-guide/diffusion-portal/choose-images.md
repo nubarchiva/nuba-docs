@@ -81,9 +81,9 @@ Con una imagen elegida, el campo muestra dos botones:
 - **Cambiar** abre el diálogo para elegir otra.
 - **Quitar** deja el campo vacío.
 
-Una imagen del ejemplo que trae un bloque nuevo se muestra en el campo por su dirección, por ejemplo
-`example://HeroCarousel/facade.png`, sin miniatura. Al pulsar **Cambiar**, el diálogo se abre en **Dirección web** con
-esa dirección. Pasa a la pestaña de tu imagen y elígela ([Elegir una imagen](#elegir-una-imagen)).
+Una imagen del ejemplo que trae un bloque nuevo se muestra en el campo como cualquier otra: con su miniatura, su
+nombre y su tamaño. Al pulsar **Cambiar**, el diálogo se abre como en un campo vacío, sin ninguna imagen seleccionada.
+Elige la tuya ([Elegir una imagen](#elegir-una-imagen)).
 
 Si el bloque necesita la imagen, al quitarla no se guarda y sale un mensaje que te pide revisar el campo
 ([Cuando un cambio no se guarda](save-changes.md#cuando-un-cambio-no-se-guarda)).
