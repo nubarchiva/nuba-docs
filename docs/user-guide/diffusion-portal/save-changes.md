@@ -10,13 +10,10 @@ si se ha guardado.
 
 ## Guardar un cambio
 
-1. Abre la página en el editor ([Antes de empezar](index.md#antes-de-empezar)).
-2. Pulsa un bloque para abrir sus opciones a la derecha ([Seleccionar un bloque](select-block.md)).
-3. Cambia un campo, por ejemplo el **Pie de foto** de un bloque **Imagen con pie**.
-4. Sal del campo con la tecla Tab o pulsando fuera de él.
-5. A la izquierda del estado de la página aparece «Guardando…» y, enseguida, «Guardado».
+Un cambio en las opciones de un bloque se guarda al salir del campo, con la tecla Tab o pulsando fuera de él. A la
+izquierda del estado de la página aparece «Guardando…» y, enseguida, «Guardado».
 
-    ![El aviso «Guardado» junto al estado de la página.](../../assets/screenshots/es/diffusion-portal/save-changes/saved.png){ width="241" }
+![El aviso «Guardado» junto al estado de la página.](../../assets/screenshots/es/diffusion-portal/save-changes/saved.png){ width="241" }
 
 Si recargas la página, el cambio sigue ahí.
 
@@ -24,11 +21,9 @@ Otros cambios, como añadir un bloque, se guardan igual aunque no muestren el av
 
 ## Guardar un elemento
 
-En los bloques con una lista de elementos, cada elemento se edita en la pestaña **Elementos**:
-
-1. Pulsa **Añadir elemento**, o pulsa un elemento de la lista para cambiarlo.
-2. Rellena sus campos.
-3. Pulsa **Guardar elemento**. Aparecen «Guardando…» y «Guardado», y el elemento vuelve a la lista.
+En los bloques con una lista de elementos, cada elemento se edita en la pestaña **Elementos**. Pulsa **Añadir
+elemento**, o pulsa un elemento de la lista para cambiarlo. Lo que escribes en él se guarda con **Guardar elemento**:
+aparecen «Guardando…» y «Guardado», y el elemento vuelve a la lista.
 
 ## Cuando un cambio no se guarda
 
@@ -48,21 +43,23 @@ Si el campo está en un grupo plegado, el grupo no se abre solo: su cabecera lo 
 `500` en **Tiempo entre imágenes (milisegundos)** de un **Carrusel de cabecera**, la cabecera del grupo **Paso de las
 imágenes** dice «Revisa: «Tiempo entre imágenes (milisegundos)»». Abre el grupo para corregirlo.
 
-Para resolverlo:
-
-1. Vuelve al campo marcado.
-2. Corrígelo como dice el mensaje. En el ejemplo, escribe un pie de foto.
-3. Sal del campo. Cuando aparece «Guardado», el cambio ya está guardado y la marca desaparece.
+Corrige el campo marcado como dice el mensaje. Al salir de él aparece «Guardado» y la marca desaparece.
 
 Si recargas la página sin corregirlo, el campo vuelve al último valor que se guardó.
 
-### Si cambias de bloque antes de corregirlo
+### Si sigues editando antes de corregirlo
 
 Si pulsas otro bloque, lo que habías escrito en el primero no se pierde. Al volver a él, sus campos tienen lo que
 escribiste y el campo rechazado sigue marcado. Pasa lo mismo con el formulario de un elemento que no has guardado.
 
 También se conserva si, en el mismo bloque, pasas de la pestaña **Elementos** a **Opciones**, o al revés. Al volver a
 **Elementos**, el elemento que estabas editando sigue abierto con lo que escribiste.
+
+Y se conserva si mueves, duplicas o quitas un bloque desde el lienzo, si editas un texto sobre la página en la vista
+**Visual** o si guardas cambios en **Editar YAML**. Solo se retira lo de un bloque que la página ya no tiene.
+
+Al publicar, lo que no se ha podido guardar no llega a los visitantes, y el editor te avisa
+([Publicar](publish.md#publicar)).
 
 ## La imagen de un elemento es obligatoria
 

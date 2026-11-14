@@ -40,17 +40,31 @@ buscar como lo haría un visitante, publica la página y abre su dirección púb
 
 4. El estado de la página pasa a **Publicada** y el botón **Publicar** desaparece hasta que hagas otro cambio.
 
+Lo que no se ha guardado no se publica: un campo rechazado, como un pie de foto vacío, o un elemento que no has
+guardado con **Guardar elemento**. Tras el aviso de éxito sale otro que lo dice, por ejemplo «Lo que queda sin guardar
+en «Pieza destacada» no se ha publicado. Guárdalo y vuelve a publicar.».
+
+## Si la página conserva contenido del ejemplo
+
+La página se publica igual, pero sale un aviso que nombra cada bloque que conserva algo del ejemplo. Por ejemplo:
+«El bloque «Lo más destacado» conserva textos o imágenes del ejemplo, y los visitantes ya los ven. Cámbialos por los
+tuyos y vuelve a publicar.». Con varios bloques dice «Los bloques «A», «B» y «C» conservan…».
+
+Este aviso no se cierra solo: ciérralo cuando lo hayas leído.
+
+Cuenta como ejemplo una imagen del ejemplo, aunque la hayas copiado a otro bloque. También un texto igual al del
+ejemplo en el mismo campo. No cuentan el enlace a la portada que trae el ejemplo ni las opciones que no son texto.
+
 ## Copiar la dirección pública
 
 1. Pulsa **Más acciones**, el último botón de la barra del editor, a la derecha de **Vista previa**.
 
     ![El menú Más acciones desplegado.](../../assets/screenshots/es/diffusion-portal/publish/more-actions.png){ width="367" }
 
-2. Pulsa **Copiar dirección pública**. Sale el aviso «Dirección pública copiada.».
+2. Pulsa **Copiar dirección pública**. Sale el aviso «Dirección pública copiada.». Ya puedes pegarla donde quieras
+   compartirla o enlazarla.
 
     ![El aviso «Dirección pública copiada.».](../../assets/screenshots/es/diffusion-portal/publish/address-copied.png){ width="276" }
-
-3. Pega la dirección donde quieras compartirla o enlazarla.
 
 Si la página aún no se ha publicado, el menú dice «Publica la página para tener su dirección pública.» en lugar de
 copiarla.

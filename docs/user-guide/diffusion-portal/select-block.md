@@ -25,7 +25,7 @@ Un bloque que acabas de añadir con **Añadir bloque** queda ya seleccionado.
 ## En la vista Visual
 
 1. Pulsa **Visual**. El editor muestra la página con su aspecto final.
-2. Pulsa sobre el bloque, en cualquier punto. Un bloque que aún no tiene contenido se ve como una franja con borde de
+2. Pulsa sobre el bloque, en cualquier punto. Un bloque sin contenido se ve como una franja con borde de
    puntos, y también responde.
 
     ![Vista Visual: la franja fina de una Imagen con pie sin contenido, seleccionada y con su barra de acciones.](../../assets/screenshots/es/diffusion-portal/select-block/visual-view.png){ width="728" }
