@@ -10,14 +10,6 @@
   --md-accent-fg-color--transparent: rgba(78, 197, 255, 0.1);
 }
 
-/* Dark mode adjustments */
-[data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #4ec5ff;
-  --md-primary-fg-color--light: #7dd4ff;
-  --md-primary-fg-color--dark: #00a8e8;
-  --md-accent-fg-color: #4ec5ff;
-}
-
 /* Header styling */
 .md-header {
   background-color: var(--md-primary-fg-color--dark);

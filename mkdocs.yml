@@ -3,10 +3,11 @@ site_url: https://docs.nubarchiva.es
 site_description: Guías de uso de nubarchiva
 site_author: Equipo nubarchiva
 
-# Construcción estricta: una página fuera de la navegación es un aviso
+# Construcción estricta: una página fuera de la navegación o un enlace a un ancla que no existe es un aviso
 validation:
   nav:
     omitted_files: warn
+  anchors: warn
 
 # Copyright
 copyright: >-
@@ -32,22 +33,9 @@ theme:
   logo: assets/images/brand/logo-white.svg
   favicon: assets/images/brand/logo.png
   palette:
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-7
-        name: Cambiar a modo oscuro
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-4
-        name: Cambiar a modo claro
+    scheme: default
+    primary: custom
+    accent: custom
   font: false
 
 # Plugins
@@ -94,6 +82,7 @@ markdown_extensions:
 # Navigation
 nav:
   - Inicio: index.md
+  - Publicar en el OPAC: user-guide/publish-in-opac.md
 
 # Extra
 extra:
