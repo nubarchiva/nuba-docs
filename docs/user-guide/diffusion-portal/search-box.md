@@ -47,7 +47,7 @@ Para añadir uno, pulsa el grupo **Filtros**:
      tienen ninguna.
    - **Nivel de descripción**: en **Valor**, el número de ese nivel en tu archivo.
 
-    ![El grupo Filtros de una Caja de búsqueda con «Elemento 1» ya relleno: el texto del botón, Buscar por Lugar y el valor.](../../assets/screenshots/es/diffusion-portal/search-box/filters.png)
+    ![El «Elemento 1» de los filtros de una Caja de búsqueda ya relleno: el texto del botón, Buscar por Lugar y el valor.](../../assets/screenshots/es/diffusion-portal/search-box/filters.png){ width="401" }
 
 5. Sal del campo. Mientras al elemento le falte un dato obligatorio, al escribir en él sale un aviso que nombra el
    campo, el número del elemento y la lista.

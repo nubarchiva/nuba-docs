@@ -16,7 +16,7 @@ Las imágenes se eligen, o se suben desde tu equipo, en el diálogo de cada elem
 2. Pulsa **Añadir bloque** y elige **Carrusel de cabecera**. Sus opciones se abren a la derecha.
 3. Pasa a la pestaña **Elementos** y pulsa **Añadir elemento**.
 
-    ![La pestaña Elementos de un Carrusel de cabecera, con el formulario de un elemento nuevo.](../../assets/screenshots/es/diffusion-portal/carousel/items-tab.png)
+    ![El formulario de un elemento nuevo en la pestaña Elementos.](../../assets/screenshots/es/diffusion-portal/carousel/items-tab.png){ width="394" }
 
 4. En **Imagen**, pulsa **Elegir imagen…** y elige la imagen en el diálogo
    ([cómo elegirla](choose-images.md#elegir-una-imagen)). La imagen es obligatoria.
@@ -27,7 +27,7 @@ Las imágenes se eligen, o se suben desde tu equipo, en el diálogo de cada elem
    «Elemento 1 (sin título)», con su posición. Sin imagen, no se guarda y el mensaje te lo dice
    ([La imagen de un elemento es obligatoria](save-changes.md#la-imagen-de-un-elemento-es-obligatoria)).
 
-    ![La pestaña Elementos con el elemento guardado, su título y su miniatura.](../../assets/screenshots/es/diffusion-portal/carousel/items-list.png)
+    ![El elemento guardado, con su título y su miniatura.](../../assets/screenshots/es/diffusion-portal/carousel/items-list.png){ width="395" }
 
 8. Repite los pasos 3 a 7 con cada imagen. Con **Subir** y **Bajar** cambias su orden y con **Eliminar** la quitas.
 

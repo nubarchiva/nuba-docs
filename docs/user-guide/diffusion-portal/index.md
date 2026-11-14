@@ -25,16 +25,16 @@ Para editar el portal necesitas una cuenta con permiso de administración del po
 1. Entra en nubarchiva y pulsa **Administración** en el menú superior.
 2. En el apartado **General**, pulsa **Portal de Difusión**. Se abre la lista de **Páginas**.
 
-    ![Lista de Páginas del Portal de Difusión.](../../assets/screenshots/es/diffusion-portal/index/pages-list.png)
+    ![Lista de Páginas del Portal de Difusión.](../../assets/screenshots/es/diffusion-portal/index/pages-list.png){ width="638" }
 
 3. Para crear una página, pulsa **Nueva página**, escribe su **Título** y pulsa **Crear página**. La **Ruta** se
    propone a partir del título.
 
-    ![Ventana Nueva página, con el Título escrito y la Ruta propuesta.](../../assets/screenshots/es/diffusion-portal/index/new-page.png)
+    ![Ventana Nueva página, con el Título escrito y la Ruta propuesta.](../../assets/screenshots/es/diffusion-portal/index/new-page.png){ width="640" }
 
 4. Pulsa el título de una página para abrir el **Editor de página del portal**.
 
-    ![Editor de página del portal, sin bloques.](../../assets/screenshots/es/diffusion-portal/index/page-editor.png)
+    ![Editor de página del portal, sin bloques.](../../assets/screenshots/es/diffusion-portal/index/page-editor.png){ width="736" }
 
 ## Cómo funciona el editor
 
@@ -42,7 +42,7 @@ Para editar el portal necesitas una cuenta con permiso de administración del po
   la derecha: arriba, las que definen su contenido; debajo, las demás, en grupos plegados
   ([Ver y cambiar las demás opciones de un bloque](block-options.md)).
 
-    ![Catálogo de bloques que se abre con Añadir bloque.](../../assets/screenshots/es/diffusion-portal/index/block-catalog.png)
+    ![Catálogo de bloques que se abre con Añadir bloque.](../../assets/screenshots/es/diffusion-portal/index/block-catalog.png){ width="421" }
 
 - **Cambiar un bloque**: pulsa en cualquier punto del bloque para volver a abrir sus opciones
   ([Seleccionar un bloque](select-block.md)).

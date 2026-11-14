@@ -18,7 +18,7 @@ ordenador.
 3. Arriba, pulsa **Móvil**, **Tableta** o **Escritorio**. La página se dibuja con el ancho de ese dispositivo: 375,
    768 o 1280 píxeles. La pestaña se abre en **Escritorio**.
 
-    ![Los botones Móvil, Tableta y Escritorio de la vista previa, con Escritorio activo.](../../assets/screenshots/es/diffusion-portal/publish/device-preview.png)
+    ![Los botones Móvil, Tableta y Escritorio de la vista previa, con Escritorio activo.](../../assets/screenshots/es/diffusion-portal/publish/device-preview.png){ width="251" }
 
 4. Si haces más cambios en el editor, recarga la pestaña de la vista previa para verlos. Al recargarla, vuelve a
    **Escritorio**.
@@ -36,7 +36,7 @@ buscar como lo haría un visitante, publica la página y abre su dirección púb
 2. Pulsa **Publicar**, en la barra de arriba del editor.
 3. Sale el aviso «¡Publicado! Los visitantes ya ven tus cambios.».
 
-    ![El aviso «¡Publicado!» y el estado Publicada de la página.](../../assets/screenshots/es/diffusion-portal/publish/published.png)
+    ![El aviso «¡Publicado!», con el texto «Los visitantes ya ven tus cambios».](../../assets/screenshots/es/diffusion-portal/publish/published.png){ width="415" }
 
 4. El estado de la página pasa a **Publicada** y el botón **Publicar** desaparece hasta que hagas otro cambio.
 
@@ -44,11 +44,11 @@ buscar como lo haría un visitante, publica la página y abre su dirección púb
 
 1. Pulsa **Más acciones**, el último botón de la barra del editor, a la derecha de **Vista previa**.
 
-    ![El menú Más acciones desplegado.](../../assets/screenshots/es/diffusion-portal/publish/more-actions.png)
+    ![El menú Más acciones desplegado.](../../assets/screenshots/es/diffusion-portal/publish/more-actions.png){ width="367" }
 
 2. Pulsa **Copiar dirección pública**. Sale el aviso «Dirección pública copiada.».
 
-    ![El aviso «Dirección pública copiada.».](../../assets/screenshots/es/diffusion-portal/publish/address-copied.png)
+    ![El aviso «Dirección pública copiada.».](../../assets/screenshots/es/diffusion-portal/publish/address-copied.png){ width="276" }
 
 3. Pega la dirección donde quieras compartirla o enlazarla.
 
