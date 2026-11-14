@@ -55,6 +55,8 @@ Sus campos son estos:
       tienen ninguna.
     - **Nivel de descripción**: en **Valor**, el número de ese nivel en tu archivo.
 
+![El «Elemento 1» de los filtros de una Caja de búsqueda ya relleno: el texto del botón, Buscar por Lugar y el valor.](../../assets/screenshots/es/diffusion-portal/search-box/filters.png){ width="401" }
+
 Mientras al elemento le falte un dato obligatorio, al escribir en él sale un aviso que nombra el campo, el número del
 elemento y la lista. Con **Eliminar elemento** quitas un tipo.
 

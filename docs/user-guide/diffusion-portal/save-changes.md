@@ -13,6 +13,8 @@ si se ha guardado.
 Un cambio en las opciones de un bloque se guarda al salir del campo, con la tecla Tab o pulsando fuera de él. A la
 izquierda del estado de la página aparece «Guardando…» y, enseguida, «Guardado».
 
+![El aviso «Guardado» junto al estado de la página.](../../assets/screenshots/es/diffusion-portal/save-changes/saved.png){ width="241" }
+
 Si recargas la página, el cambio sigue ahí.
 
 Otros cambios, como añadir un bloque, se guardan igual aunque no muestren el aviso.
@@ -34,6 +36,8 @@ de una **Imagen con pie** es obligatorio. Si lo dejas vacío, pasa esto:
   bloque por su título o, si no lo tiene, por su tipo. En una **Imagen con pie** sin título dice: «El bloque «Imagen
   con pie» no se ha guardado: revisa «Pie de foto». Es un dato obligatorio.». El mensaje se cierra solo a los pocos
   segundos. También puedes cerrarlo con su botón **Cerrar**.
+
+    ![El mensaje de que el bloque «Imagen con pie» no se ha guardado y de que revises «Pie de foto».](../../assets/screenshots/es/diffusion-portal/save-changes/not-saved.png){ width="420" }
 
 Si el campo está en un grupo plegado, el grupo no se abre solo: su cabecera lo nombra. Por ejemplo, si escribes
 `500` en **Tiempo entre imágenes (milisegundos)** de un **Carrusel de cabecera**, la cabecera del grupo **Paso de las

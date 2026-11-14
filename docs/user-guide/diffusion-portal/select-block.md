@@ -16,6 +16,8 @@ en las dos vistas del editor: **Lienzo**, la vista con que se abre, y **Visual**
    bloque.
 4. La ficha seleccionada queda resaltada, para que sepas qué bloque estás cambiando.
 
+    ![La ficha del bloque Imagen con pie seleccionado en el lienzo, resaltada, con los botones de subir, bajar, duplicar y eliminar.](../../assets/screenshots/es/diffusion-portal/select-block/block-selected.png){ width="823" }
+
 Con el teclado, lleva el foco a la ficha con la tecla Tab y pulsa Intro.
 
 Un bloque que acabas de añadir con **Añadir bloque** queda ya seleccionado.
@@ -25,6 +27,9 @@ Un bloque que acabas de añadir con **Añadir bloque** queda ya seleccionado.
 1. Pulsa **Visual**. El editor muestra la página con su aspecto final.
 2. Pulsa sobre el bloque, en cualquier punto. Un bloque sin contenido se ve como una franja con borde de
    puntos, y también responde.
+
+    ![Vista Visual: la franja fina de una Imagen con pie sin contenido, seleccionada y con su barra de acciones.](../../assets/screenshots/es/diffusion-portal/select-block/visual-view.png){ width="728" }
+
 3. Como en el lienzo, el panel muestra «Cargando propiedades…» y después las opciones. El bloque queda resaltado.
 
 En las dos vistas, un clic selecciona el bloque. Lo que hace un clic del visitante, como seguir un enlace o ampliar una
@@ -34,3 +39,5 @@ imagen, se prueba en **Vista previa**.
 
 Pulsa la X de la esquina superior derecha del panel, **Cerrar el panel de propiedades**. El panel se cierra y el
 bloque deja de estar resaltado.
+
+![El editor con el panel de propiedades cerrado y ningún bloque resaltado.](../../assets/screenshots/es/diffusion-portal/select-block/panel-closed.png){ width="738" }

@@ -23,9 +23,16 @@ escribir código. Esta sección explica, tarea a tarea, cómo hacerlo.
 Para editar el portal necesitas una cuenta con permiso de administración del portal.
 
 1. En **Administración**, apartado **General**, pulsa **Portal de Difusión**. Se abre la lista de **Páginas**.
+
+    ![Lista de Páginas del Portal de Difusión.](../../assets/screenshots/es/diffusion-portal/index/pages-list.png){ width="638" }
+
 2. Pulsa el título de una página para abrir el **Editor de página del portal**.
 
+    ![Editor de página del portal, sin bloques.](../../assets/screenshots/es/diffusion-portal/index/page-editor.png){ width="736" }
+
 Para crear una página, pulsa **Nueva página**. Su **Ruta** se propone a partir del título.
+
+![Ventana Nueva página, con el Título escrito y la Ruta propuesta.](../../assets/screenshots/es/diffusion-portal/index/new-page.png){ width="640" }
 
 ## Cómo funciona el editor
 
@@ -33,6 +40,9 @@ Para crear una página, pulsa **Nueva página**. Su **Ruta** se propone a partir
   textos e imágenes que muestran cómo queda en la página. Sus opciones se abren en el panel de la derecha con los
   valores del ejemplo: arriba, las que definen su contenido; debajo, las demás, en grupos plegados
   ([Ver y cambiar las demás opciones de un bloque](block-options.md)).
+
+    ![Catálogo de bloques que se abre con Añadir bloque.](../../assets/screenshots/es/diffusion-portal/index/block-catalog.png){ width="421" }
+
 - **Cambiar el ejemplo por tu contenido**: cambia cada texto en su campo y cada imagen con **Cambiar**
   ([Cambiar o quitar la imagen](choose-images.md#cambiar-o-quitar-la-imagen)). En los bloques con elementos, como un
   carrusel, cada elemento del ejemplo se cambia o se quita en la pestaña **Elementos**.

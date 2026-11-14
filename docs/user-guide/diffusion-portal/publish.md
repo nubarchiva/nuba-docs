@@ -17,6 +17,9 @@ ordenador.
    menú de nubarchiva.
 3. Arriba, pulsa **Móvil**, **Tableta** o **Escritorio**. La página se dibuja con el ancho de ese dispositivo: 375,
    768 o 1280 píxeles. La pestaña se abre en **Escritorio**.
+
+    ![Los botones Móvil, Tableta y Escritorio de la vista previa, con Escritorio activo.](../../assets/screenshots/es/diffusion-portal/publish/device-preview.png){ width="251" }
+
 4. Si haces más cambios en el editor, recarga la pestaña de la vista previa para verlos. Al recargarla, vuelve a
    **Escritorio**.
 
@@ -32,6 +35,9 @@ buscar como lo haría un visitante, publica la página y abre su dirección púb
 1. Abre la página en el editor ([Antes de empezar](index.md#antes-de-empezar)).
 2. Pulsa **Publicar**, en la barra de arriba del editor.
 3. Sale el aviso «¡Publicado! Los visitantes ya ven tus cambios.».
+
+    ![El aviso «¡Publicado!», con el texto «Los visitantes ya ven tus cambios».](../../assets/screenshots/es/diffusion-portal/publish/published.png){ width="415" }
+
 4. El estado de la página pasa a **Publicada** y el botón **Publicar** desaparece hasta que hagas otro cambio.
 
 Lo que no se ha guardado no se publica: un campo rechazado, como un pie de foto vacío, o un elemento que no has
@@ -52,8 +58,13 @@ ejemplo en el mismo campo. No cuentan el enlace a la portada que trae el ejemplo
 ## Copiar la dirección pública
 
 1. Pulsa **Más acciones**, el último botón de la barra del editor, a la derecha de **Vista previa**.
+
+    ![El menú Más acciones desplegado.](../../assets/screenshots/es/diffusion-portal/publish/more-actions.png){ width="367" }
+
 2. Pulsa **Copiar dirección pública**. Sale el aviso «Dirección pública copiada.». Ya puedes pegarla donde quieras
    compartirla o enlazarla.
+
+    ![El aviso «Dirección pública copiada.».](../../assets/screenshots/es/diffusion-portal/publish/address-copied.png){ width="276" }
 
 Si la página aún no se ha publicado, el menú dice «Publica la página para tener su dirección pública.» en lugar de
 copiarla.

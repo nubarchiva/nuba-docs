@@ -27,8 +27,12 @@ pie. Su **Enlace** es la dirección a la que lleva la imagen al pulsarla. La ima
 elemento no se guarda
 ([La imagen de un elemento es obligatoria](save-changes.md#la-imagen-de-un-elemento-es-obligatoria)).
 
+![El elemento guardado, con su título y su miniatura.](../../assets/screenshots/es/diffusion-portal/carousel/items-list.png){ width="395" }
+
 Para añadir otra imagen, pulsa **Añadir elemento**. En la lista, un elemento sin título se llama «Elemento 1 (sin
 título)», con su posición. Con **Subir** y **Bajar** cambias el orden.
+
+![El formulario de un elemento nuevo en la pestaña Elementos.](../../assets/screenshots/es/diffusion-portal/carousel/items-tab.png){ width="394" }
 
 Si ya tienes las imágenes en **Digitalizaciones** o en **Imágenes del portal**, puedes añadirlas todas de una vez: en
 **Elementos**, pulsa **Añadir varias imágenes** y marca las que quieras

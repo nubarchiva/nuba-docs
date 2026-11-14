@@ -21,6 +21,9 @@ retocada, va mejor en **Imágenes del portal**, para no mezclarlo con los origin
 2. Pulsa **Elegir imagen…**. Se abre el diálogo **Elegir imagen**.
 3. Pulsa la pestaña del origen: **Digitalizaciones** o **Imágenes del portal**. La pestaña muestra sus carpetas a la
    izquierda y su contenido a la derecha.
+
+    ![El diálogo Elegir imagen con la pestaña Imágenes del portal activa y sus imágenes.](../../assets/screenshots/es/diffusion-portal/choose-images/select-resource.png){ width="739" }
+
 4. Entra en la carpeta de la imagen. Con **Vista de lista** ves cada imagen en miniatura junto a su nombre; con
    **Vista de mosaico**, más grande.
 5. Marca el botón redondo de la imagen. Abajo aparece «Seleccionado:» con su nombre.
@@ -186,8 +189,14 @@ publicada, el enlace lleva a la ficha de esa descripción.
 Las imágenes del portal también se suben y se organizan fuera del editor:
 
 1. Pulsa **Administración** en el menú superior y, en el apartado **General**, pulsa **Imágenes del portal**.
+
+    ![Las tres imágenes subidas a Imágenes del portal.](../../assets/screenshots/es/diffusion-portal/choose-images/portal-images.png){ width="638" }
+
 2. Pulsa **Subir**. En la ventana **Subir ficheros**, pulsa **Subir ficheros** y elige las imágenes de tu equipo, o
    pulsa **Subir carpeta** y elige una carpeta.
+
+    ![La ventana Subir ficheros de Imágenes del portal.](../../assets/screenshots/es/diffusion-portal/choose-images/upload-window.png){ width="739" }
+
 3. Las imágenes aparecen en la lista. Las de una carpeta, en una carpeta con su nombre.
 
 ## Ver las imágenes en la lista de elementos

@@ -15,7 +15,13 @@ cuentan como contenido de ejemplo al publicar
 1. Selecciona el bloque ([Seleccionar un bloque](select-block.md)).
 2. Debajo de las opciones de contenido están los grupos, cada uno con su nombre y una flecha. En una **Imagen con
    pie**, por ejemplo, son **Imagen**, **Textos**, **Enlace** y **Otros ajustes**.
+
+    ![Los cuatro grupos plegados de una Imagen con pie: Imagen, Textos, Enlace y Otros ajustes.](../../assets/screenshots/es/diffusion-portal/block-options/groups-folded.png){ width="418" }
+
 3. Pulsa el nombre del grupo. Se despliega con sus opciones y la ayuda de cada una.
+
+    ![El grupo Enlace desplegado, con sus opciones.](../../assets/screenshots/es/diffusion-portal/block-options/group-open.png){ width="419" }
+
 4. Para plegarlo, vuelve a pulsar su nombre.
 
 Cada vez que abres un bloque, sus grupos aparecen plegados, aunque tengan opciones cambiadas.
@@ -52,6 +58,9 @@ La cabecera de cada grupo dice qué opciones suyas tienen un valor distinto del 
 
 - Con hasta tres opciones cambiadas, las nombra. Por ejemplo: «Con cambios: Tiempo entre imágenes (milisegundos),
   Detener al pasar el ratón».
+
+    ![Cabecera de un grupo con una opción cambiada: «Con cambios:» y su nombre.](../../assets/screenshots/es/diffusion-portal/block-options/changes-header.png){ width="401" }
+
 - Con más de tres, dice cuántas son, por ejemplo «Con 4 cambios». Para ver sus nombres, deja el ratón sobre ese
   texto.
 
