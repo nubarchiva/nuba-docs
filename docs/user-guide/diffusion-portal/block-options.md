@@ -44,13 +44,17 @@ que muestran una serie de imágenes o elementos, marcados con «Sí» en la tabl
 | **Carrusel de elementos** | **Título** | **Disposición**, **Controles**, **Paso de los elementos**, **Transición**, **Otros ajustes** | Sí |
 | **Cuadrícula de elementos** | **Título** | **General**, **Elementos por fila**, **Qué se muestra**, **Otros ajustes** | Sí |
 | **Mosaico de fotos** | **Título** | **Columnas**, **Qué se muestra**, **Otros ajustes** | Sí |
-| **Vídeo** | **Plataforma**, **Código del vídeo**, **Código de la lista de reproducción**, **Título**, **Pie del vídeo** | **Vídeo**, **Textos**, **Aspecto**, **Reproducción**, **Otros ajustes** | No |
+| **Vídeo** | Con YouTube: **Plataforma**, **Código del vídeo**, **Código de la lista de reproducción**, **Título**, **Pie del vídeo**. Con Vimeo: **Plataforma**, **Dirección del vídeo en Vimeo**, **Título**, **Pie del vídeo**. Con un vídeo de la institución: **Plataforma**, **Vídeo**, **Título**, **Pie del vídeo** | Con YouTube: **Vídeo**, **Textos**, **Aspecto**, **Reproducción**, **Otros ajustes**. Con Vimeo o un vídeo de la institución: **Aspecto**, **Reproducción**, **Otros ajustes** | No |
 
 ## Opciones que dependen de otra
 
-Algunas opciones solo valen si otra tiene un valor concreto, y su ayuda lo dice. Por ejemplo, en un **Vídeo**,
+Algunas opciones solo valen si otra tiene un valor concreto, y su ayuda lo dice. Por ejemplo, en un **Vídeo** de YouTube,
 **Reproducir al abrir la página**, **Sin sonido** y **Privacidad reforzada**, del grupo **Reproducción**, solo valen
-con **Reproductor en la página** elegido en **Forma de mostrarlo**, del grupo **Aspecto**.
+con **Reproductor en la página** elegido en **Forma de mostrarlo**, del grupo **Aspecto**. **Privacidad reforzada** solo
+existe con YouTube; las otras dos valen también con Vimeo y con un vídeo de la institución.
+
+El panel del bloque **Vídeo** muestra solo las opciones de la plataforma elegida en **Plataforma**: al pasar de YouTube
+a Vimeo, las opciones de YouTube desaparecen del panel ([Poner un vídeo](video.md)).
 
 ## Saber qué opciones has cambiado
 
