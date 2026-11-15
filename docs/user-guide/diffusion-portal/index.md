@@ -17,6 +17,7 @@ escribir código. Esta sección explica, tarea a tarea, cómo hacerlo.
 - [Configurar la caja de búsqueda](search-box.md)
 - [Ampliar una imagen al hacer clic](image-zoom.md)
 - [Elegir las imágenes de un bloque](choose-images.md)
+- [Poner un vídeo](video.md)
 
 ## Antes de empezar
 

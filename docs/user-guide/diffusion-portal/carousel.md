@@ -34,7 +34,7 @@ título)», con su posición. Con **Subir** y **Bajar** cambias el orden.
 
 ![El formulario de un elemento nuevo en la pestaña Elementos.](../../assets/screenshots/es/diffusion-portal/carousel/items-tab.png){ width="394" }
 
-Si ya tienes las imágenes en **Digitalizaciones** o en **Imágenes del portal**, puedes añadirlas todas de una vez: en
+Si ya tienes las imágenes en **Digitalizaciones** o en **Imágenes y vídeos del portal**, puedes añadirlas todas de una vez: en
 **Elementos**, pulsa **Añadir varias imágenes** y marca las que quieras
 ([Elegir varias imágenes a la vez](choose-images.md#elegir-varias-imagenes-a-la-vez)). Cada una pasa a ser un elemento
 guardado, sin título.

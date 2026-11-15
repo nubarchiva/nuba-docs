@@ -8,18 +8,18 @@ Cada campo de imagen de un bloque, como **Imagen** o **Imagen de fondo**, se rel
 imagen**. El diálogo tiene una pestaña por origen de la imagen:
 
 - **Digitalizaciones**: las copias digitales asociadas a las descripciones del archivo.
-- **Imágenes del portal**: un espacio aparte para el material propio de la web, como cabeceras, logotipos o
+- **Imágenes y vídeos del portal**: un espacio aparte para el material propio de la web, como cabeceras, logotipos o
   adaptaciones de una imagen para la difusión.
 - **Dirección web**: la dirección de una imagen publicada en otro sitio.
 
 Tú decides dónde guardas cada imagen. Un consejo: lo que preparas solo para el portal, como un recorte o una versión
-retocada, va mejor en **Imágenes del portal**, para no mezclarlo con los originales del archivo.
+retocada, va mejor en **Imágenes y vídeos del portal**, para no mezclarlo con los originales del archivo.
 
 ## Elegir una imagen
 
 1. En las opciones del bloque, busca el campo de imagen. Si está vacío, muestra el botón **Elegir imagen…**.
 2. Pulsa **Elegir imagen…**. Se abre el diálogo **Elegir imagen**.
-3. Pulsa la pestaña del origen: **Digitalizaciones** o **Imágenes del portal**. La pestaña muestra sus carpetas a la
+3. Pulsa la pestaña del origen: **Digitalizaciones** o **Imágenes y vídeos del portal**. La pestaña muestra sus carpetas a la
    izquierda y su contenido a la derecha.
 
     ![El diálogo Elegir imagen con la pestaña Imágenes del portal activa y sus imágenes.](../../assets/screenshots/es/diffusion-portal/choose-images/select-resource.png){ width="739" }
@@ -45,7 +45,7 @@ elemento. Son el **Carrusel de cabecera**, la **Tira de imágenes de cabecera**,
 
 1. Selecciona el bloque y pasa a la pestaña **Elementos**.
 2. Pulsa **Añadir varias imágenes**. Se abre el diálogo **Elegir imágenes**, con las pestañas **Digitalizaciones** e
-   **Imágenes del portal**. La pestaña **Dirección web** no sale aquí: cada dirección se escribe en su elemento.
+   **Imágenes y vídeos del portal**. La pestaña **Dirección web** no sale aquí: cada dirección se escribe en su elemento.
 3. Entra en la carpeta y marca la casilla de cada imagen, en el orden en que quieres verlas. Abajo aparece
    «Seleccionados» con el número de imágenes marcadas y sus nombres.
 4. Pulsa **Vincular**, que lleva entre paréntesis cuántas has marcado, por ejemplo **Vincular (3)**.
@@ -116,7 +116,7 @@ El ancho a partir del cual avisa cada bloque es este:
 
 ## Subir una imagen desde el diálogo
 
-Las pestañas **Imágenes del portal** y **Digitalizaciones** permiten subir imágenes de tu equipo sin salir del
+Las pestañas **Imágenes y vídeos del portal** y **Digitalizaciones** permiten subir imágenes de tu equipo sin salir del
 editor. Si tu instalación no permite añadir digitalizaciones desde el portal, la pestaña **Digitalizaciones** no
 ofrece subir.
 
@@ -152,11 +152,11 @@ En el diálogo, pulsa la pestaña **Dirección web**. La dirección de la imagen
 Con **Usar esta dirección**, el diálogo se cierra y el campo muestra la imagen.
 
 Una imagen de otra web se ve mientras esa web la mantenga en la misma dirección. Si la cambia o la borra, deja de
-verse en tu página. Por eso es mejor guardar las imágenes en **Imágenes del portal** o en **Digitalizaciones**.
+verse en tu página. Por eso es mejor guardar las imágenes en **Imágenes y vídeos del portal** o en **Digitalizaciones**.
 
 ## Qué se guarda en el campo
 
-Al elegir una imagen de **Digitalizaciones** o de **Imágenes del portal**, el campo guarda una referencia a esa
+Al elegir una imagen de **Digitalizaciones** o de **Imágenes y vídeos del portal**, el campo guarda una referencia a esa
 imagen, por ejemplo `media://escudo.png` o `digitization://fondo/vista-plaza.jpg`. No se copia nada: la página usa
 la imagen del almacén.
 
@@ -188,7 +188,7 @@ publicada, el enlace lleva a la ficha de esa descripción.
 
 Las imágenes del portal también se suben y se organizan fuera del editor:
 
-1. Pulsa **Administración** en el menú superior y, en el apartado **General**, pulsa **Imágenes del portal**.
+1. Pulsa **Administración** en el menú superior y, en el apartado **General**, pulsa **Imágenes y vídeos del portal**.
 
     ![Las tres imágenes subidas a Imágenes del portal.](../../assets/screenshots/es/diffusion-portal/choose-images/portal-images.png){ width="638" }
 
