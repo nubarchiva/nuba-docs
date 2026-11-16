@@ -18,6 +18,7 @@ escribir código. Esta sección explica, tarea a tarea, cómo hacerlo.
 - [Ampliar una imagen al hacer clic](image-zoom.md)
 - [Elegir las imágenes de un bloque](choose-images.md)
 - [Poner un vídeo](video.md)
+- [Empezar desde una plantilla y mantenerlas](templates.md)
 
 ## Antes de empezar
 
@@ -31,7 +32,7 @@ Para editar el portal necesitas una cuenta con permiso de administración del po
 
     ![Editor de página del portal, sin bloques.](../../assets/screenshots/es/diffusion-portal/index/page-editor.png){ width="736" }
 
-Para crear una página, pulsa **Nueva página**. Su **Ruta** se propone a partir del título.
+Para crear una página, pulsa **Nueva página**. Su **Ruta** se propone a partir del título. Si hay plantillas que ofrecer, en **Empezar con** eliges una página en blanco o una plantilla ([Empezar desde una plantilla](templates.md)).
 
 ![Ventana Nueva página, con el Título escrito y la Ruta propuesta.](../../assets/screenshots/es/diffusion-portal/index/new-page.png){ width="640" }
 
