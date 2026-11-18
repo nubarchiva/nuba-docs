@@ -95,6 +95,12 @@ nav:
       - Elegir imágenes: user-guide/diffusion-portal/choose-images.md
       - Poner un vídeo: user-guide/diffusion-portal/video.md
       - Empezar desde una plantilla: user-guide/diffusion-portal/templates.md
+  - Métricas:
+      - user-guide/metrics/index.md
+      - Comprobar si cada nodo mide: user-guide/metrics/node-status.md
+      - Detener y reanudar la medición: user-guide/metrics/stop-measurement.md
+      - Ver qué política rige: user-guide/metrics/read-policy.md
+      - Cambiar la política: user-guide/metrics/change-policy.md
 
 # Extra
 extra:
