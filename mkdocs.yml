@@ -95,6 +95,7 @@ nav:
       - Elegir imágenes: user-guide/diffusion-portal/choose-images.md
       - Poner un vídeo: user-guide/diffusion-portal/video.md
       - Empezar desde una plantilla: user-guide/diffusion-portal/templates.md
+      - Elegir contenido del catálogo: user-guide/diffusion-portal/catalog-content.md
   - Métricas:
       - user-guide/metrics/index.md
       - Comprobar si cada nodo mide: user-guide/metrics/node-status.md
