@@ -19,6 +19,7 @@ escribir código. Esta sección explica, tarea a tarea, cómo hacerlo.
 - [Elegir las imágenes de un bloque](choose-images.md)
 - [Poner un vídeo](video.md)
 - [Empezar desde una plantilla y mantenerlas](templates.md)
+- [Elegir contenido del catálogo](catalog-content.md)
 
 ## Antes de empezar
 

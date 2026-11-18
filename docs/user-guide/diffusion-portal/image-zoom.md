@@ -34,7 +34,7 @@ guarda ([Guardar los cambios](save-changes.md)).
 Las otras opciones de **Al pulsar la imagen** son:
 
 - **Ir al enlace**, la que tiene un bloque nuevo: la imagen lleva a la dirección de **Enlace**, arriba en el panel. La
-  del ejemplo lleva a la portada del portal y en el campo **Enlace** se ve escrita `app:///`.
+  del ejemplo lleva a la portada del portal y el campo **Enlace** muestra «Portada del portal».
 - **Nada**: la imagen no responde al clic.
 
 ## Comprobar el resultado
@@ -62,7 +62,7 @@ pulsarla se eligen en el formulario del elemento, en **Imágenes ampliadas**.
 
 En el formulario de cada imagen, su **Título** sale como pie de la imagen ampliada, y su **Enlace a la ficha** puede
 ser la referencia de su descripción en el archivo
-([Enlazar a una descripción del archivo](choose-images.md#enlazar-a-una-descripcion-del-archivo)). La colección se
+([Elegir un enlace](choose-images.md#elegir-un-enlace)). La colección se
 guarda con **Guardar elemento**.
 
 Para añadir una sola imagen, pulsa **Añadir imagen** y, en su **Fichero**, **Elegir imagen…**. Con **Eliminar
