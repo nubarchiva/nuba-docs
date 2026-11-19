@@ -1,7 +1,3 @@
----
-status: published
----
-
 # Guardar los cambios y entender sus avisos
 
 El editor guarda cada cambio de las opciones de un bloque solo: no hay botón de guardar. Los elementos de una lista,

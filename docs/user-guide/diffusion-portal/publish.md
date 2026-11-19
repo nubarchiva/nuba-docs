@@ -1,7 +1,3 @@
----
-status: published
----
-
 # Publicar una página y ver cómo la ve un visitante
 
 Los visitantes del portal no ven nada de lo que cambias hasta que publicas. Una vez publicada, el editor te da la

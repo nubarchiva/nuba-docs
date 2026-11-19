@@ -1,7 +1,3 @@
----
-status: published
----
-
 # Seleccionar un bloque
 
 Para cambiar un bloque, primero lo seleccionas. Sus opciones se abren en el panel de la derecha. Puedes seleccionarlo
