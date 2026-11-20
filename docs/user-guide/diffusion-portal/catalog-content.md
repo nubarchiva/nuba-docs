@@ -44,6 +44,11 @@ entradas por su nombre.
 Pulsar una entrada la elige. **Quitar** aparece al pasar el ratón por la entrada o al llegar a ella con Tab, y siempre
 en una pantalla táctil. Quita la entrada de la lista sin pedir confirmación y no borra nada del catálogo.
 
+Si una ficha ya no se encuentra en el catálogo, su entrada sale como «Ficha E901: ya no está en el catálogo», con su
+signatura en lugar del título. Lo mismo ocurre en el campo que la tenga elegida, donde se ofrecen **Cambiar** y
+**Quitar**. Pulsa **Quitar** para dejar el campo vacío o **Cambiar** para elegir otra ficha. Si el campo es obligatorio,
+como la **Imagen** de una **Imagen con pie**, vacío no se puede guardar: pulsa **Cambiar**.
+
 La lista guarda 100 entradas por usuario. Cuando se llena, se descarta la que lleva más tiempo sin usarse. La
 instalación puede cambiar ese número.
 
