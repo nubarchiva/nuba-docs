@@ -1,7 +1,3 @@
----
-status: published
----
-
 # Ver y cambiar las demás opciones de un bloque
 
 Al seleccionar un bloque, el panel de la derecha muestra arriba solo las opciones que definen su contenido, como la

@@ -1,7 +1,3 @@
----
-status: published
----
-
 # Configurar la caja de búsqueda
 
 El bloque **Caja de búsqueda** pone en la página un buscador del catálogo del archivo. Puede llevar un enlace a la

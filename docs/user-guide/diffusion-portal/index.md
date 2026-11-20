@@ -1,7 +1,3 @@
----
-status: published
----
-
 # Portal de difusión
 
 El portal de difusión es la web pública de tu archivo. Sus páginas se montan con bloques en el editor de páginas, sin

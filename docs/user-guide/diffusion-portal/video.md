@@ -7,7 +7,7 @@ Pulsa **Añadir bloque** y elige **Vídeo** ([Antes de empezar](index.md#antes-d
 ejemplo de YouTube, con su título y su pie. Para poner el tuyo, elige en **Plataforma** dónde está publicado. Las
 opciones de abajo cambian según la plataforma.
 
-![Los campos Plataforma, con los orígenes del vídeo, y Vídeo, que avisa «Es un dato obligatorio.» mientras está vacío.](../../assets/screenshots/es/diffusion-portal/video/platform.png){ width="420" }
+![Los campos Plataforma, con los orígenes del vídeo, y Vídeo, que avisa «Es un dato obligatorio.» mientras está vacío.](../../assets/screenshots/es/diffusion-portal/video/platform.png){ width="394" }
 
 ## Un vídeo de YouTube
 
@@ -28,7 +28,7 @@ Con **Un vídeo de la institución**, el campo **Vídeo** muestra el botón **El
 vídeo** tiene las pestañas **Digitalizaciones** e **Imágenes y vídeos del portal**. El vídeo ha de ser un MP4. Mientras
 el campo está vacío, avisa «Es un dato obligatorio.».
 
-![El diálogo Elegir vídeo, con la pestaña Imágenes y vídeos del portal activa.](../../assets/screenshots/es/diffusion-portal/video/choose-video.png){ width="740" }
+![El diálogo Elegir vídeo, con la pestaña Imágenes y vídeos del portal activa.](../../assets/screenshots/es/diffusion-portal/video/choose-video.png){ width="739" }
 
 Para subir un vídeo de tu equipo:
 

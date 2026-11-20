@@ -1,7 +1,3 @@
----
-status: published
----
-
 # Ampliar una imagen al hacer clic
 
 El bloque **Imagen con pie** muestra una imagen con un texto debajo. Puedes hacer que, al pulsarla, el visitante la
