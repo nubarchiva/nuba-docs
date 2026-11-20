@@ -2,7 +2,8 @@
 
 Las métricas cuentan cómo trabaja tu instalación de nubarchiva. Cada nodo mide lo que hace la aplicación y guarda un
 resumen en la base de datos, según una política que dice qué se guarda y durante cuánto tiempo. Esta sección explica
-cómo comprobar que la medición funciona, cómo detenerla y cómo cambiar esa política.
+cómo comprobar que la medición funciona, cómo detenerla y cómo cambiar esa política. También explica cómo encontrar una
+medida y leer lo que se guardó de ella.
 
 ## Tareas
 
@@ -10,6 +11,11 @@ cómo comprobar que la medición funciona, cómo detenerla y cómo cambiar esa p
 - [Detener y reanudar la medición](stop-measurement.md)
 - [Ver qué política de almacenamiento rige](read-policy.md)
 - [Cambiar la política de almacenamiento](change-policy.md)
+- [Encontrar una medida](find-measure.md)
+- [Ver la historia de una medida](read-history.md)
+- [Saber por qué falta un periodo](read-gap.md)
+- [Leer la gráfica de una medida](read-chart.md)
+- [Descargar los datos de una medida](download-csv.md)
 
 ## Antes de empezar
 
