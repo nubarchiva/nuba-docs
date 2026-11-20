@@ -1,7 +1,3 @@
----
-status: published
----
-
 # Montar un carrusel de imágenes
 
 El bloque **Carrusel de cabecera** muestra varias imágenes a todo el ancho de la página, una tras otra. Suele ir en la
@@ -53,9 +49,12 @@ Lo demás está en grupos plegados. Pulsa el nombre de un grupo para abrirlo
 | **Paso de las imágenes** | **Tiempo entre imágenes (milisegundos)** | Tiempo que se ve cada imagen: 5000 son 5 segundos. El mínimo es 1000. | 5000 |
 | **Paso de las imágenes** | **Detener al pasar el ratón** | Detiene el paso de las imágenes mientras el ratón está sobre el carrusel. | Activada |
 | **Controles** | **Mostrar puntos de posición** | Muestra un punto por imagen para saltar a cualquiera. | Activada |
-| **Controles** | **Mostrar flechas** | Muestra las flechas de anterior y siguiente. | Activada |
+| **Controles** | **Mostrar flechas** | Muestra las flechas de anterior y siguiente al pasar el ratón por el carrusel o al llegar a él con el teclado. | Activada |
 
 Con una sola imagen, el carrusel no pasa de imagen ni muestra flechas ni puntos, aunque estén activados.
+
+En una pantalla táctil las flechas se ven siempre, salvo que el carrusel muestre los puntos de posición: entonces
+solo se ven los puntos.
 
 ## Cambiar la altura
 

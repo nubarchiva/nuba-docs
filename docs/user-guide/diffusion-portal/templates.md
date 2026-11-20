@@ -28,7 +28,7 @@ sin que se copie nada.
 Quien administra el portal mantiene las plantillas. En **Administración**, apartado **General**, pulsa **Plantillas de
 página**.
 
-![Plantillas de página, con la plantilla guardada, su descripción y sus acciones.](../../assets/screenshots/es/diffusion-portal/templates/templates.png){ width="640" }
+![Plantillas de página, con la plantilla guardada, su descripción y sus acciones.](../../assets/screenshots/es/diffusion-portal/templates/templates.png){ width="638" }
 
 1. Pulsa **Añadir plantilla**.
 2. En **Contenido**, elige la página de tu portal de la que se toma el contenido. Se guarda lo que ves en el editor,

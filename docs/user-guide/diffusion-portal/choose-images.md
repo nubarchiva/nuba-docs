@@ -1,13 +1,9 @@
----
-status: published
----
-
 # Elegir las imágenes de un bloque
 
 Cada campo de imagen de un bloque, como **Imagen** o **Imagen de fondo**, se rellena desde el diálogo **Elegir
 imagen**. El diálogo tiene una pestaña por origen de la imagen:
 
-- **Recogido para el portal**: las fichas y las digitalizaciones que has recogido en el catálogo
+- **Del catálogo**: las fichas y las digitalizaciones que has copiado en el catálogo
   ([Elegir contenido del catálogo](catalog-content.md)).
 - **Digitalizaciones**: las copias digitales asociadas a las descripciones del archivo.
 - **Imágenes y vídeos del portal**: un espacio aparte para el material propio de la web, como cabeceras, logotipos o
@@ -46,9 +42,10 @@ elemento. Son el **Carrusel de cabecera**, la **Tira de imágenes de cabecera**,
 **Cuadrícula de elementos**, el **Mosaico de fotos**, la **Galería ajustada** y **Fondos y colecciones**.
 
 1. Selecciona el bloque y pasa a la pestaña **Elementos**.
-2. Pulsa **Añadir varias imágenes**. Se abre el diálogo **Elegir imágenes**, con las pestañas **Recogido para el
-   portal**, **Digitalizaciones** e **Imágenes y vídeos del portal**. En **Recogido para el portal** se marca cada
-   ficha o digitalización con su casilla y se pulsa **Añadir las marcadas**; los pasos 3 y 4 son para las otras dos pestañas. La pestaña **Dirección web** no sale aquí: cada dirección se escribe en su elemento.
+2. Pulsa **Añadir varias imágenes**. Se abre el diálogo **Elegir imágenes**, con las pestañas **Del catálogo**,
+   **Digitalizaciones** e **Imágenes y vídeos del portal**. En **Del catálogo** se marca cada ficha o digitalización
+   con su casilla y se pulsa **Añadir las marcadas**; los pasos 3 y 4 son para las otras dos pestañas. La pestaña
+   **Dirección web** no sale aquí: cada dirección se escribe en su elemento.
 3. Entra en la carpeta y marca la casilla de cada imagen, en el orden en que quieres verlas. Abajo aparece
    «Seleccionados» con el número de imágenes marcadas y sus nombres.
 4. Pulsa **Vincular**, que lleva entre paréntesis cuántas has marcado, por ejemplo **Vincular (3)**.
@@ -169,13 +166,13 @@ la imagen del almacén.
 La referencia solo la entiende el portal. No es una dirección para abrir en el navegador ni para compartir fuera de
 él.
 
-Una digitalización se puede recoger en la administración y elegirla después en **Recogido para el portal**:
+Una digitalización se puede copiar desde la administración y elegirla después en **Del catálogo**:
 
 1. Pulsa **Administración** en el menú superior y, después, **Gestión de digitalizaciones**.
 2. En la fila de la digitalización, pulsa **Más acciones** y después **Copiar referencia para el portal**. Sale el
-   aviso «Copiada y recogida para el portal». La acción la ven las cuentas con permiso de administración del portal.
-3. En el editor, abre el diálogo de la imagen. La digitalización sale en la pestaña **Recogido para el portal**, con
-   su nombre, y se elige con **Elegir** ([Elegir contenido del catálogo](catalog-content.md#elegirlo-en-el-editor)).
+   aviso «Copiada y añadida a «Del catálogo».». La acción la ven las cuentas con permiso de administración del portal.
+3. En el editor, abre el diálogo de la imagen. La digitalización sale en la pestaña **Del catálogo**, con
+   su nombre, y se elige pulsando su fila ([Elegir contenido del catálogo](catalog-content.md#elegirlo-en-el-editor)).
 
 ## Elegir un enlace
 
@@ -184,7 +181,7 @@ vacío, el botón es **Elegir enlace…**. Con un enlace elegido, el campo dice 
 portal» o «Ficha: Plano de la acequia de San Esteban de Litera», y ofrece **Cambiar** y **Quitar**. El diálogo se abre
 en la pestaña del origen del enlace elegido. Sus pestañas son:
 
-- **Recogido para el portal**: las fichas, las búsquedas y los niveles del cuadro de clasificación que has recogido
+- **Del catálogo**: las fichas, las búsquedas y los niveles del cuadro de clasificación que has copiado
   ([Elegir contenido del catálogo](catalog-content.md)).
 - **Páginas del portal**: las páginas de tu portal, con su título y su ruta. Las que aún no has publicado llevan la
   etiqueta **Sin publicar**.
