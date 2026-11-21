@@ -96,6 +96,17 @@ nav:
       - Poner un vídeo: user-guide/diffusion-portal/video.md
       - Empezar desde una plantilla: user-guide/diffusion-portal/templates.md
       - Elegir contenido del catálogo: user-guide/diffusion-portal/catalog-content.md
+  - Métricas:
+      - user-guide/metrics/index.md
+      - Comprobar si cada nodo mide: user-guide/metrics/node-status.md
+      - Detener y reanudar la medición: user-guide/metrics/stop-measurement.md
+      - Ver qué política rige: user-guide/metrics/read-policy.md
+      - Cambiar la política: user-guide/metrics/change-policy.md
+      - Encontrar una medida: user-guide/metrics/find-measure.md
+      - Ver la historia: user-guide/metrics/read-history.md
+      - Saber por qué falta un periodo: user-guide/metrics/read-gap.md
+      - Leer la gráfica: user-guide/metrics/read-chart.md
+      - Descargar los datos: user-guide/metrics/download-csv.md
 
 # Extra
 extra:
