@@ -21,7 +21,7 @@ vuelve a intentar cada vez que la lanzas.
 
 ## Lanzar la regeneración
 
-1. Abre **Administración** y, en el grupo **Sistema**, **Regenerar miniaturas**.
+1. Abre **Administración** y, en el apartado **Descripciones de Archivo**, **Regenerar miniaturas**.
 
     ![La página Regenerar miniaturas, con lo que hace la acción y el botón Regenerar ahora.](../assets/screenshots/es/regenerar-miniaturas/pagina.png){ width="638" }
 
@@ -37,3 +37,6 @@ Si el almacén de digitalizaciones de la instalación es de solo lectura, la pá
 La regeneración se ejecuta en la institución en la que estás. Si tienes el rol de administrador en varias, puedes
 lanzarla en todas a la vez. Añade `?tenant=*` a la dirección de la página, comprueba la lista de instituciones que
 muestra y lánzala como arriba.
+
+La página solo muestra las cifras de la institución en la que estás, aunque la hayas lanzado en todas. Para ver las de cada
+una, entra en ella y abre la misma página.
