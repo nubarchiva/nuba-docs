@@ -41,8 +41,10 @@ Plano de la acequia de San Esteban de Litera»; una digitalización, por el nomb
 muestra su miniatura, una búsqueda tiene una lupa y un nivel del cuadro, una carpeta. **Buscar en la lista** filtra las
 entradas por su nombre.
 
-Pulsar una entrada la elige. **Quitar** aparece al pasar el ratón por la entrada o al llegar a ella con Tab, y siempre
-en una pantalla táctil. Quita la entrada de la lista sin pedir confirmación y no borra nada del catálogo.
+Pulsar una entrada la elige. A su derecha hay dos acciones, que aparecen al pasar el ratón por la entrada o al llegar a
+ella con Tab, y siempre en una pantalla táctil. El icono del ojo, **Abrir en el catálogo**, abre en otra pestaña lo que nombra
+la entrada, para que lo veas antes de elegirla. **Quitar de la lista** quita la entrada sin pedir confirmación y no borra
+nada del catálogo.
 
 Si una ficha ya no se encuentra en el catálogo, su entrada sale como «Ficha E901: ya no está en el catálogo», con su
 signatura en lugar del título. Lo mismo ocurre en el campo que la tenga elegida, donde se ofrecen **Cambiar** y
@@ -73,7 +75,7 @@ uno a uno.
     ![El origen De una búsqueda del catálogo, con Elegir búsqueda…, el número de elementos y el orden.](../../assets/screenshots/es/diffusion-portal/catalog-content/items-source.png){ width="395" }
 
 Con la búsqueda elegida, el bloque muestra su nombre, por ejemplo «Búsqueda: Cualquier término contiene archivo», con
-**Cambiar**, **Quitar** y **Abrir en el catálogo**, que la abre en otra pestaña. Entonces la pestaña no lista los
+**Cambiar** y **Quitar**. Pulsar el nombre abre la búsqueda en el catálogo, en otra pestaña. Entonces la pestaña no lista los
 elementos ni ofrece **Añadir elemento**. **Quitar** devuelve el bloque a **Los que añado yo**, con los elementos que
 ya tenía.
 
@@ -82,8 +84,8 @@ antigua a la más reciente**, **Fecha, de la más reciente a la más antigua** y
 primera página de resultados, de 30 fichas.
 
 El bloque enseña las fichas que vería un visitante sin sesión del sitio público, también en **Vista previa**, y solo
-las que tienen digitalización. El campo indica cuántas son: «Un visitante verá 8 de las 12 fichas que ves tú: las demás
-no son públicas o no tienen digitalizaciones.».
+las que tienen digitalización. Cuando el visitante ve menos fichas que tú, el campo lo dice: «Un visitante verá 8 de
+las 12 fichas que ves tú: las demás no son públicas o no tienen digitalizaciones.». Si ve las mismas, no dice nada.
 
 Si el bloque va a quedar vacío, debajo aparece uno de estos avisos:
 
