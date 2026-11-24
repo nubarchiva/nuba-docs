@@ -14,14 +14,17 @@ escribir código. Esta sección explica, tarea a tarea, cómo hacerlo.
 - [Ampliar una imagen al hacer clic](image-zoom.md)
 - [Elegir las imágenes de un bloque](choose-images.md)
 - [Poner un vídeo](video.md)
-- [Empezar desde una plantilla y mantenerlas](templates.md)
+- [Empezar desde una plantilla](templates.md)
+- [Mantener las plantillas de página](maintain-templates.md)
 - [Elegir contenido del catálogo](catalog-content.md)
 
 ## Antes de empezar
 
 Para editar el portal necesitas una cuenta con permiso de administración del portal.
 
-1. En **Administración**, apartado **General**, pulsa **Portal de Difusión**. Se abre la lista de **Páginas**.
+1. En **Administración**, apartado **Portal de difusión**, pulsa **Páginas del portal**. Se abre la lista de **Páginas**.
+
+    ![El apartado Portal de difusión del menú de Administración.](../../assets/screenshots/es/diffusion-portal/index/admin-menu.png){ width="490" }
 
     ![Lista de Páginas del Portal de Difusión.](../../assets/screenshots/es/diffusion-portal/index/pages-list.png){ width="638" }
 
@@ -29,9 +32,14 @@ Para editar el portal necesitas una cuenta con permiso de administración del po
 
     ![Editor de página del portal, sin bloques.](../../assets/screenshots/es/diffusion-portal/index/page-editor.png){ width="736" }
 
+Para ver una página sin abrir su editor, pasa el ratón por su tarjeta y pulsa **Más acciones** y **Vista previa**: se
+abre en otra pestaña.
+
+![El menú de una tarjeta.](../../assets/screenshots/es/diffusion-portal/templates/page-card-menu.png){ width="310" }
+
 Para crear una página, pulsa **Nueva página**. Su **Ruta** se propone a partir del título. Si hay plantillas que ofrecer, en **Empezar con** eliges una página en blanco o una plantilla ([Empezar desde una plantilla](templates.md)).
 
-![Ventana Nueva página, con el Título escrito y la Ruta propuesta.](../../assets/screenshots/es/diffusion-portal/index/new-page.png){ width="640" }
+![La ventana Nueva página, con la Ruta propuesta.](../../assets/screenshots/es/diffusion-portal/index/new-page.png){ width="640" }
 
 ## Cómo funciona el editor
 
@@ -40,7 +48,7 @@ Para crear una página, pulsa **Nueva página**. Su **Ruta** se propone a partir
   valores del ejemplo: arriba, las que definen su contenido; debajo, las demás, en grupos plegados
   ([Ver y cambiar las demás opciones de un bloque](block-options.md)).
 
-    ![Catálogo de bloques que se abre con Añadir bloque.](../../assets/screenshots/es/diffusion-portal/index/block-catalog.png){ width="421" }
+    ![El catálogo de bloques.](../../assets/screenshots/es/diffusion-portal/index/block-catalog.png){ width="421" }
 
 - **Cambiar el ejemplo por tu contenido**: cambia cada texto en su campo y cada imagen con **Cambiar**
   ([Cambiar o quitar la imagen](choose-images.md#cambiar-o-quitar-la-imagen)). En los bloques con elementos, como un
@@ -48,8 +56,8 @@ Para crear una página, pulsa **Nueva página**. Su **Ruta** se propone a partir
 - **Cambiar un bloque**: pulsa en cualquier punto del bloque para volver a abrir sus opciones
   ([Seleccionar un bloque](select-block.md)).
 - **Guardar**: cada cambio de las opciones de un bloque se guarda solo, y cada elemento de una lista, con **Guardar
-  elemento**. El aviso «Guardado» lo confirma y, si algo no se ha guardado, un mensaje te dice qué campo revisar y el
-  campo queda marcado ([Guardar los cambios](save-changes.md)).
+  elemento**. El aviso «Guardado» lo confirma. Si algo no se guarda, un mensaje dice qué campo
+  revisar ([Guardar los cambios](save-changes.md)).
 - **Ver cómo queda**: pulsa **Vista previa**. Se abre en otra pestaña la página con tus cambios, con la cabecera y el
   pie de la web pública, y puedes verla con el ancho de un móvil, una tableta o un escritorio
   ([Ver la página en cada dispositivo](publish.md#ver-la-pagina-en-cada-dispositivo)). Si haces más cambios, recarga

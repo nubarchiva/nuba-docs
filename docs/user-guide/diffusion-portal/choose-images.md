@@ -172,7 +172,8 @@ Una digitalización se puede copiar desde la administración y elegirla después
 2. En la fila de la digitalización, pulsa **Más acciones** y después **Copiar referencia para el portal**. Sale el
    aviso «Copiada y añadida a «Del catálogo».». La acción la ven las cuentas con permiso de administración del portal.
 3. En el editor, abre el diálogo de la imagen. La digitalización sale en la pestaña **Del catálogo**, con
-   su nombre, y se elige pulsando su fila ([Elegir contenido del catálogo](catalog-content.md#elegirlo-en-el-editor)).
+   su nombre, y se elige pulsando su fila. Para verla antes de elegirla, pulsa el icono del ojo de la fila: se abre en otra
+   pestaña ([Elegir contenido del catálogo](catalog-content.md#elegirlo-en-el-editor)).
 
 ## Elegir un enlace
 
@@ -201,7 +202,7 @@ En la página publicada, el enlace a una ficha lleva a la ficha de esa descripci
 
 Las imágenes del portal también se suben y se organizan fuera del editor:
 
-1. Pulsa **Administración** en el menú superior y, en el apartado **General**, pulsa **Imágenes y vídeos del portal**.
+1. Pulsa **Administración** en el menú superior y, en el apartado **Portal de difusión**, pulsa **Imágenes y vídeos del portal**.
 
     ![Las tres imágenes subidas a Imágenes y vídeos del portal.](../../assets/screenshots/es/diffusion-portal/choose-images/portal-images.png){ width="638" }
 
