@@ -10,6 +10,7 @@ escribir código. Esta sección explica, tarea a tarea, cómo hacerlo.
 - [Guardar los cambios y entender sus avisos](save-changes.md)
 - [Publicar una página y ver cómo la ve un visitante](publish.md)
 - [Importar una página](import-page.md)
+- [Descargar páginas](download-pages.md)
 - [Montar un carrusel de imágenes](carousel.md)
 - [Configurar la caja de búsqueda](search-box.md)
 - [Ampliar una imagen al hacer clic](image-zoom.md)
