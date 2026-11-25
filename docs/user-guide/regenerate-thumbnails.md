@@ -11,12 +11,19 @@ primera página, y la de los vídeos MP4, a partir de uno de sus fotogramas. Par
 tenga el programa `ffmpeg`, del que se encarga quien administra el servidor. Los demás ficheros se muestran con el icono
 de su tipo.
 
+Algunos PDF no tienen miniatura, o les falta parte de ella, salvo que la instalación tenga también el programa Poppler. Son,
+por ejemplo, los que llevan una imagen muy grande o imágenes JPEG 2000. Los PDF cifrados, por ejemplo los que piden contraseña
+o restringen la copia o la impresión, nunca la tienen.
+
+Quien administra la instalación puede elegir otra página de los PDF u otro momento de los vídeos, o que los de un tipo no
+tengan miniatura. El cambio vale para las miniaturas que se generen desde entonces.
+
 Los ficheros de la misma carpeta que se llaman igual salvo la extensión comparten miniatura. Si uno es una imagen, se
 genera desde ella. Si ninguno lo es, como un PDF y un vídeo, se queda la del que subiste primero, salvo que de ese no se
 haya podido generar.
 
 La regeneración no cambia las miniaturas que ya existen ni las que se asignaron a mano. Un fichero del que no se puede
-generar la miniatura, como un PDF dañado o un MP4 sin `ffmpeg`, sigue con el icono de su tipo, y la regeneración lo
+generar la miniatura, como un PDF dañado o cifrado o un MP4 sin `ffmpeg`, sigue con el icono de su tipo, y la regeneración lo
 vuelve a intentar cada vez que la lanzas.
 
 ## Lanzar la regeneración
