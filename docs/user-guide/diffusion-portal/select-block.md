@@ -3,6 +3,9 @@
 Para cambiar un bloque, primero lo seleccionas. Sus opciones se abren en el panel de la derecha. Puedes seleccionarlo
 en las dos vistas del editor: **Lienzo**, la vista con que se abre, y **Visual**.
 
+El editor ocupa todo el ancho de la ventana. Con 1366 píxeles de ancho o más, el panel queda a la derecha de la página
+y no tapa nada; en una ventana más estrecha se abre encima de la derecha de la página.
+
 ## En el lienzo
 
 1. Abre la página en el editor ([Antes de empezar](index.md#antes-de-empezar)). El lienzo muestra cada bloque como una
@@ -12,7 +15,7 @@ en las dos vistas del editor: **Lienzo**, la vista con que se abre, y **Visual**
    bloque.
 4. La ficha seleccionada queda resaltada, para que sepas qué bloque estás cambiando.
 
-    ![La ficha del bloque Imagen con pie seleccionado en el lienzo, resaltada, con los botones de subir, bajar, duplicar y eliminar.](../../assets/screenshots/es/diffusion-portal/select-block/block-selected.png){ width="823" }
+    ![La ficha del bloque Imagen con pie seleccionado en el lienzo, resaltada, con los botones de subir, bajar, duplicar y eliminar.](../../assets/screenshots/es/diffusion-portal/select-block/block-selected.png){ width="740" }
 
 Con el teclado, lleva el foco a la ficha con la tecla Tab y pulsa Intro.
 
@@ -24,7 +27,7 @@ Un bloque que acabas de añadir con **Añadir bloque** queda ya seleccionado.
 2. Pulsa sobre el bloque, en cualquier punto. Un bloque sin contenido se ve como una franja con borde de
    puntos, y también responde.
 
-    ![Vista Visual: la franja fina de una Imagen con pie sin contenido, seleccionada y con su barra de acciones.](../../assets/screenshots/es/diffusion-portal/select-block/visual-view.png){ width="728" }
+    ![Vista Visual: un bloque de Texto enriquecido seleccionado, resaltado y con su barra de acciones.](../../assets/screenshots/es/diffusion-portal/select-block/visual-view.png){ width="728" }
 
 3. Como en el lienzo, el panel muestra «Cargando propiedades…» y después las opciones. El bloque queda resaltado.
 

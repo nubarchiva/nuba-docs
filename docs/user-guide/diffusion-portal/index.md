@@ -30,7 +30,7 @@ Para editar el portal necesitas una cuenta con permiso de administración del po
 
 2. Pulsa el título de una página para abrir el **Editor de página del portal**.
 
-    ![Editor de página del portal, sin bloques.](../../assets/screenshots/es/diffusion-portal/index/page-editor.png){ width="736" }
+    ![Editor de página del portal, sin bloques.](../../assets/screenshots/es/diffusion-portal/index/page-editor.png){ width="738" }
 
 Para ver una página sin abrir su editor, pasa el ratón por su tarjeta y pulsa **Más acciones** y **Vista previa**: se
 abre en otra pestaña.
