@@ -40,6 +40,14 @@ Lo que no se ha guardado no se publica: un campo rechazado, como un pie de foto 
 guardado con **Guardar elemento**. Tras el aviso de éxito sale otro que lo dice, por ejemplo «Lo que queda sin guardar
 en «Pieza destacada» no se ha publicado. Guárdalo y vuelve a publicar.».
 
+## Si falta contenido en la página
+
+Si la página usa una imagen, un vídeo o un fichero que ya no está, antes de publicar sale un diálogo con cada bloque y cada
+campo. **Publicar igualmente** publica la página, y los visitantes no verán ese contenido. **Volver** no publica, y lo
+que habías guardado sigue en el borrador.
+
+![El diálogo Falta contenido en la página.](../../assets/screenshots/es/diffusion-portal/publish/missing-content.png){ width="480" }
+
 ## Si la página conserva contenido del ejemplo
 
 La página se publica igual, pero sale un aviso que nombra cada bloque que conserva algo del ejemplo. Por ejemplo:

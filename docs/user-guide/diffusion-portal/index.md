@@ -9,6 +9,7 @@ escribir código. Esta sección explica, tarea a tarea, cómo hacerlo.
 - [Ver y cambiar las demás opciones de un bloque](block-options.md)
 - [Guardar los cambios y entender sus avisos](save-changes.md)
 - [Publicar una página y ver cómo la ve un visitante](publish.md)
+- [Importar una página](import-page.md)
 - [Montar un carrusel de imágenes](carousel.md)
 - [Configurar la caja de búsqueda](search-box.md)
 - [Ampliar una imagen al hacer clic](image-zoom.md)
