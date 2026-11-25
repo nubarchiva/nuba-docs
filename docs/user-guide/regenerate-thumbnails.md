@@ -11,12 +11,19 @@ primera página, y la de los vídeos MP4, a partir de uno de sus fotogramas. Par
 tenga el programa `ffmpeg`, del que se encarga quien administra el servidor. Los demás ficheros se muestran con el icono
 de su tipo.
 
+Algunos PDF no tienen miniatura, o les falta parte de ella, salvo que la instalación tenga también el programa Poppler. Son,
+por ejemplo, los que llevan una imagen muy grande o imágenes JPEG 2000. Los PDF cifrados, por ejemplo los que piden contraseña
+o restringen la copia o la impresión, nunca la tienen.
+
+Quien administra la instalación puede elegir otra página de los PDF u otro momento de los vídeos, o que los de un tipo no
+tengan miniatura. El cambio vale para las miniaturas que se generen desde entonces.
+
 Los ficheros de la misma carpeta que se llaman igual salvo la extensión comparten miniatura. Si uno es una imagen, se
 genera desde ella. Si ninguno lo es, como un PDF y un vídeo, se queda la del que subiste primero, salvo que de ese no se
 haya podido generar.
 
 La regeneración no cambia las miniaturas que ya existen ni las que se asignaron a mano. Un fichero del que no se puede
-generar la miniatura, como un PDF dañado o un MP4 sin `ffmpeg`, sigue con el icono de su tipo, y la regeneración lo
+generar la miniatura, como un PDF dañado o cifrado o un MP4 sin `ffmpeg`, sigue con el icono de su tipo, y la regeneración lo
 vuelve a intentar cada vez que la lanzas.
 
 ## Lanzar la regeneración
@@ -32,11 +39,25 @@ Ya existían: 15.». El trabajo queda también en **Tareas de larga duración**,
 
 Si el almacén de digitalizaciones de la instalación es de solo lectura, la página lo avisa y no ofrece el botón.
 
+## Ver qué ficheros no tienen miniatura
+
+Si alguna no se ha podido generar, debajo del resultado salen los ficheros, cada uno con su carpeta, el problema y qué
+hacer. Si por ejemplo un PDF está dañado, te pide que lo abras y lo sustituyas por una copia correcta, y si falta un
+programa en el servidor, te dice cuál hay que instalar.
+
+![Los ficheros sin miniatura, con su carpeta, el problema y qué hacer, y el botón Descargar el informe.](../assets/screenshots/es/regenerar-miniaturas/informe.png){ width="638" }
+
+La página muestra los cien primeros. Con **Descargar el informe** los tienes todos en un fichero CSV, que se abre con una
+hoja de cálculo. Si pasan de cien mil, el informe guarda los primeros y la página lo avisa.
+
+De los ficheros que comparten miniatura sale uno solo, el que tiene preferencia para generarla. El resultado y el informe
+son los de la última regeneración, y se pierden al parar la aplicación. Para verlos otra vez, vuelve a lanzarla.
+
 ## En una instalación con instituciones
 
 La regeneración se ejecuta en la institución en la que estás. Si tienes el rol de administrador en varias, puedes
 lanzarla en todas a la vez. Añade `?tenant=*` a la dirección de la página, comprueba la lista de instituciones que
 muestra y lánzala como arriba.
 
-La página solo muestra las cifras de la institución en la que estás, aunque la hayas lanzado en todas. Para ver las de cada
-una, entra en ella y abre la misma página.
+La página solo muestra las cifras y los ficheros de la institución en la que estás, aunque la hayas lanzado en todas. Para
+ver los de cada una, entra en ella y abre la misma página.
