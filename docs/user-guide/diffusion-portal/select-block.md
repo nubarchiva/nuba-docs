@@ -33,7 +33,7 @@ imagen, se prueba en **Vista previa**.
 
 ## Cerrar las opciones
 
-Pulsa la X de la esquina superior derecha del panel, **Cerrar el panel de propiedades**. El panel se cierra y el
-bloque deja de estar resaltado.
+Pulsa la X de la esquina superior derecha del panel, **Cerrar el panel de propiedades**, que sigue a la vista aunque
+bajes por las opciones. El panel se cierra y el bloque deja de estar resaltado.
 
 ![El editor con el panel de propiedades cerrado y ningún bloque resaltado.](../../assets/screenshots/es/diffusion-portal/select-block/panel-closed.png){ width="738" }

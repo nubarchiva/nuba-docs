@@ -51,10 +51,13 @@ Sus campos son estos:
       tienen ninguna.
     - **Nivel de descripción**: en **Valor**, el número de ese nivel en tu archivo.
 
-![El «Elemento 1» de los filtros de una Caja de búsqueda ya relleno: el texto del botón, Buscar por Lugar y el valor.](../../assets/screenshots/es/diffusion-portal/search-box/filters.png){ width="401" }
+![El «Elemento 1» de los filtros de una Caja de búsqueda ya relleno: el texto del botón, Buscar por Lugar y el valor.](../../assets/screenshots/es/diffusion-portal/search-box/filters.png){ width="395" }
 
 Mientras al elemento le falte un dato obligatorio, al escribir en él sale un aviso que nombra el campo, el número del
-elemento y la lista. Con **Eliminar elemento** quitas un tipo.
+elemento y la lista.
+
+Para quitar un tipo, pulsa **Eliminar elemento**. Sale al pasar el ratón por el tipo o al llegar a él con Tab, y siempre
+en una pantalla táctil.
 
 Para saber el número de un nivel de descripción, pulsa **Búsqueda** en el menú superior y después **Búsqueda
 avanzada**. En **Nivel de descripción**, desmarca **Todos**, marca solo ese nivel, escribe un término y pulsa
