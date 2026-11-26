@@ -58,6 +58,21 @@ digitalizaciones no se han revisado: avisa a quien administra el servidor.
 
 Si el almacén de digitalizaciones de la instalación es de solo lectura, la página lo avisa y no ofrece el botón.
 
+## Detenerla y seguir después
+
+Mientras la regeneración está en marcha, la página ofrece **Detener**. Al pulsarlo, se para antes de la siguiente
+digitalización; lo que ya ha hecho se conserva. El resultado dice que se ha detenido y cuántas digitalizaciones ha
+revisado.
+
+La regeneración también se detiene sola si el servidor se queda sin el espacio libre que necesita para seguir trabajando.
+El resultado lo dice: avisa a quien administra el servidor y, cuando haya espacio, vuelve a lanzarla.
+
+Para seguir una regeneración detenida sin repetir lo que hizo, vuelve a la página: ya tiene elegida la misma opción y,
+con **También las que ya existen**, en **Rehacer solo las generadas antes de**, la fecha desde la que no hay que rehacer:
+la de comienzo de la detenida o, si esta ya seguía a otra, la misma fecha que usó. Con esa fecha solo se rehacen las miniaturas escritas antes de ella, y el resultado dice cuántas no ha rehecho por ser
+posteriores. La fecha y la hora son las del servidor. Si la aplicación se ha parado entretanto, la página ya no la
+propone: escríbela tú. Si dejas la fecha vacía, se rehacen todas.
+
 ## Ver qué ficheros no tienen miniatura
 
 Si alguna no se ha podido generar, debajo del resultado salen los ficheros, cada uno con su carpeta, el problema y qué
@@ -81,3 +96,5 @@ muestra y lánzala como arriba.
 
 La página solo muestra las cifras y los ficheros de la institución en la que estás, aunque la hayas lanzado en todas. Para
 ver los de cada una, entra en ella y abre la misma página.
+
+**Detener** detiene solo la regeneración de la institución en la que estás; las de las demás siguen.
