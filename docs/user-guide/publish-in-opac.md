@@ -50,6 +50,18 @@ Para volver a ocultar el campo, elimina la variable.
 La descripción sale en el OPAC en cuanto la guardas. Para retirarla, cambia su visibilidad a **Archivo** o
 **Privado**.
 
+## Comprobar en la ficha si una descripción es pública
+
+Abre la ficha de la descripción con tu cuenta. Debajo de su cabecera ves si la encuentra quien consulta el OPAC sin
+cuenta: «En el catálogo público» o «No está en el catálogo público». Si la instalación está configurada para ello, ves
+también si sale por OAI-PMH: «Sale por OAI» o «No sale por OAI».
+
+![La cabecera de la ficha de una descripción, con la marca «En el catálogo público» bajo «Editar descripción».](../assets/screenshots/es/publicar-en-el-opac/marcas-de-la-ficha.png){ width="636" }
+
+nubarchiva lo comprueba con las búsquedas fijas, como lo haría ese visitante o el recolector de metadatos. Lo ves si
+puedes editar la descripción. Si el OPAC no está abierto a quien no tiene cuenta, la ficha no dice nada del catálogo
+público.
+
 ## Lo que se puede personalizar
 
 nubarchiva se puede configurar para:
