@@ -61,8 +61,10 @@ ser la referencia de su descripción en el archivo
 ([Elegir un enlace](choose-images.md#elegir-un-enlace)). La colección se
 guarda con **Guardar elemento**.
 
-Para añadir una sola imagen, pulsa **Añadir imagen** y, en su **Fichero**, **Elegir imagen…**. Con **Eliminar
-imagen** quitas una de la lista.
+Para añadir una sola imagen, pulsa **Añadir imagen** y, en su **Fichero**, **Elegir imagen…**.
+
+Para quitar una imagen de la lista, pulsa **Eliminar imagen**. Sale al pasar el ratón por la imagen o al llegar a ella
+con Tab, y siempre en una pantalla táctil.
 
 ### Que la portada abra las imágenes
 

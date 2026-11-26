@@ -9,6 +9,8 @@ escribir código. Esta sección explica, tarea a tarea, cómo hacerlo.
 - [Ver y cambiar las demás opciones de un bloque](block-options.md)
 - [Guardar los cambios y entender sus avisos](save-changes.md)
 - [Publicar una página y ver cómo la ve un visitante](publish.md)
+- [Importar una página](import-page.md)
+- [Descargar páginas](download-pages.md)
 - [Montar un carrusel de imágenes](carousel.md)
 - [Configurar la caja de búsqueda](search-box.md)
 - [Ampliar una imagen al hacer clic](image-zoom.md)
@@ -30,7 +32,7 @@ Para editar el portal necesitas una cuenta con permiso de administración del po
 
 2. Pulsa el título de una página para abrir el **Editor de página del portal**.
 
-    ![Editor de página del portal, sin bloques.](../../assets/screenshots/es/diffusion-portal/index/page-editor.png){ width="736" }
+    ![Editor de página del portal, sin bloques.](../../assets/screenshots/es/diffusion-portal/index/page-editor.png){ width="738" }
 
 Para ver una página sin abrir su editor, pasa el ratón por su tarjeta y pulsa **Más acciones** y **Vista previa**: se
 abre en otra pestaña.

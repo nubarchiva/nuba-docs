@@ -12,11 +12,11 @@ cuentan como contenido de ejemplo al publicar
 2. Debajo de las opciones de contenido están los grupos, cada uno con su nombre y una flecha. En una **Imagen con
    pie**, por ejemplo, son **Imagen**, **Textos**, **Enlace** y **Otros ajustes**.
 
-    ![Los cuatro grupos plegados de una Imagen con pie: Imagen, Textos, Enlace y Otros ajustes.](../../assets/screenshots/es/diffusion-portal/block-options/groups-folded.png){ width="418" }
+    ![Los cuatro grupos plegados de una Imagen con pie: Imagen, Textos, Enlace y Otros ajustes.](../../assets/screenshots/es/diffusion-portal/block-options/groups-folded.png){ width="394" }
 
 3. Pulsa el nombre del grupo. Se despliega con sus opciones y la ayuda de cada una.
 
-    ![El grupo Enlace desplegado, con sus opciones.](../../assets/screenshots/es/diffusion-portal/block-options/group-open.png){ width="419" }
+    ![El grupo Enlace desplegado, con sus opciones.](../../assets/screenshots/es/diffusion-portal/block-options/group-open.png){ width="395" }
 
 4. Para plegarlo, vuelve a pulsar su nombre.
 
@@ -26,7 +26,9 @@ Cada vez que abres un bloque, sus grupos aparecen plegados, aunque tengan opcion
 
 Todos los tipos de bloque muestran arriba las opciones que definen su contenido y, debajo, sus grupos plegados. Los
 que muestran una serie de imágenes o elementos, marcados con «Sí» en la tabla, los editan en la pestaña
-**Elementos**, junto a **Opciones**.
+**Elementos**, junto a **Opciones**. Los demás no tienen pestañas.
+
+El nombre del bloque y las pestañas se quedan arriba mientras bajas por las opciones.
 
 | Bloque | Arriba | Grupos plegados | Pestaña **Elementos** |
 |---|---|---|---|
@@ -59,7 +61,7 @@ La cabecera de cada grupo dice qué opciones suyas tienen un valor distinto del 
 - Con hasta tres opciones cambiadas, las nombra. Por ejemplo: «Con cambios: Tiempo entre imágenes (milisegundos),
   Detener al pasar el ratón».
 
-    ![Cabecera de un grupo con una opción cambiada: «Con cambios:» y su nombre.](../../assets/screenshots/es/diffusion-portal/block-options/changes-header.png){ width="401" }
+    ![Cabecera de un grupo con una opción cambiada: «Con cambios:» y su nombre.](../../assets/screenshots/es/diffusion-portal/block-options/changes-header.png){ width="395" }
 
 - Con más de tres, dice cuántas son, por ejemplo «Con 4 cambios». Para ver sus nombres, deja el ratón sobre ese
   texto.

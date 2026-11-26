@@ -73,8 +73,8 @@ Para cambiarlo:
 
 Cada ajuste va en su fila.
 
-Para quitar un ajuste, pulsa el botón a la derecha de su fila. Al dejar el ratón sobre él, dice **Quitar este
-ajuste**.
+Para quitar un ajuste, pulsa el botón a la derecha de su fila, **Quitar este ajuste**. Sale al pasar el ratón por la
+fila o al llegar a ella con Tab, y siempre en una pantalla táctil.
 
 ## Comprobar el resultado
 
