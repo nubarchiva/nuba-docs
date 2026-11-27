@@ -138,6 +138,12 @@ Si en la carpeta ya hay una imagen con el mismo nombre, la nueva no la sustituye
 «Ya hay un fichero llamado «escudo.png» en la carpeta. Elígelo en la lista o cámbiale el nombre y vuelve a
 subirlo.».
 
+Si tu institución tiene una cuota de espacio para **Imágenes y vídeos del portal** y la imagen no cabe en lo que
+queda, no se sube. La pestaña lo dice antes de enviarla, por ejemplo «escudo.png: no cabe en la cuota de espacio
+(1017,3KB disponibles). Libera espacio eliminando archivos que ya no necesites o solicita ampliar la cuota.». La
+pantalla **Imágenes y vídeos del portal** de la administración enseña cuánto ocupa tu institución y su cuota. Si lo que falta es
+espacio en el servidor, el aviso lo dice y te pide que avises a quien administra la instalación.
+
 ### Subir una carpeta entera
 
 1. Pulsa **Subir** y después **Subir carpeta**, y elige una carpeta de tu equipo.
