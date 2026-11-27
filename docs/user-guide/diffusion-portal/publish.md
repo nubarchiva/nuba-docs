@@ -36,15 +36,15 @@ buscar como lo haría un visitante, publica la página y abre su dirección púb
 
 4. El estado de la página pasa a **Publicada** y el botón **Publicar** desaparece hasta que hagas otro cambio.
 
-Lo que no se ha guardado no se publica: un campo rechazado, como un pie de foto vacío, o un elemento que no has
+Lo que no se ha guardado no se publica: un campo rechazado, como un número con letras, o un elemento que no has
 guardado con **Guardar elemento**. Tras el aviso de éxito sale otro que lo dice, por ejemplo «Lo que queda sin guardar
 en «Pieza destacada» no se ha publicado. Guárdalo y vuelve a publicar.».
 
 ## Si falta contenido en la página
 
-Si la página usa una imagen, un vídeo o un fichero que ya no está, antes de publicar sale un diálogo con cada bloque y cada
-campo. **Publicar igualmente** publica la página, y los visitantes no verán ese contenido. **Volver** no publica, y lo
-que habías guardado sigue en el borrador.
+Si a la página le falta algún dato, o usa una imagen, un vídeo o un fichero que ya no está, antes de publicar sale un
+diálogo con cada bloque y cada campo. Pulsa una línea para ir a su campo. **Publicar igualmente** publica la página, y los
+visitantes no verán ese contenido. **Volver** no publica, y lo que habías guardado sigue en el borrador.
 
 ![El diálogo Falta contenido en la página.](../../assets/screenshots/es/diffusion-portal/publish/missing-content.png){ width="480" }
 
