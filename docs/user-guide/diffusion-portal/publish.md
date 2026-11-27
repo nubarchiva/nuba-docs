@@ -44,7 +44,7 @@ valores que no son válidos y vuelve a publicar.».
 
 Si a la página le falta algún dato, o usa una imagen, un vídeo o un fichero que ya no está, antes de publicar sale un
 diálogo con cada bloque y cada campo. Pulsa una línea para ir a su campo. **Publicar igualmente** publica la página, y los
-visitantes no verán ese contenido. **Volver** no publica, y lo que habías guardado sigue en el borrador.
+visitantes no verán ese contenido. **Cancelar** no publica, y lo que habías guardado sigue en el borrador.
 
 ![El diálogo Falta contenido en la página.](../../assets/screenshots/es/diffusion-portal/publish/missing-content.png){ width="480" }
 

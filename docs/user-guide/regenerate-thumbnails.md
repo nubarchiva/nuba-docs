@@ -47,7 +47,7 @@ había descargado. Recarga la página sin la caché del navegador, con **Ctrl+F5
     ![La página Regenerar miniaturas, con lo que hace la acción, la elección de qué miniaturas se generan y el botón Regenerar ahora.](../assets/screenshots/es/regenerar-miniaturas/pagina.png){ width="638" }
 
 2. En **Qué miniaturas se generan**, deja **Solo las que faltan** o elige **También las que ya existen**.
-3. Pulsa **Regenerar ahora** y, en **Se iniciará el proceso**, pulsa **Aceptar**.
+3. Pulsa **Regenerar ahora** y, en **Se iniciará el proceso**, pulsa **Iniciar el proceso**.
 
 La página muestra el avance y, al terminar, el resultado, por ejemplo «Miniaturas generadas: 2. No se han podido generar: 0.
 Ya existían: 15.». Con **También las que ya existen**, dice además cuántas ha rehecho, cuántas no ha podido rehacer y cuántas
