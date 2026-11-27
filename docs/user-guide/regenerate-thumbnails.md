@@ -56,6 +56,10 @@ no ha tocado. El trabajo queda también en **Tareas de larga duración**, como *
 Si alguna carpeta del almacén no se ha podido abrir, la regeneración sigue con las demás y el resultado dice cuántas son. Sus
 digitalizaciones no se han revisado: avisa a quien administra el servidor.
 
+Si dentro de una carpeta hay algo que no se puede abrir, como un enlace a un fichero que ya no existe o un enlace que lleva a
+sí mismo, a la carpeta donde está o a una que la contiene, la regeneración revisa el resto de esa carpeta. El resultado dice cuántos son, y la lista de abajo y el informe los
+nombran con su carpeta y el motivo. Pide a quien administra el servidor que los revise.
+
 Si el almacén de digitalizaciones de la instalación es de solo lectura, la página lo avisa y no ofrece el botón.
 
 ## Detenerla y seguir después

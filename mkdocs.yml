@@ -84,6 +84,7 @@ nav:
   - Inicio: index.md
   - Publicar en el OPAC: user-guide/publish-in-opac.md
   - Regenerar las miniaturas: user-guide/regenerate-thumbnails.md
+  - Ver una carpeta con algo que no se puede abrir: user-guide/unreadable-folder-entries.md
   - Portal de difusión:
       - user-guide/diffusion-portal/index.md
       - Seleccionar un bloque: user-guide/diffusion-portal/select-block.md
