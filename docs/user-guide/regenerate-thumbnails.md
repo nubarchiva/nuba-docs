@@ -83,7 +83,8 @@ programa en el servidor, te dice cuál hay que instalar.
 ![Los ficheros sin miniatura, con su carpeta, el problema y qué hacer, y el botón Descargar el informe.](../assets/screenshots/es/regenerar-miniaturas/informe.png){ width="638" }
 
 La página muestra los cien primeros. Con **Descargar el informe** los tienes todos en un fichero CSV, que se abre con una
-hoja de cálculo. Si pasan de cien mil, el informe guarda los primeros y la página lo avisa.
+hoja de cálculo. En el fichero, una celda que empieza por «=», «+», «-» o «@» lleva un apóstrofo delante, para que la hoja
+de cálculo no la tome por una fórmula. Si pasan de cien mil, el informe guarda los primeros y la página lo avisa.
 
 De los ficheros que comparten miniatura sale uno solo, el que tiene preferencia para generarla. El resultado y el informe
 son los de la última regeneración, y se pierden al parar la aplicación. Para verlos otra vez, vuelve a lanzarla.
