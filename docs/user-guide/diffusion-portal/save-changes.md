@@ -1,12 +1,11 @@
 # Guardar los cambios y entender sus avisos
 
-El editor guarda cada cambio de las opciones de un bloque solo: no hay botón de guardar. Los elementos de una lista,
-como las imágenes de un carrusel, se guardan con **Guardar elemento**. Junto al estado de la página, un aviso te dice
-si se ha guardado.
+El editor guarda solo cada cambio, también en los elementos de una lista, como las imágenes de un carrusel: no hay
+botón de guardar. Junto al estado de la página, un aviso te dice si se ha guardado.
 
 ## Guardar un cambio
 
-Un cambio en las opciones de un bloque se guarda al salir del campo, con la tecla Tab o pulsando fuera de él. A la
+Un cambio se guarda al salir del campo, con la tecla Tab o pulsando fuera de él. A la
 izquierda del estado de la página aparece «Guardando…» y, enseguida, «Guardado».
 
 ![El aviso «Guardado» junto al estado de la página.](../../assets/screenshots/es/diffusion-portal/save-changes/saved.png){ width="241" }
@@ -17,9 +16,9 @@ Otros cambios, como añadir un bloque, se guardan igual aunque no muestren el av
 
 ## Guardar un elemento
 
-En los bloques con una lista de elementos, cada elemento se edita en la pestaña **Elementos**. Pulsa **Añadir
-elemento**, o pulsa un elemento de la lista para cambiarlo. Lo que escribes en él se guarda con **Guardar elemento**:
-aparecen «Guardando…» y «Guardado», y el elemento vuelve a la lista.
+En los bloques con una lista de elementos, cada elemento se edita en la pestaña **Elementos**. **Añadir elemento**
+crea uno y lo abre; pulsa un elemento de la lista para cambiarlo. Cada dato se guarda al salir del campo, y quitar o
+mover un elemento, al pulsarlo. **← Volver** te lleva a la lista sin perder nada.
 
 ## Cuando falta un dato
 

@@ -36,9 +36,9 @@ buscar como lo haría un visitante, publica la página y abre su dirección púb
 
 4. El estado de la página pasa a **Publicada** y el botón **Publicar** desaparece hasta que hagas otro cambio.
 
-Lo que no se ha guardado no se publica: un campo rechazado, como un número con letras, o un elemento que no has
-guardado con **Guardar elemento**. Tras el aviso de éxito sale otro que lo dice, por ejemplo «Lo que queda sin guardar
-en «Pieza destacada» no se ha publicado. Guárdalo y vuelve a publicar.».
+Lo que no se ha guardado no se publica: un valor que no es válido, como un número con letras. Tras el aviso de éxito
+sale otro que lo dice, por ejemplo «Lo que queda sin guardar en «Pieza destacada» no se ha publicado: corrige los
+valores que no son válidos y vuelve a publicar.».
 
 ## Si falta contenido en la página
 

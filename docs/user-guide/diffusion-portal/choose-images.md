@@ -29,8 +29,8 @@ retocada, va mejor en **Imágenes y vídeos del portal**, para no mezclarlo con 
 
 Si pulsas el nombre de una imagen, se abre en grande. Desde ahí, **Vincular este** la elige directamente.
 
-En las opciones de un bloque, el cambio se guarda solo, como cualquier otro. En el formulario de un elemento, se guarda
-al pulsar **Guardar elemento** ([Guardar un elemento](save-changes.md#guardar-un-elemento)).
+El cambio se guarda solo, como cualquier otro, también en el formulario de un elemento
+([Guardar un elemento](save-changes.md#guardar-un-elemento)).
 
 Con el campo vacío, el diálogo se abre en la última pestaña que usaste mientras dura tu sesión. Con una imagen ya
 elegida, se abre en la pestaña de su origen.

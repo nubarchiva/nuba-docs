@@ -59,7 +59,7 @@ pulsarla se eligen en el formulario del elemento, en **Imágenes ampliadas**.
 En el formulario de cada imagen, su **Título** sale como pie de la imagen ampliada, y su **Enlace a la ficha** puede
 ser la referencia de su descripción en el archivo
 ([Elegir un enlace](choose-images.md#elegir-un-enlace)). La colección se
-guarda con **Guardar elemento**.
+guarda sola.
 
 Para añadir una sola imagen, pulsa **Añadir imagen** y, en su **Fichero**, **Elegir imagen…**.
 
