@@ -29,8 +29,8 @@ retocada, va mejor en **Imágenes y vídeos del portal**, para no mezclarlo con 
 
 Si pulsas el nombre de una imagen, se abre en grande. Desde ahí, **Vincular este** la elige directamente.
 
-En las opciones de un bloque, el cambio se guarda solo, como cualquier otro. En el formulario de un elemento, se guarda
-al pulsar **Guardar elemento** ([Guardar un elemento](save-changes.md#guardar-un-elemento)).
+El cambio se guarda solo, como cualquier otro, también en el formulario de un elemento
+([Guardar un elemento](save-changes.md#guardar-un-elemento)).
 
 Con el campo vacío, el diálogo se abre en la última pestaña que usaste mientras dura tu sesión. Con una imagen ya
 elegida, se abre en la pestaña de su origen.
@@ -59,20 +59,9 @@ Para añadir una sola imagen sigue valiendo **Añadir elemento**, y también par
 ### Si al bloque le falta algo más que la imagen
 
 Algunos bloques piden en cada elemento algo más que la imagen. Por ejemplo, cada imagen de una **Galería ajustada**
-necesita su **Enlace**. Entonces las imágenes elegidas no se guardan todavía:
-
-- Sale el aviso «A 3 imágenes elegidas les faltan datos: complétalos y guarda cada una. Hasta entonces no se muestran
-  en la página.».
-- En la lista, cada una sale con su miniatura y lo que le falta, por ejemplo «Sin guardar: falta «Enlace»».
-- El editor abre la primera con ese campo marcado. Al guardarla con **Guardar elemento**, se abre la siguiente.
-
-Hasta que las guardas, no llegan a la página ni a la vista previa. Si pasas a otro bloque o a la pestaña **Opciones**,
-siguen en la lista al volver. También siguen si mueves el bloque, editas un texto sobre la página en la vista **Visual**
-o guardas cambios en **Editar YAML**. Para completar más tarde una de ellas, pulsa su fila en la lista. Si no la quieres, pulsa
-**Eliminar** en su fila.
-
-Si publicas con imágenes pendientes, no se publican, y un aviso lo dice tras el de éxito
-([Publicar](publish.md#publicar)).
+necesita su **Enlace**. Las imágenes elegidas se guardan igual y, en la lista, cada una dice lo que le falta, por ejemplo
+«Falta: Enlace». El resumen de encima de las pestañas lleva a cada dato que falta
+([Cuando falta un dato](save-changes.md#cuando-falta-un-dato)).
 
 ## Cambiar o quitar la imagen
 
@@ -85,8 +74,8 @@ Una imagen del ejemplo que trae un bloque nuevo se muestra en el campo como cual
 nombre y su tamaño. Al pulsar **Cambiar**, el diálogo se abre como en un campo vacío, sin ninguna imagen seleccionada.
 Elige la tuya ([Elegir una imagen](#elegir-una-imagen)).
 
-Si el bloque necesita la imagen, al quitarla no se guarda y sale un mensaje que te pide revisar el campo
-([Cuando un cambio no se guarda](save-changes.md#cuando-un-cambio-no-se-guarda)).
+Si el bloque necesita la imagen, al quitarla el cambio se guarda y el campo queda marcado como dato que falta
+([Cuando falta un dato](save-changes.md#cuando-falta-un-dato)).
 
 ## Ver el nombre y el tamaño de la imagen
 
@@ -137,6 +126,12 @@ no se guarda.
 Si en la carpeta ya hay una imagen con el mismo nombre, la nueva no la sustituye. La pestaña lo avisa, por ejemplo
 «Ya hay un fichero llamado «escudo.png» en la carpeta. Elígelo en la lista o cámbiale el nombre y vuelve a
 subirlo.».
+
+Si tu institución tiene una cuota de espacio para **Imágenes y vídeos del portal** y la imagen no cabe en lo que
+queda, no se sube. La pestaña lo dice antes de enviarla, por ejemplo «escudo.png: no cabe en la cuota de espacio
+(1017,3KB disponibles). Libera espacio eliminando archivos que ya no necesites o solicita ampliar la cuota.». La
+pantalla **Imágenes y vídeos del portal** de la administración enseña cuánto ocupa tu institución y su cuota. Si lo que falta es
+espacio en el servidor, el aviso lo dice y te pide que avises a quien administra la instalación.
 
 ### Subir una carpeta entera
 
@@ -218,6 +213,6 @@ Las imágenes del portal también se suben y se organizan fuera del editor:
 
 En los bloques con varios elementos, como el [carrusel](carousel.md), la pestaña **Elementos** lista los elementos con
 la miniatura de su imagen. Un elemento sin título se muestra como «Elemento» seguido de su posición y «(sin
-título)», por ejemplo «Elemento 2 (sin título)». Un elemento que aún no se ha guardado lleva al lado lo que le falta,
-por ejemplo «Sin guardar: falta «Enlace»» ([Si al bloque le falta algo más que la
+título)», por ejemplo «Elemento 2 (sin título)». Un elemento al que le falta un dato lleva al lado lo que le falta,
+por ejemplo «Falta: Enlace» ([Si al bloque le falta algo más que la
 imagen](#si-al-bloque-le-falta-algo-mas-que-la-imagen)).

@@ -17,11 +17,10 @@ Las imágenes se eligen, o se suben desde tu equipo, en el diálogo de cada elem
 5. Repite los pasos 3 y 4 con cada elemento del ejemplo. Para quitar uno que no necesitas, pulsa **Eliminar** en su
    fila.
 
-Cada elemento se guarda con **Guardar elemento** ([Guardar un elemento](save-changes.md#guardar-un-elemento)). Su
-**Título** se muestra como pie de la imagen: cambia el del ejemplo por el tuyo o déjalo vacío, y la imagen saldrá sin
-pie. Su **Enlace** es la dirección a la que lleva la imagen al pulsarla. La imagen es obligatoria: sin ella, el
-elemento no se guarda
-([La imagen de un elemento es obligatoria](save-changes.md#la-imagen-de-un-elemento-es-obligatoria)).
+Cada elemento se guarda solo ([Guardar un elemento](save-changes.md#guardar-un-elemento)). Su **Título** se muestra como
+pie de la imagen: cambia el del ejemplo por el tuyo o déjalo vacío, y la imagen saldrá sin pie. Su **Enlace** es la
+dirección a la que lleva la imagen al pulsarla. La imagen es obligatoria: sin ella, el elemento se guarda, pero queda
+marcado como dato que falta ([Cuando falta un dato](save-changes.md#cuando-falta-un-dato)).
 
 ![El elemento guardado, con su título y su miniatura.](../../assets/screenshots/es/diffusion-portal/carousel/items-list.png){ width="395" }
 
