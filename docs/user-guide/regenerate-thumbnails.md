@@ -5,6 +5,9 @@ las que no se pudieron generar al subirlas. Sirve, por ejemplo, para que los PDF
 generara su miniatura dejen de mostrar el icono de su tipo. Si eliges **También las que ya existen**, rehaces además las
 que ya hay, por ejemplo para que tengan el tamaño o la calidad que ha configurado quien administra la instalación.
 
+La miniatura de un solo fichero se rehace desde el gestor de digitalizaciones ([Regenerar la miniatura de un
+fichero](regenerate-file-thumbnail.md)).
+
 ## Qué ficheros tienen miniatura
 
 La aplicación genera la miniatura de las imágenes que sabe leer, como JPEG y PNG, la de los PDF, a partir de su
