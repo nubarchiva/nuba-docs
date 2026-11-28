@@ -5,6 +5,9 @@ las que no se pudieron generar al subirlas. Sirve, por ejemplo, para que los PDF
 generara su miniatura dejen de mostrar el icono de su tipo. Si eliges **También las que ya existen**, rehaces además las
 que ya hay, por ejemplo para que tengan el tamaño o la calidad que ha configurado quien administra la instalación.
 
+La miniatura de un solo fichero se rehace desde el gestor de digitalizaciones ([Regenerar la miniatura de un
+fichero](regenerate-file-thumbnail.md)).
+
 ## Qué ficheros tienen miniatura
 
 La aplicación genera la miniatura de las imágenes que sabe leer, como JPEG y PNG, la de los PDF, a partir de su
@@ -56,6 +59,10 @@ no ha tocado. El trabajo queda también en **Tareas de larga duración**, como *
 Si alguna carpeta del almacén no se ha podido abrir, la regeneración sigue con las demás y el resultado dice cuántas son. Sus
 digitalizaciones no se han revisado: avisa a quien administra el servidor.
 
+Si dentro de una carpeta hay algo que no se puede abrir, como un enlace a un fichero que ya no existe o un enlace que lleva a
+sí mismo, a la carpeta donde está o a una que la contiene, la regeneración revisa el resto de esa carpeta. El resultado dice cuántos son, y la lista de abajo y el informe los
+nombran con su carpeta y el motivo. Pide a quien administra el servidor que los revise.
+
 Si el almacén de digitalizaciones de la instalación es de solo lectura, la página lo avisa y no ofrece el botón.
 
 ## Detenerla y seguir después
@@ -83,7 +90,8 @@ programa en el servidor, te dice cuál hay que instalar.
 ![Los ficheros sin miniatura, con su carpeta, el problema y qué hacer, y el botón Descargar el informe.](../assets/screenshots/es/regenerar-miniaturas/informe.png){ width="638" }
 
 La página muestra los cien primeros. Con **Descargar el informe** los tienes todos en un fichero CSV, que se abre con una
-hoja de cálculo. Si pasan de cien mil, el informe guarda los primeros y la página lo avisa.
+hoja de cálculo. En el fichero, una celda que empieza por «=», «+», «-» o «@» lleva un apóstrofo delante, para que la hoja
+de cálculo no la tome por una fórmula. Si pasan de cien mil, el informe guarda los primeros y la página lo avisa.
 
 De los ficheros que comparten miniatura sale uno solo, el que tiene preferencia para generarla. El resultado y el informe
 son los de la última regeneración, y se pierden al parar la aplicación. Para verlos otra vez, vuelve a lanzarla.
